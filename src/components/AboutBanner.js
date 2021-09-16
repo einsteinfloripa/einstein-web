@@ -10,8 +10,14 @@ function AboutBanner() {
                       </div>
                     </div>
                   </div>
-                  <div className="relative px-4 py-6 sm:px-6 sm:py-24 lg:py-8 lg:px-8">
-                    <div className="flex align-middle" >
+                  <div className="flex flex-col relative px-4 py-6 sm:px-6 sm:py-24 lg:py-8 lg:px-8">
+                    <div className="w-4/6 justify-center self-center mt-20 md:mt-0">
+                      <img
+                          src="/images/maos_tocando.png"
+                          alt="Mãos"
+                      />
+                    </div>
+                    <div className="flex mt-10 align-middle" >
                         <div className="w-4/6 h-full self-center bg-transparent rounded-xl py-8">
                             <h1 className="text-center font-semibold tracking-tight sm:text-5xl lg:text-3xl">
                                 <span className="block text-white lg:text-3xl sm:text-2xl">Cerca de 85% dos estudantes brasileiros estão em escolas públicas</span>
@@ -29,10 +35,6 @@ function AboutBanner() {
                             </h1>
                         </div>
                     </div>
-                    <img
-                        src="/images/maos_tocando.png"
-                        alt="Mãos"
-                    />
                   </div>
                 </div>
             </div>
