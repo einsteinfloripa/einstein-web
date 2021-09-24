@@ -29,6 +29,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/nossa-equipe": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/nossa-equipe.js"
+    ],
     "/sobre-nos": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
