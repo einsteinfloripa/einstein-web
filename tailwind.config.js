@@ -18,6 +18,7 @@ module.exports = {
 
         'hero-pattern': "url('/images/Somos-o-Einstein-Floripa.jpg')",
         'about-pattern': "url('/images/sobre-nos.jpg')",
+        'home-pattern': "url('/images/home.jpg')",
       }),
       borderRadius: {
         'lg': '10px',
@@ -25,7 +26,7 @@ module.exports = {
       colors: {
         blue: {
           DEFAULT: "#0185C3",
-          50: "#0F2EEE",
+          50: "#ceebf1",
           100: "#0E29D6",
           200: "#0C25BE",
           300: "#2F6AA7",
@@ -34,7 +35,7 @@ module.exports = {
           600: "#06125F",
           700: "#0095B6",
           800: "#030930",
-          900: "#010518",
+          900: "#011e30",
         },
         "light-blue": {
           DEFAULT: "#E7EAFD",
