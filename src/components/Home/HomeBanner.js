@@ -18,6 +18,7 @@ function HomeBanner() {
                     <h1 className="text-center font-extrabold tracking-tight">
                         <span className="block text-blue-900 lg:text-6xl text-4xl">De Aluno para Aluno</span>
                         <span className="block text-blue-900 lg:text-5xl text-2xl">transformando a história</span>
+                        <br />
                     </h1>
                 </div>
                 <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">

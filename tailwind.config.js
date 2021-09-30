@@ -7,6 +7,9 @@ module.exports = {
   darkMode: false,
   theme: {
     extend: {
+    rotate: {
+      '270': '270deg',
+    },
     minHeight: {
       '0': '0',
       '1/4': '25%',
@@ -17,6 +20,7 @@ module.exports = {
       backgroundImage: theme => ({
 
         'hero-pattern': "url('/images/Somos-o-Einstein-Floripa.jpg')",
+        'aboutbg-pattern': "url('/images/bgabout.jpg')",
         'about-pattern': "url('/images/sobre-nos.jpg')",
         'home-pattern': "url('/images/home.jpg')",
       }),
