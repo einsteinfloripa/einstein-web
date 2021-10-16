@@ -30,7 +30,7 @@ const member = [
     {
         name: 'Liliane Matsuzawa',
         role: 'Assessora',
-        course: 'Engenharia Elétrica',
+        course: 'Design (IFSC)',
         imageUrl:
             '/images/membros/times/lili.png',
     },

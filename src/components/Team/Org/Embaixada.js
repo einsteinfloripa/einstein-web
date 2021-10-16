@@ -30,7 +30,7 @@ const member = [
     {
         name: 'Diana Hartmann',
         role: 'Assessora',
-        course: 'Engenharia Elétrica',
+        course: 'Engenharia de Alimentos (UFSC)',
         imageUrl:
             '/images/membros/embaixada/diana.png',
     },

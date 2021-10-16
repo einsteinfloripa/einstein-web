@@ -15,14 +15,6 @@ const member = [
         imageUrl:
           'https://einsteinfloripa.com.br/wp-content/uploads/bruno.png',
     },
-    {
-        name: 'Luiza Kataoka',
-        subject: 'mais teste',
-        role: 'Teste',
-        course: 'Engenharia de Materiais',
-        imageUrl:
-            'https://einsteinfloripa.com.br/wp-content/uploads/luiza-2.png',
-    },
   ]
 
 function Math(){

@@ -12,7 +12,7 @@ function AboutVison() {
                   <div className="relative">
                     <dt>
                       <div className="lg:flex lg:flex-row flex flex-col pt-10">
-                        <div className="lg:absolute flex items-center justify-center h-24 w-24 rounded-md bg-blue text-blue-50 self-center">
+                        <div className="lg:absolute flex items-center justify-center h-24 w-24 rounded-md bg-blue text-white self-center">
                           <svg className="h-16 w-16" aria-hidden="true"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M3 6a3 3 0 013-3h10a1 1 0 01.8 1.6L14.25 8l2.55 3.4A1 1 0 0116 13H6a1 1 0 00-1 1v3a1 1 0 11-2 0V6z" clip-rule="evenodd" />
                           </svg>
@@ -28,7 +28,7 @@ function AboutVison() {
                   <div className="relative">
                     <dt>
                       <div className="lg:flex lg:flex-row flex flex-col pt-10">
-                        <div className="lg:absolute flex items-center justify-center h-24 w-24 rounded-md bg-blue text-blue-50 self-center">
+                        <div className="lg:absolute flex items-center justify-center h-24 w-24 rounded-md bg-blue text-white self-center">
                           <svg className="h-16 w-16" aria-hidden="true"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                             <path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z" />
                           </svg>

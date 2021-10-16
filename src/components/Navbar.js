@@ -41,14 +41,14 @@ function Navbar() {
                   </Link>
                   <Link href="/sobre-nos">
                     <a
-                      className="flex-grow-0 my-3 bg-transparent hover:bg-white text-white hover:text-blue-900 py-2 border-2 border-white hover:border-transparent rounded-lg inline-flex items-center px-3 pt-1 text-sm font-medium transition delay-150 duration-300 ease-in-out"
+                      className="flex-grow-0 my-3 bg-transparent hover:bg-white text-white hover:text-blue-900 py-2 border-2 border-white hover:border-transparent rounded-lg inline-flex items-center px-3 pt-1 text-sm font-medium transition delay-150 duration-300 ease-in-out text-center"
                     >
                       Sobre Nós
                     </a>
                   </Link>
                   <Link href="/nossa-equipe">
                     <a
-                      className="flex-grow-0 my-3 bg-transparent hover:bg-white text-white hover:text-blue-900 py-2 border-2 border-white hover:border-transparent rounded-lg inline-flex items-center px-3 pt-1 text-sm font-medium transition delay-150 duration-300 ease-in-out"
+                      className="flex-grow-0 my-3 bg-transparent hover:bg-white text-white hover:text-blue-900 py-2 border-2 border-white hover:border-transparent rounded-lg inline-flex items-center px-3 pt-1 text-sm font-medium transition delay-150 duration-300 ease-in-out text-center"
                     >
                       Nossa equipe
                     </a>
