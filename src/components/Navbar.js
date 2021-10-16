@@ -15,11 +15,11 @@ const navigation = {
 
 function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-blue fixed top-0 left-0 z-50 w-full">
+    <Disclosure as="nav" className="bg-blue-900 fixed top-0 left-0 z-50 w-full">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-            <div className="relative flex justify-between h-16">
+            <div className="relative flex justify-center h-16">
               <div className="absolute inset-y-0 right-0 flex items-center md:hidden">
                 <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-white-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-grey">
                   <span className="sr-only">Open main menu</span>
@@ -30,8 +30,30 @@ function Navbar() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-between">
-                <div className="w-40 flex items-center justify-center">
+              <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-center">
+                <div className="felx hidden md:ml-6 md:flex md:space-x-8">
+                  <Link href="/">
+                    <button
+                      className="flex-grow-0 my-3 bg-transparent hover:bg-white text-white hover:text-blue-900 py-2 border-2 border-white hover:border-transparent rounded-lg inline-flex items-center px-3 pt-1 text-sm font-medium transition delay-150 duration-300 ease-in-out"
+                    >
+                      Home
+                    </button>
+                  </Link>
+                  <Link href="/sobre-nos">
+                    <a
+                      className="flex-grow-0 my-3 bg-transparent hover:bg-white text-white hover:text-blue-900 py-2 border-2 border-white hover:border-transparent rounded-lg inline-flex items-center px-3 pt-1 text-sm font-medium transition delay-150 duration-300 ease-in-out"
+                    >
+                      Sobre Nós
+                    </a>
+                  </Link>
+                  <Link href="/equipe">
+                    <a
+                      className="flex-grow-0 my-3 bg-transparent hover:bg-white text-white hover:text-blue-900 py-2 border-2 border-white hover:border-transparent rounded-lg inline-flex items-center px-3 pt-1 text-sm font-medium transition delay-150 duration-300 ease-in-out"
+                    >
+                      Nossa equipe
+                    </a>
+                  </Link>
+                  <div className="w-40 flex items-center justify-center">
                   <Link href="/">
                     <button>
                       <img
@@ -42,45 +64,23 @@ function Navbar() {
                     </button>
                   </Link>
                 </div>
-                <div className="felx hidden md:ml-6 md:flex md:space-x-8">
-                  <Link href="/">
-                    <button
-                      className="flex-grow-0 my-3 bg-transparent hover:bg-purple-800 text-white hover:text-white py-2 border-2 border-white hover:border-transparent rounded-lg inline-flex items-center px-3 pt-1 text-sm font-medium transition delay-150 duration-300 ease-in-out"
-                    >
-                      Home
-                    </button>
-                  </Link>
-                  <Link href="/sobre-nos">
-                    <a
-                      className="flex-grow-0 my-3 bg-transparent hover:bg-purple-800 text-white hover:text-white py-2  border-2 border-white hover:border-transparent rounded-lg inline-flex items-center px-3 pt-1 text-sm font-medium text-center transition delay-150 duration-300 ease-in-out"
-                    >
-                      Sobre Nós
-                    </a>
-                  </Link>
-                  <Link href="/equipe">
-                    <a
-                      className="my-3 bg-transparent hover:bg-purple-800 text-white hover:text-white py-2 border-2 border-white hover:border-transparent rounded-lg inline-flex items-center px-3 pt-1 text-sm font-medium text-center transition delay-150 duration-300 ease-in-out"
-                    >
-                      Nossa equipe
-                    </a>
-                  </Link>
                   <Link href="/resultados">
                     <a
-                      className="my-3 bg-transparent hover:bg-purple-800 text-white hover:text-white py-2 border-2 border-white hover:border-transparent rounded-lg inline-flex items-center px-3 pt-1 text-sm font-medium transition delay-150 duration-300 ease-in-out"
+                      className="flex-grow-0 my-3 bg-transparent hover:bg-white text-white hover:text-blue-900 py-2 border-2 border-white hover:border-transparent rounded-lg inline-flex items-center px-3 pt-1 text-sm font-medium transition delay-150 duration-300 ease-in-out"
                     >
                       Resultados
                     </a>
                   </Link>
                   <Link href="/noticias">
                     <a
-                      className="my-3 bg-transparent hover:bg-purple-800 text-white hover:text-white py-2 border-2 border-white hover:border-transparent rounded-lg inline-flex items-center px-3 pt-1 text-sm font-medium transition delay-150 duration-300 ease-in-out"
+                      className="flex-grow-0 my-3 bg-transparent hover:bg-white text-white hover:text-blue-900 py-2 border-2 border-white hover:border-transparent rounded-lg inline-flex items-center px-3 pt-1 text-sm font-medium transition delay-150 duration-300 ease-in-out"
                     >
                       Notícias
                     </a>
                   </Link>
                   <Link href="/apoie">
                     <a
-                      className="my-3 bg-white hover:bg-purple-800 text-blue-700 hover:text-white py-2 border-2 border-white hover:border-transparent rounded-lg inline-flex items-center px-3 pt-1 text-sm font-medium transition delay-150 duration-300 ease-in-out"
+                      className="flex-grow-0 my-3 bg-transparent hover:bg-white text-white hover:text-blue-900 py-2 border-2 border-white hover:border-transparent rounded-lg inline-flex items-center px-3 pt-1 text-sm font-medium transition delay-150 duration-300 ease-in-out"
                     >
                       Apoie
                     </a>
