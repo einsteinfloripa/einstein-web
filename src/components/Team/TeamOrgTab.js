@@ -94,12 +94,6 @@ function TeamOrgTab() {
                 </Tab.Panel>
                 <Tab.Panel>
                     <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl py-20">
-                        <span className="block text-blue-900 text-3xl">Conheça os membros de Hogwarts</span>
-                    </h1>
-                    <Hogwarts />
-                </Tab.Panel>
-                <Tab.Panel>
-                    <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl py-20">
                         <span className="block text-blue-900 text-3xl">Conheça os membros do Vale de Silício</span>
                     </h1>
                     <Vale />
@@ -109,6 +103,12 @@ function TeamOrgTab() {
                         <span className="block text-blue-900 text-3xl">Conheça os membros do Ministerio</span>
                     </h1>
                     <Ministerio />
+                </Tab.Panel>
+                <Tab.Panel>
+                    <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl py-20">
+                        <span className="block text-blue-900 text-3xl">Conheça os membros de Hogwarts</span>
+                    </h1>
+                    <Hogwarts />
                 </Tab.Panel>
             </Tab.Panels>
         </div>

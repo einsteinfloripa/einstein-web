@@ -34,13 +34,6 @@ const member = [
         imageUrl:
             '/images/membros/times/lili.png',
     },
-    {
-        name: 'Grace Nascimento',
-        role: 'Assessora',
-        course: 'Engenharia Elétrica',
-        imageUrl:
-            '/images/membros/times/grace.png',
-    },
   ]
 
 function Times(){
