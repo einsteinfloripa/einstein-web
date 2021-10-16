@@ -1,6 +1,10 @@
 import Head from 'next/head'
 
-import HomePage from '../components/HomePage'
+import HomeBanner from '../components/Home/HomeBanner'
+import HomeText from '../components/Home/HomeText'
+import HomeNumbers from '../components/Home/HomeNumbers'
+import HomeDonate from '../components/Home/HomeDonate'
+import HomeSlider from '../components/Home/HomeSlider'
 
 export default function Home() {
   return (
@@ -8,7 +12,11 @@ export default function Home() {
       <Head>
         <title>Einstein Floripa</title>
       </Head>
-      <HomePage />
+      <HomeBanner />
+      <HomeText />
+      <HomeNumbers />
+      <HomeDonate />
+      <HomeSlider />
     </>
   )
 }

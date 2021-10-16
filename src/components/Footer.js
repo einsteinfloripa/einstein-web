@@ -2,7 +2,7 @@ const navigation = {
   main: [
     { name: 'Home', href: '/' },
     { name: 'Sobre o Einstein', href: '/sobre-nos' },
-    { name: 'Nossa equipe', href: '/equipe' },
+    { name: 'Nossa equipe', href: '/nossa-equipe' },
     { name: 'Resultados', href: '/resultados' },
     { name: 'Notícias', href: '/noticias' },
     { name: 'Apoie', href: '/apoie' },

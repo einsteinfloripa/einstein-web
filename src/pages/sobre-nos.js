@@ -1,9 +1,9 @@
 import Head from 'next/head'
 
-import AboutBanner from '../components/AboutBanner'
-import AboutText from '../components/AboutText'
-import AboutVision from '../components/AboutVision'
-import AboutValues from '../components/AboutValues'
+import AboutBanner from '../components/About/AboutBanner'
+import AboutText from '../components/About/AboutText'
+import AboutVision from '../components/About/AboutVision'
+import AboutValues from '../components/About/AboutValues'
 
 export default function Home() {
   return (
