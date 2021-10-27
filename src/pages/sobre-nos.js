@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 import AboutBanner from '../components/About/AboutBanner'
-import AboutText2 from '../components/About/AboutText2'
+import AboutText from '../components/About/AboutText'
 import AboutVision from '../components/About/AboutVision'
 import AboutValues from '../components/About/AboutValues'
 
@@ -12,7 +12,7 @@ export default function Home() {
         <title>Einstein Floripa | Sobre nós</title>
       </Head>
       <AboutBanner />
-      <AboutText2 />
+      <AboutText />
       <AboutVision />
       <AboutValues />
     </>
