@@ -21,7 +21,7 @@ function Navbar() {
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
             <div className="relative flex justify-center h-16">
               <div className="absolute inset-y-0 right-0 flex items-center md:hidden">
-                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-white-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-grey">
+                <Disclosure.Button className="bg-white inline-flex items-center justify-center p-2 rounded-md text-white-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-grey">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XIcon className="block h-6 w-6" aria-hidden="true" />
