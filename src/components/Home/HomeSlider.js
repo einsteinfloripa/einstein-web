@@ -1,3 +1,6 @@
+import Slider from "./Slider"
+
+
 function HomeSlider (){
     return (
     <div className="relative">
@@ -9,6 +12,11 @@ function HomeSlider (){
                 <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl pb-10">
                     <span className="block text-white text-10xl">Depoimentos</span>
                 </h1>
+                <div className="flex justify-center">
+                    <div className="justify-center">
+                        <Slider />
+                    </div>
+                </div>
             </div>
         </div>
     </div>

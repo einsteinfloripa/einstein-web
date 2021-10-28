@@ -13,7 +13,7 @@ const navigation = {
   ],
 }
 
-function Navbar() {
+export default function Navbar() {
   return (
     <Disclosure as="nav" className="bg-blue-900 fixed top-0 left-0 z-50 w-full">
       {({ open }) => (
@@ -142,5 +142,3 @@ function Navbar() {
     </Disclosure>
   )
 }
-
-export default Navbar
