@@ -19,21 +19,22 @@ function AboutText2() {
                 <div className="self-center bg-blue-900 rounded-xl lg:h-full w-full flex justify-center shadow-xl">
                   <div className="lg:w-5/6 py-10 px-8">
                       <h2 className="text-3xl font-extrabold tracking-tight text-blue-50">
-                      Prazer somos o Einstein Floripa!
+                      Prazer, somos o Einstein Floripa!
                       </h2>
                       <p className="mt-4 text-lg text-white">
-                          Um curso pré-vestibular gratuito <strong>sem fins lucrativos</strong> voltado para pessoas de baixa renda da região da Grande Florianópolis. E juntos, ano após ano, conseguimos integrar cada vez mais esses alunos e alunas ao Ensino Superior.
+                        Proporcionamos um <strong>curso pré-vestibular</strong> gratuito e sem fins lucrativos, voltado para pessoas de baixa renda da região da Grande Florianópolis. Trabalhamos juntos, ano após ano, de modo a viabilizar o acesso de cada vez mais alunos e alunas ao ensino superior de qualidade.
                       </p>
                       <p className="mt-4 text-lg text-white">
-                          Mais do que auxliar o cenário educacional brasileiro a ser mais democrático, proporcionamos oportunidades de aprendizado que resultam em crescimento pessoal e profissional em todos aqueles envolvidos com o projeto.
+                        Mais do que <strong>aumentar a democracia no cenário educacional brasileiro</strong>, proporcionamos oportunidades de aprendizado que resultam em <strong>crescimento pessoal e profissional</strong> para todos aqueles envolvidos com o projeto.
                       </p>
                       <p className="mt-4 text-lg text-white">
-                          O nosso cursinho é imerso num ambiente universitário. Nossa equipe é constituída através do recrutamento e desenvolvimento de universitários excepcionais, das mais diversas áreas da graduação. Formam-se organizadores, professores e monitores que trabalham voluntariamente para realizar o sonho de cada um de seus alunos e alunas: cursar uma universidade de qualidade.
+                        O nosso cursinho é imerso no ambiente universitário. Nossa equipe é constituída através do recrutamento e desenvolvimento de <strong>estudantes universitários excepcionais</strong>, das mais diversas áreas da graduação.
                       </p>
                       <p className="mt-4 text-lg text-white">
-                      Desse modo, voltamos nossos esforços para dar oportunidade aos 
-                      <strong> alunos de baixa renda</strong> da região da Grande Florianópolis, 
-                      fornecendo melhores oportunidades de<strong> acesso ao ensino superior de qualidade</strong> .
+                        Formamos organizadores, professores e monitores que <strong>trabalham voluntariamente</strong> para realizar o sonho de cada um de nossos alunos: cursar uma universidade de qualidade.
+                      </p>
+                      <p className="mt-4 text-lg text-white">
+                        Desse modo, voltamos nossos esforços para <strong>dar oportunidade aos alunos</strong> de baixa renda da região de Florianópolis, fornecendo melhores oportunidades de <strong>acesso ao ensino superior</strong>.
                       </p>
                   </div>
                 </div>

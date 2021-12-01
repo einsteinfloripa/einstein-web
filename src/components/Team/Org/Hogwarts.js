@@ -1,17 +1,10 @@
 const member = [
     {
         name: 'Felipe Wöhlke Lopes',
-        role: 'Diretor de Hogwarts',
+        role: 'Diretor',
         course: 'Engenharia Mecânica (UFSC)',
         imageUrl:
             '/images/membros/hogwarts/felipe.png',
-    },
-    {
-        name: 'Annelise Xavier Benigno',
-        role: 'Assessora',
-        course: 'Engenharia de Controle e Automoção (UFSC)',
-        imageUrl:
-            '/images/membros/hogwarts/annelise.png',
     },
     {
         name: 'Luisa Kazumi Maestrelli',
@@ -38,7 +31,7 @@ const member = [
 
 function Hogwarts(){
  return (
-    <div>
+    <div className="flex justify-center">
         <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
             {member.map((eisteiniano) => (
             <li key={eisteiniano.name} className="h-96 w-72">

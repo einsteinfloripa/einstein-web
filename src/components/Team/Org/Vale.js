@@ -1,7 +1,7 @@
 const member = [
     {
         name: 'Murillo Stein',
-        role: 'Diretor do Vale do Silício',
+        role: 'Diretor',
         course: 'Engenharia Mecânica (UFSC)',
         imageUrl:
             '/images/membros/vale/murillo.png',
@@ -20,11 +20,25 @@ const member = [
         imageUrl:
             '/images/membros/vale/luiza.png',
     },
+    {
+        name: 'Pedro Henrique Fernandes',
+        role: 'Assessor',
+        course: 'Engenharia Eletrônica (UFSC)',
+        imageUrl:
+            '/images/membros/vale/pedro.png',
+    },
+    {
+        name: 'Eduardo Battisti Leites',
+        role: 'Assessor',
+        course: 'Engenharia de Produção Elétrica (UFSC)',
+        imageUrl:
+            '/images/membros/vale/eduardo.png',
+    },
   ]
 
 function Vale(){
  return (
-    <div>
+    <div className="flex justify-center">
         <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
             {member.map((eisteiniano) => (
             <li key={eisteiniano.name} className="h-96 w-72">

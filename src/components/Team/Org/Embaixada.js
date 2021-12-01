@@ -1,17 +1,10 @@
 const member = [
     {
         name: 'Nicholas Prass da Veiga',
-        role: 'Diretor da Embaixada',
+        role: 'Diretor',
         course: 'Relações Internacionais (UFSC)',
         imageUrl:
             '/images/membros/embaixada/nico.png',
-    },
-    {
-        name: 'Luiza Fontana Lazzari',
-        role: 'Assessora',
-        course: 'Fisioterapia (UDESC)',
-        imageUrl:
-            '/images/membros/embaixada/lulu.png',
     },
     {
         name: 'Rafaela Dalsenter',
@@ -38,7 +31,7 @@ const member = [
 
 function Embaixada(){
  return (
-    <div>
+    <div className="flex justify-center">
         <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
             {member.map((eisteiniano) => (
             <li key={eisteiniano.name} className="h-96 w-72">

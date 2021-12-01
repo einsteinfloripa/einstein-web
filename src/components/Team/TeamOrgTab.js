@@ -12,58 +12,67 @@ function TeamOrgTab() {
       <Tab.Group>
         <div className="relative flex flex-col md:flex-row sm:items-center sm:justify-center">
             <Tab.List>
-                <div className="justify-center items-center">
-                    <Tab className="transform motion-safe:hover:scale-110 px-8">
-                        <div className="flex flex-col">
+                <div className="justify-center items-center flex flex-col sm:flex-row">
+                    <Tab className="hidden transform motion-safe:hover:scale-110 px-8">
+                        <div className="flex flex-col pt-2">
                             <div className="flex items-center justify-center w-200 h-200 mx-auto bg-transparente text-blue-900 sm:w-200 sm:h-200">
-                                <img class="imgtran" src="/images/departamentos/capital.png" width="200" height="200" />
+                                <img class="imgtran" src="/images/departamentos/capital.svg" width="200" height="200" />
                             </div>
                             <span className="text-center font-extrabold text-blue-900 text-lg">Capital</span>
                             <span>[Diretoria Administrativa]</span>
                         </div>
                     </Tab>
                     <Tab className="transform motion-safe:hover:scale-110 px-8">
-                        <div className="flex flex-col">
+                        <div className="flex flex-col pt-2">
                             <div className="flex items-center justify-center w-200 h-200 mx-auto bg-transparente text-blue-900 sm:w-200 sm:h-200">
-                                <img  src="/images/departamentos/embaixada.png" alt="Embaixada do Amor" width="200" height="200" />
+                                <img class="imgtran" src="/images/departamentos/capital.svg" width="200" height="200" />
+                            </div>
+                            <span className="text-center font-extrabold text-blue-900 text-lg">Capital</span>
+                            <span>[Diretoria Administrativa]</span>
+                        </div>
+                    </Tab>
+                    <Tab className="transform motion-safe:hover:scale-110 px-8">
+                        <div className="flex flex-col pt-2">
+                            <div className="flex items-center justify-center w-200 h-200 mx-auto bg-transparente text-blue-900 sm:w-200 sm:h-200">
+                                <img  src="/images/departamentos/embaixada.svg" alt="Embaixada do Amor" width="200" height="200" />
                             </div>
                             <span className="text-center font-extrabold text-blue-900 text-lg">Embaixada do Amor</span>
                             <span className="text-center">[Gestão de pessoas]</span>
                         </div>
                     </Tab>
                     <Tab className="transform motion-safe:hover:scale-110">
-                        <div className="flex flex-col">
+                        <div className="flex flex-col pt-2">
                             <div className="flex items-center justify-center w-200 h-200 mx-auto bg-transparente text-blue-900 sm:w-200 sm:h-200">
-                                <img class="imgtran" src="/images/departamentos/times.png" width="200" height="200"/>
+                                <img class="imgtran" src="/images/departamentos/times.svg" width="200" height="200"/>
                             </div>
                             <span className="text-center font-extrabold text-blue-900 text-lg">Times Square</span>
                             <span>[Captação de recursos e Marketing]</span>
                         </div>
                     </Tab>
                 </div>
-                <div className="flex justify-between pt-10">
+                <div className="flex justify-between pt-10 items-center flex-col sm:flex-row">
                     <Tab className="transform motion-safe:hover:scale-110 px-8">
-                        <div className="flex flex-col">
+                        <div className="flex flex-col pt-2">
                             <div className="flex items-center justify-center w-200 h-200 mx-auto bg-transparente text-blue-900 sm:w-200 sm:h-200">
-                                <img class="imgtran" src="/images/departamentos/vale.png" width="200" height="200" />
+                                <img class="imgtran" src="/images/departamentos/vale.svg" width="200" height="200" />
                             </div>
                             <span className="text-center font-extrabold text-blue-900 text-lg">Vale do Silício</span>
                             <span>[T.I.]</span>
                         </div>
                     </Tab>
                     <Tab className="transform motion-safe:hover:scale-110 px-8">
-                        <div className="flex flex-col">
+                        <div className="flex flex-col pt-2">
                             <div className="flex items-center justify-center w-200 h-200 mx-auto bg-transparente text-blue-900 sm:w-200 sm:h-200">
-                                <img class="imgtran" src="/images/departamentos/ministerio.png" width="215" height="200" />
+                                <img class="imgtran" src="/images/departamentos/ministerio.svg" width="215" height="200" />
                             </div>
                             <span className="text-center font-extrabold text-blue-900 text-lg">Ministério</span>
                             <span>[Financeiro e Jurídico]</span>
                         </div>
                     </Tab>
                     <Tab className="transform motion-safe:hover:scale-110 px-8">
-                        <div className="flex flex-col">
+                        <div className="flex flex-col pt-2">
                             <div className="flex items-center justify-center w-200 h-200 mx-auto bg-transparente text-blue-900 sm:w-200 sm:h-200">
-                                <img class="imgtran" src="/images/departamentos/hogwarts.png" width="200" height="200" />    
+                                <img class="imgtran" src="/images/departamentos/hogwarts.svg" width="200" height="200" />    
                             </div>
                             <span className="text-center font-extrabold text-blue-900 text-lg">Hogwarts</span>
                             <span>[Ensino]</span>
@@ -74,6 +83,7 @@ function TeamOrgTab() {
         </div>
         <div className="relative flex flex-col md:flex-row sm:items-center sm:justify-center">
             <Tab.Panels>
+                <Tab.Panel></Tab.Panel>
                 <Tab.Panel>
                     <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl py-20">
                         <span className="block text-blue-900 text-3xl">Conheça os membros da Capital</span>

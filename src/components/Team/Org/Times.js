@@ -1,7 +1,7 @@
 const member = [
     {
         name: 'Camila Guarnieri',
-        role: 'Diretora de Times Square',
+        role: 'Diretora',
         course: 'Engenharia de Alimentos (UFSC)',
         imageUrl:
             '/images/membros/times/cami.png',
@@ -9,21 +9,14 @@ const member = [
     {
         name: 'Sofia Sauer',
         role: 'Assessora',
-        course: 'Fisioterapia (UDESC)',
+        course: 'Relações Internacionais (UFSC)',
         imageUrl:
             '/images/membros/times/sofia.png',
     },
     {
-        name: 'Luiza Rosa',
-        role: 'Assessora',
-        course: 'Engenharia Civil (UFSC)',
-        imageUrl:
-            '/images/membros/times/luiza.png',
-    },
-    {
         name: 'Karim Cruz',
         role: 'Assessora',
-        course: 'Relações Internacionais (UFSC)',
+        course: 'Farmácia (UFSC)',
         imageUrl:
             '/images/membros/times/karim.png',
     },
@@ -38,7 +31,7 @@ const member = [
 
 function Times(){
  return (
-    <div>
+    <div className="flex justify-center">
         <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
             {member.map((eisteiniano) => (
             <li key={eisteiniano.name} className="h-96 w-72">

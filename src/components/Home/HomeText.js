@@ -14,7 +14,7 @@ function HomeText() {
                                 alt="logo Einstein"
                             />
                             <h2 className="text-3xl font-extrabold tracking-tight text-blue-900 text-center">
-                                Prazer somos o Einstein Floripa!
+                                Prazer, somos o Einstein Floripa!
                             </h2>
                         </div>
                         <div>
