@@ -1,9 +1,7 @@
 import Head from 'next/head'
 import Soon from '../components/Soon'
 
-
-
-export default function Home() {
+export default function Results() {
   return (
     <>
       <Head>

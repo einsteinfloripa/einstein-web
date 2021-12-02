@@ -131,7 +131,7 @@ function Donation () {
                                 04 REALIZAR SONHOS
                             </span>
                             <span className="block text-blue-900 lg:text-2xl text-2xl py-4">
-                                Cada um de nossos alunos sonha em se graduar na especialidade favorita e se tornar um profissional de destaque. Nós abraçamos esses sonhos e ajudamos a realizá-los! 
+                                Cada um de nossos alunos sonha em se graduar na especialidade favorita e se tornar um profissional de destaque. Nós abraçamos esses sonhos e ajudamos a realizá-los!
                             </span>
                         </h2>
                     </div>
@@ -175,7 +175,7 @@ function Donation () {
             </div>
 
             <div className="relative">
-                <div class="grid lg:grid-cols-5 md:grid-cols-3">
+                <div className="grid lg:grid-cols-5 md:grid-cols-3">
                     <div className="bg-blue-900 group">
                         <a
                             href="https://pagseguro.uol.com.br/checkout/v2/pre-approvals/nc/sender-identification.jhtml?t=fc254a05a67ff88efa4bd1f9396a5d43&e=true"
@@ -323,15 +323,15 @@ function Donation () {
                             </span>
                         </h2>
                         <div className="relative">
-                            <div class="grid md:grid-cols-2">
+                            <div className="grid md:grid-cols-2">
                                 <div className="relative">
-                                    <div class="grid grid-cols-2 space-x-4">
+                                    <div className="grid grid-cols-2 space-x-4">
                                         <img
                                             className="w-60"
                                             src="/images/bb.png"
                                             alt="docente e aluno"
                                         />
-                                        <div>
+                                        <div className="text-blue-900">
                                             <strong>Banco do Brasil</strong> <br />
                                             PROJETO EINSTEIN PRE-VEST
                                             <br />
