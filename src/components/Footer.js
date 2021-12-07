@@ -3,8 +3,8 @@ const navigation = {
     { name: 'Home', href: '/' },
     { name: 'Sobre o Einstein', href: '/sobre-nos' },
     { name: 'Nossa equipe', href: '/nossa-equipe' },
+    { name: 'Processo Seletivo', href: '/processo-seletivo' },
     { name: 'Resultados', href: '/resultados' },
-    { name: 'Notícias', href: '/noticias' },
     { name: 'Apoie', href: '/apoie' },
   ],
   social: [
@@ -36,7 +36,7 @@ const navigation = {
     },
     {
       name: 'LinkedIn',
-      href: 'https://www.linkedin.com/company/projeto-einstein/about/',
+      href: 'https://www.linkedin.com/company/einstein-floripa-vestibulares',
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 20" {...props}>
           <path
@@ -57,7 +57,7 @@ function Footer() {
         <nav className="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
           {navigation.main.map((item) => (
             <div key={item.name} className="px-5 py-2">
-              <a href={item.href} className="text-base text-gray-500 hover:text-gray-900">
+              <a href={item.href} className="text-base text-blue-900 hover:text-blue-50">
                 {item.name}
               </a>
             </div>
@@ -65,14 +65,14 @@ function Footer() {
         </nav>
           <div className="mt-8 flex justify-center space-x-6">
             {navigation.social.map((item) => (
-              <a key={item.name} href={item.href} target="_blank" className="text-gray-400 hover:text-gray-500">
+              <a key={item.name} href={item.href} target="_blank" className="text-blue-900 hover:text-blue-50">
                 <span className="sr-only">{item.name}</span>
                 <item.icon className="h-6 w-6" aria-hidden="true" />
               </a>
             ))}
           </div>
         </div>
-        <p className="mt-8 text-center text-base text-gray-400 pb-5">&copy; {new Date().getFullYear()} Einstein Floripa</p>
+        <p className="mt-8 text-center text-base text-blue-900 pb-5">&copy; {new Date().getFullYear()} Einstein Floripa</p>
     </footer>
   )
 }

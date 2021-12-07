@@ -7,14 +7,6 @@ const member = [
         imageUrl:
           '/images/membros/estrangeira/marina.png',
     },
-    {
-        name: 'Karináti Rocha da Silva',
-        subject: 'Inglês',
-        role: 'Professora',
-        course: '(UFSC)',
-        imageUrl:
-          '/images/membros/estrangeira/karinati.png',
-    },
   ]
 
 function Languages(){

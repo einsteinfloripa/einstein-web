@@ -18,7 +18,7 @@ function TeamTab() {
                             <Tab className="hidden transform motion-safe:hover:scale-110 px-8 py-2">
                                 <div className="flex flex-col">
                                     <div className="flex items-center justify-center w-150 h-150 mx-auto bg-transparente text-blue-900 sm:w-150 sm:h-150">
-                                        <img class="imgtran" src="http://einsteinfloripa.com.br/wp-content/uploads/Língua-Portuguesa.png" alt="Língua-Portuguesa" width="150" height="150" />
+                                        <img className="imgtran" src="http://einsteinfloripa.com.br/wp-content/uploads/Língua-Portuguesa.png" alt="Língua-Portuguesa" width="150" height="150" />
                                     </div>
                                     <span className="text-center">Língua Portuguesa e Literatura</span>
                                 </div>

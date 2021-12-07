@@ -37,7 +37,7 @@ const member = [
         role: 'Professor',
         course: '(UFSC)',
         imageUrl:
-          '/images/membros/fisica/marcelo.png',
+          '/images/membros/fisica/jeferson.png',
     },
     {
         name: 'Vitor Wahlheim Gagliardi',

@@ -3,7 +3,7 @@ const member = [
         name: 'Fernando Soares de Jesus',
         subject: 'Geografia A',
         role: 'Professor',
-        course: 'Geografia (UFSC)',
+        course: 'Pós-graduação em Geografia (UFSC)',
         imageUrl:
           '/images/membros/geografia/fernando.png',
     },
@@ -11,7 +11,7 @@ const member = [
         name: 'Ana Cristina Theisges',
         subject: 'Geografia A',
         role: 'Monitora',
-        course: '',
+        course: 'Pós-graduação em Engenharia de Transportes e Gestão Territorial (UFSC) ',
         imageUrl:
           '/images/membros/geografia/ana.png',
     },

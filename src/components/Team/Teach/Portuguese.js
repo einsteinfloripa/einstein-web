@@ -16,7 +16,7 @@ const member = [
           '/images/membros/portugues/thais.png',
     },
     {
-      name: 'Matheus Maba',
+      name: 'Mateus Maba',
       subject: 'Português A',
       role: 'Professor',
       course: 'Letras Português (UFSC)',
