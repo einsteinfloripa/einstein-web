@@ -36,7 +36,11 @@ const navigation = {
     },
     {
       name: 'LinkedIn',
+<<<<<<< HEAD
       href: 'https://www.linkedin.com/company/einstein-floripa-vestibulares',
+=======
+      href: 'https://www.linkedin.com/company/einstein-floripa-vestibulares/,
+>>>>>>> facb965cce9a7f693c1fcec9e7a091964c32ccb7
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 20" {...props}>
           <path
