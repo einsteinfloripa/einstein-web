@@ -20,7 +20,15 @@ function TeamTeachTab() {
                     <Tab className="hidden transform motion-safe:hover:scale-110 px-8 py-2">
                         <div className="flex flex-col">
                             <div className="flex items-center justify-center w-150 h-150 mx-auto bg-transparente text-blue-900 sm:w-150 sm:h-150">
-                                <img className="imgtran" src="http://einsteinfloripa.com.br/wp-content/uploads/Língua-Portuguesa.png" alt="Língua-Portuguesa" width="150" height="150" />
+                                <img className="imgtran" src="/images/materias/portugues.png" alt="Língua-Portuguesa" width="150" height="150" />
+                            </div>
+                            <span className="text-center"></span>
+                        </div>
+                    </Tab>
+                    <Tab className="transform motion-safe:hover:scale-110 px-8 py-2">
+                        <div className="flex flex-col">
+                            <div className="flex items-center justify-center w-150 h-150 mx-auto bg-transparente text-blue-900 sm:w-150 sm:h-150">
+                                <img className="imgtran" src="/images/materias/portugues.png" alt="Língua-Portuguesa" width="150" height="150" />
                             </div>
                             <span className="text-center">Língua Portuguesa e Literatura</span>
                         </div>
@@ -28,15 +36,7 @@ function TeamTeachTab() {
                     <Tab className="transform motion-safe:hover:scale-110 px-8 py-2">
                         <div className="flex flex-col">
                             <div className="flex items-center justify-center w-150 h-150 mx-auto bg-transparente text-blue-900 sm:w-150 sm:h-150">
-                                <img className="imgtran" src="http://einsteinfloripa.com.br/wp-content/uploads/Língua-Portuguesa.png" alt="Língua-Portuguesa" width="150" height="150" />
-                            </div>
-                            <span className="text-center">Língua Portuguesa e Literatura</span>
-                        </div>
-                    </Tab>
-                    <Tab className="transform motion-safe:hover:scale-110 px-8 py-2">
-                        <div className="flex flex-col">
-                            <div className="flex items-center justify-center w-150 h-150 mx-auto bg-transparente text-blue-900 sm:w-150 sm:h-150">
-                                <img className="imgtran" src="http://einsteinfloripa.com.br/wp-content/uploads/Língua-Estrangeira.png" alt="Língua-Estrangeira" width="150" height="150" />
+                                <img className="imgtran" src="/images/materias/estrangeiras.png" alt="Língua-Estrangeira" width="150" height="150" />
                             </div>
                             <span>Língua Estrangeira</span>
                         </div>
@@ -44,7 +44,7 @@ function TeamTeachTab() {
                     <Tab className="transform motion-safe:hover:scale-110 px-8 py-2">
                         <div className="flex flex-col">
                             <div className="flex items-center justify-center w-150 h-150 mx-auto bg-transparente text-blue-900 sm:w-150 sm:h-150">
-                                <img className="imgtran" src="http://einsteinfloripa.com.br/wp-content/uploads/Matemática.png" alt="Matemática" width="150" height="150" />
+                                <img className="imgtran" src="/images/materias/matematica.png" alt="Matemática" width="150" height="150" />
                             </div>
                             <span>Matemática</span>
                         </div>
@@ -52,7 +52,7 @@ function TeamTeachTab() {
                     <Tab className="transform motion-safe:hover:scale-110 px-8 py-2">
                         <div className="flex flex-col">
                             <div className="flex items-center justify-center w-150 h-150 mx-auto bg-transparente text-blue-900 sm:w-150 sm:h-150">
-                                <img className="imgtran" src="http://einsteinfloripa.com.br/wp-content/uploads/Biologia.png" alt="Biologia" width="150" height="150" />
+                                <img className="imgtran" src="/images/materias/biologia.png" alt="Biologia" width="150" height="150" />
                             </div>
                             <span>Biologia</span>
                         </div>
@@ -60,7 +60,7 @@ function TeamTeachTab() {
                     <Tab className="transform motion-safe:hover:scale-110 px-8 py-2">
                         <div className="flex flex-col">
                             <div className="flex items-center justify-center w-150 h-150 mx-auto bg-transparente text-blue-900 sm:w-150 sm:h-150">
-                                <img className="imgtran" src="http://einsteinfloripa.com.br/wp-content/uploads/História.png" alt="História" width="150" height="150" />
+                                <img className="imgtran" src="/images/materias/historia.png" alt="História" width="150" height="150" />
                             </div>
                             <span>História</span>
                         </div>
@@ -70,7 +70,7 @@ function TeamTeachTab() {
                     <Tab className="transform motion-safe:hover:scale-110 px-8 py-2">
                         <div className="flex flex-col">
                             <div className="flex items-center justify-center w-150 h-150 mx-auto bg-transparente text-blue-900 sm:w-150 sm:h-150">
-                                <img className="imgtran" src="http://einsteinfloripa.com.br/wp-content/uploads/Geografia-e-Atualidades.png" alt="Geografia e Atualidades" width="150" height="150" />
+                                <img className="imgtran" src="/images/materias/geografia.png" alt="Geografia e Atualidades" width="150" height="150" />
                             </div>
                             <span>Geografia e Atualidades</span>
                         </div>
@@ -78,7 +78,7 @@ function TeamTeachTab() {
                     <Tab className="transform motion-safe:hover:scale-110 px-8 py-2">
                         <div className="flex flex-col">
                             <div className="flex items-center justify-center w-150 h-150 mx-auto bg-transparente text-blue-900 sm:w-150 sm:h-150">
-                                <img className="imgtran" src="http://einsteinfloripa.com.br/wp-content/uploads/Física.png" alt="Física" width="150" height="150" />
+                                <img className="imgtran" src="/images/materias/fisica.png" alt="Física" width="150" height="150" />
                             </div>
                             <span>Física</span>
                         </div>
@@ -86,7 +86,7 @@ function TeamTeachTab() {
                     <Tab className="transform motion-safe:hover:scale-110 px-8 py-2">
                         <div className="flex flex-col">
                             <div className="flex items-center justify-center w-150 h-150 mx-auto bg-transparente text-blue-900 sm:w-150 sm:h-150">
-                                <img className="imgtran" src="http://einsteinfloripa.com.br/wp-content/uploads/Química.png" alt="Química" width="150" height="150" />
+                                <img className="imgtran" src="/images/materias/quimica.png" alt="Química" width="150" height="150" />
                             </div>
                             <span>Química</span>
                         </div>
@@ -94,7 +94,7 @@ function TeamTeachTab() {
                     <Tab className="transform motion-safe:hover:scale-110 px-8 py-2">
                         <div className="flex flex-col">
                             <div className="flex items-center justify-center w-150 h-150 mx-auto bg-transparente text-blue-900 sm:w-150 sm:h-150">
-                                <img className="imgtran" src="http://einsteinfloripa.com.br/wp-content/uploads/Humanidades-470x526.png" alt="Humanidades" width="150" height="150" />
+                                <img className="imgtran" src="/images/materias/humanidades.png" alt="Humanidades" width="150" height="150" />
                             </div>
                             <span>Humanidades</span>
                         </div>
