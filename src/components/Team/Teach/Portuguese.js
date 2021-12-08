@@ -51,7 +51,7 @@ const member = [
         name: 'Eduardo de Camargo',
         subject: 'Redação',
         role: 'Monitor',
-        course: '(UFSC)',
+        course: 'Filosofia (UFSC)',
         imageUrl:
           '/images/membros/redacao/eduardo.png',
     },
@@ -67,7 +67,7 @@ const member = [
         name: 'Giovanna Campanelli',
         subject: 'Redação',
         role: 'Monitora',
-        course: '(UFSC)',
+        course: 'Direito (UFSC)',
         imageUrl:
           '/images/membros/redacao/giovanna.png',
     },

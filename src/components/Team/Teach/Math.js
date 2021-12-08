@@ -35,7 +35,7 @@ const member = [
         name: 'Guilherme Beck Lemos',
         subject: 'Matemática C',
         role: 'Professor',
-        course: 'Engenharia Mecânica (UFSC)',
+        course: 'Engenharia Elétrica (UFSC)',
         imageUrl:
           '/images/membros/matematica/guilherme.png',
     },
@@ -43,7 +43,7 @@ const member = [
         name: 'Bruno Bernardes Aldegheri',
         subject: 'Matemática D',
         role: 'Professor',
-        course: 'Engenharia Elétrica (UFSC)',
+        course: 'Engenharia Mecânica(UFSC)',
         imageUrl:
           '/images/membros/matematica/bruno.jpg',
     },
