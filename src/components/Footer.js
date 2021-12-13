@@ -4,7 +4,7 @@ const navigation = {
     { name: 'Sobre o Einstein', href: '/sobre-nos' },
     { name: 'Nossa equipe', href: '/nossa-equipe' },
     { name: 'Processo Seletivo', href: '/processo-seletivo' },
-    { name: 'Resultados', href: '/resultados' },
+    { name: 'Resultados', href: '/em-breve' },
     { name: 'Apoie', href: '/apoie' },
   ],
   social: [

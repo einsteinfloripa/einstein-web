@@ -31,7 +31,10 @@ const member = [
 
 function Times(){
  return (
-    <div className="flex justify-center">
+    <div className="flex flex-col justify-center items-center">
+        <p className="text-justify pb-20 w-9/12">
+            Times Square é o departamento de marketing e captação de recursos do Einstein Floripa. A área de Marketing promove a imagem da instituição, gerencia a identidade visual e planeja a comunicação com o público externo. É responsável também por produzir conteúdos para divulgações internas e externas, além de gerenciar as mídias sociais. Por outro lado, a área de Captação de Recursos é responsável por buscar empresas e firmar parcerias, captar doações e realizar eventos de arrecadação, de modo a conseguir capital político e financeiro que garantam a sustentabilidade da instituição.
+        </p>
         <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
             {member.map((eisteiniano) => (
             <li key={eisteiniano.name} className="h-96 w-72">

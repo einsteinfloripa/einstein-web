@@ -7,13 +7,6 @@ const member = [
             '/images/membros/ministerio/pietro.png',
     },
     {
-        name: 'João Pedro Dalla Valle',
-        role: 'Assessor',
-        course: 'Direito (UFSC)',
-        imageUrl:
-            '/images/membros/ministerio/joao.png',
-    },
-    {
         name: 'Laísa Ágathe Dacroce',
         role: 'Assessora',
         course: 'Relações Internacionais (UFSC)',
@@ -31,7 +24,10 @@ const member = [
 
 function Ministerio(){
  return (
-    <div className="flex justify-center">
+    <div className="flex flex-col justify-center items-center">
+        <p className="text-justify pb-20 w-9/12">
+            O Ministério atua na área jurídica e financeira para garantir que o projeto continue impactando mais vidas, com maturidade e responsabilidade. Os ministros gerem os recursos financeiros e patrimoniais, são responsáveis pelo planejamento orçamentário, aprovando e controlando entradas e saídas, e difundindo sua importância entre as demais áreas. Também elaboram e redigem contratos, e possibilitam que o Einstein esteja sempre alinhado com a legislação vigente, permitindo uma maior segurança jurídica.
+        </p>
         <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
             {member.map((eisteiniano) => (
             <li key={eisteiniano.name} className="h-96 w-72">

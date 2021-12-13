@@ -31,7 +31,10 @@ const member = [
 
 function Embaixada(){
  return (
-    <div className="flex justify-center">
+    <div className="flex flex-col justify-center items-center">
+        <p className="text-justify pb-20 w-9/12">
+            É responsável por cuidar da experiência de todos que fazem parte do Einstein: organizadores, docentes e alunos! A área trabalha para que todos consigam se desenvolver e desempenhar suas funções com excelência da maneira mais harmoniosa possível. Além disso, os embaixadores são os guardiões da cultura einsteiniana, promovendo eventos e sempre guiando os nossos membros por meio dos nossos valores, missão e visão.
+        </p>
         <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
             {member.map((eisteiniano) => (
             <li key={eisteiniano.name} className="h-96 w-72">

@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import Soon from '../components/Soon'
+import PSBanner from '../components/PS/PSBanner'
+import PSOptions from '../components/PS/PSOptions'
 
 
 
@@ -7,9 +8,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Einstein Floripa | Resultados</title>
+        <title>Einstein Floripa | Processos Seletivos</title>
       </Head>
-      <Soon />
+      <PSBanner />
+      <PSOptions />
     </>
   )
 }

@@ -38,7 +38,10 @@ const member = [
 
 function Vale(){
  return (
-    <div className="flex justify-center">
+    <div className="flex flex-col justify-center items-center">
+        <p className="text-justify pb-20 w-9/12">
+            O Vale do Silício é responsável por melhorar a experiência Einsteiniana por meio da Tecnologia e Inovação.  O departamento utiliza linguagens como Python e JavaScript para o desenvolvimento de aplicações Web, correção de simulados e análise de dados. A experiência do Vale garante uma diversidade de oportunidades aos seus membros, que trabalham com múltiplos aspectos da tecnologia, desde desenvolvimento web, até fundamentos de ciência de dados.
+        </p>
         <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
             {member.map((eisteiniano) => (
             <li key={eisteiniano.name} className="h-96 w-72">

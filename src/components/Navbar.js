@@ -7,7 +7,7 @@ const navigation = {
     { name: 'Home', href: '/' },
     { name: 'Sobre o Einstein', href: '/sobre-nos' },
     { name: 'Nossa equipe', href: '/nossa-equipe' },
-    { name: 'Resultados', href: '/resultados' },
+    { name: 'Resultados', href: '/em-breve' },
     { name: 'Notícias', href: '/noticias' },
     { name: 'Processo Seletivo', href: '/processo seletivo' },
     { name: 'Apoie', href: '/apoie' },
@@ -72,7 +72,7 @@ function Navbar() {
                       Processo Seletivo
                     </a>
                   </Link>
-                  <Link href="/resultados">
+                  <Link href="/em-breve">
                     <a
                       className="flex-grow-0 xl:my-3 my-2 bg-transparent hover:bg-white text-white hover:text-blue-900 py-2 border-2 border-white hover:border-transparent rounded-lg inline-flex items-center px-3 pt-1 text-sm font-medium transition delay-150 duration-300 ease-in-out"
                     >
@@ -122,7 +122,7 @@ function Navbar() {
                 Processo Seletivo
               </a>
               </Link>
-              <Link href="/resultados">
+              <Link href="/em-breve">
               <a
                 className="border-transparent text-white hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium text-right"
               >
