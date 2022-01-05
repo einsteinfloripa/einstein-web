@@ -29,7 +29,7 @@ function HomeBanner() {
                                 <span className="block text-left">voluntário</span>
                             </button>
                         </a>
-                        <a href="https://app.pipefy.com/public/form/SnZzVUr0" target="Starfall">
+                        <a href="https://app.pipefy.com/public/form/FxNEJ30S" target="Starfall">
                             <button className="lg:text-black md:text-white sm:text-white text-blue-900 bg-white lg:bg-transparent md:bg-transparent sm:bg-transparent border-r-4 lg:border-blue-900 md:border-blue-900 sm:border-blue-900  border-blue-900 px-3 py-2 lg:grid lg:justify-items-end hover:bg-blue-900 hover:text-white transition duration-150 ease-in-out lg:text-3xl sm:text-2xl">
                                 <span className="block pb-2">Seja um</span>
                                 <span className="block text-right">aluno</span>
