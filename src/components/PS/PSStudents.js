@@ -89,13 +89,23 @@ function PSStudents () {
             </div>
           <div className="relative px-4  sm:px-6 lg:px-8 pb-10">
             <h1 className="text-blue lg:text-4xl text-2xl font-extrabold tracking-tight">Links úteis</h1>
-            <div className="mt-6 flex justify-start">
-              <a
-                href="https://app.pipefy.com/public/form/FxNEJ30S" target="Starfall"
-                className="text-center text-2xl font-extrabold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white"
-              >
-                Inscrição para o processo seletivo de alunos de 2022
-              </a>
+            <div className="mt-6 flex justify-start flex-col">
+              <div>
+                <a
+                  href="https://app.pipefy.com/public/form/FxNEJ30S" target="Starfall"
+                  className="text-center text-2xl font-extrabold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white"
+                >
+                  Inscrição para o processo seletivo de alunos de 2022
+                </a>
+              </div>
+              <div className="mt-8">
+                <a
+                  href="https://drive.google.com/file/d/1CKlD8bYgHVxL3NLPG3rZNeAxzd4TQ19i/view?usp=sharing" target="Starfall"
+                  className="text-center text-2xl font-extrabold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white"
+                >
+                  Edital do processo seletivo de alunos de 2022
+                </a>
+              </div>
             </div>
           </div>
         </div>
