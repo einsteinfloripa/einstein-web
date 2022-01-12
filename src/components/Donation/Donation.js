@@ -231,7 +231,7 @@ function Donation () {
 
                     <div style={{ backgroundColor: "#0185C3" }} className="bg-blue-700">
                         <a
-                            href="https://pag.ae/7VZFxhocQ"
+                            href="https://pag.ae/7VZFwJYQp"
                             target="_blank"
                         >
                             <div className="relative px-4 py-16 sm:px-6 sm:py-16 lg:py-20 lg:px-8 text-center	space-y-6">
