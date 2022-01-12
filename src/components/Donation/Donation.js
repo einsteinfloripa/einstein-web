@@ -178,7 +178,7 @@ function Donation () {
                 <div className="grid lg:grid-cols-5 md:grid-cols-3">
                     <div className="bg-blue-900 group">
                         <a
-                            href="https://pagseguro.uol.com.br/checkout/v2/pre-approvals/nc/sender-identification.jhtml?t=fc254a05a67ff88efa4bd1f9396a5d43&e=true"
+                            href="https://pag.ae/7VZFt-ama"
                             target="_blank"
                         >
                             <div className="relative px-4 py-16 sm:px-6 sm:py-16 lg:py-20 lg:px-8 text-center space-y-6">
@@ -204,7 +204,7 @@ function Donation () {
                     </div>
                     <div style={{ backgroundColor: "#2F6BA8" }} className="bg-blue-800 group">
                         <a
-                            href="https://app.picpay.com/user/projetoeinstein"
+                            href="https://pag.ae/7VZFuGRNM"
                             target="_blank"
                         >
                             <div className="relative px-4 py-16 sm:px-6 sm:py-16 lg:py-20 lg:px-8 text-center	space-y-6">
@@ -231,7 +231,7 @@ function Donation () {
 
                     <div style={{ backgroundColor: "#0185C3" }} className="bg-blue-700">
                         <a
-                            href="https://pagseguro.uol.com.br/checkout/v2/pre-approvals/nc/sender-identification.jhtml?t=fc254a05a67ff88eec3939bc317fe9b9&e=true"
+                            href="https://pag.ae/7VZFxhocQ"
                             target="_blank"
                         >
                             <div className="relative px-4 py-16 sm:px-6 sm:py-16 lg:py-20 lg:px-8 text-center	space-y-6">
@@ -258,7 +258,7 @@ function Donation () {
 
                     <div style={{ backgroundColor: "#47B2DF" }} className="bg-blue-600">
                         <a
-                            href="https://pagseguro.uol.com.br/checkout/v2/pre-approvals/nc/sender-identification.jhtml?t=fc254a05a67ff88ef6d2aed6bc8f2464&e=true"
+                            href="https://pag.ae/7W7aAqCHJ"
                             target="_blank"
                         >
                             <div className="relative px-4 py-16 sm:px-6 sm:py-16 lg:py-20 lg:px-8 text-center	space-y-6">
@@ -284,7 +284,7 @@ function Donation () {
 
                     <div style={{ backgroundColor: "#6DD2E0" }} className="bg-blue-500">
                         <a
-                            href="https://pagseguro.uol.com.br/checkout/v2/pre-approvals/nc/sender-identification.jhtml?t=fc254a05a67ff88ec63b2d53c6c611a3&e=true"
+                            href="https://pag.ae/7W6vM9J4m"
                             target="_blank"
                         >
                             <div className="relative px-4 py-16 sm:px-6 sm:py-16 lg:py-20 lg:px-8 text-center	space-y-6">
