@@ -77,7 +77,7 @@ function PSStudents () {
                       Passou na entrevista e está tudo "ok" com os seus documentos?! Bem-vindo ao Einstein Floripa!! Conquiste com a gente!!
                     </span> 
                     <span className="block text-white lg:text-4xl text-2xl mt-10"> 
-                      Para qualquer dúvida entrem em contato com a gente, através das nossas redes sociais: @einsteinfloripa ou colocar o email 
+                      Para qualquer dúvida entrem em contato com a gente, através das nossas redes sociais: @einsteinfloripa ou einsteinfloripa.ps@gmail.com
                     </span>
                     <span className="block text-white lg:text-4xl text-2xl mt-10">
                       Além disso, este ano estamos disponibilizando o Manual do Candidato, um documento no qual explicamos o Processo Seletivo com uma linguagem descontraída e tiramos as principais dúvidas que podem surgir.

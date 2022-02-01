@@ -148,7 +148,7 @@ module.exports = {
         black: "#0A0A06",
       },
       fontFamily: {
-        rubik: ["Rubik", "sans-serif"],
+        sans: ["Ubuntu", "sans-serif"],
       },
     },
   },
