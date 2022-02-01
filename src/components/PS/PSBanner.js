@@ -6,7 +6,7 @@ function PSBanner () {
             <div className="absolute inset-0">
                 <div className="absolute inset-0 bg-home-pattern" />
             </div>
-            <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
+            <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8 flex align-middle">
                 <h1 className="text-center font-extrabold tracking-tight">
                     <span className="block text-blue-900 lg:text-5xl text-2xl">
                         Bem-vindo(a) à página de Processos Seletivos!
