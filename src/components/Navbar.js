@@ -19,7 +19,7 @@ function Navbar() {
     <Disclosure as="nav" className="bg-blue-900 fixed top-0 left-0 z-50 w-full">
       {({ open }) => (
         <>
-          <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 w-11/12">
             <div className="relative flex justify-center h-16">
               <div className="absolute inset-y-0 right-0 flex items-center md:hidden">
                 <Disclosure.Button className="bg-white inline-flex items-center justify-center p-2 rounded-lg text-white-400 hover:bg-gray-200 hover:text-blue-900">
