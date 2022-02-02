@@ -221,8 +221,7 @@ function Donation () {
                             </h2>
                             <h3 className="font-extrabold tracking-tight">
                                 <span className="text-base text-white">
-                                Você fornece material de aula para todos os nossos
-                                professores e monitores por uma semana
+                                Você fornece material de aula para todos os nossos professores e monitores por uma semana
                                 </span>
                             </h3>
                             </div>
