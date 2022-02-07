@@ -7,25 +7,24 @@ module.exports = {
   darkMode: false,
   theme: {
     extend: {
-    rotate: {
-      '270': '270deg',
-    },
-    minHeight: {
-      '0': '0',
-      '1/4': '25%',
-      '1/2': '50%',
-      '3/4': '75%',
-      'full': '100%',
+      rotate: {
+        270: "270deg",
       },
-      backgroundImage: theme => ({
-
-        'hero-pattern': "url('/images/Somos-o-Einstein-Floripa.jpg')",
-        'aboutbg-pattern': "url('/images/bgabout.jpg')",
-        'about-pattern': "url('/images/sobre-nos.jpg')",
-        'home-pattern': "url('/images/home.jpg')",
+      minHeight: {
+        0: "0",
+        "1/4": "25%",
+        "1/2": "50%",
+        "3/4": "75%",
+        full: "100%",
+      },
+      backgroundImage: (theme) => ({
+        "hero-pattern": "url('/images/Somos-o-Einstein-Floripa.jpg')",
+        "aboutbg-pattern": "url('/images/bgabout.jpg')",
+        "about-pattern": "url('/images/sobre-nos.jpg')",
+        "home-pattern": "url('/images/home.jpg')",
       }),
       borderRadius: {
-        'lg': '10px',
+        lg: "10px",
       },
       colors: {
         blue: {
@@ -148,7 +147,7 @@ module.exports = {
         black: "#0A0A06",
       },
       fontFamily: {
-        sans: ["Ubuntu", "sans-serif"],
+        sans: ["Roboto", "sans-serif"],
       },
     },
   },
