@@ -32,7 +32,7 @@ function PSOptions() {
                               </div>
                           </li>
                         </Link>
-                        <Link href="em-breve">
+                        <Link href="processo-seletivo/docentes">
                           <li  className="h-96 w-72">
                           <div className="pt-5 space-y-4 bg-white rounded-md drop-shadow-xl h-12/12 flex flex-col items-center hover:bg-blue-900 hover:text-white transition">
                                   <div>
@@ -47,7 +47,7 @@ function PSOptions() {
                               </div>
                           </li>
                         </Link>
-                        <Link href="em-breve">
+                        <Link href="processo-seletivo/organizadores">
                           <li  className="h-96 w-72">
                           <div className="pt-5 space-y-4 bg-white rounded-md drop-shadow-xl h-12/12 flex flex-col items-center hover:bg-blue-900 hover:text-white transition">
                                   <div>
