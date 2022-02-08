@@ -44,7 +44,7 @@ const results = {
                       </h1>
                       <h1 className="text-center text-2xl tracking-tight sm:text-5xl lg:text-6xl px-2 sm:px-8 w-72 border-r-4 border-white">
                           <span className="block text-white font-extrabold lg:text-10xl sm:text-5xl text-2xl">+{results.horasTrabalhadas}</span>
-                          <span className="block text-white lg:font-medium sm:font-extrabold lg:text-3xl sm:text-2xl text-base">horas trabalhadas</span>
+                          <span className="block text-white lg:font-medium sm:font-extrabold lg:text-3xl sm:text-2xl text-base">horas <br/> trabalhadas</span>
                       </h1>
                       <h1 className="text-center text-2xl tracking-tight sm:text-5xl lg:text-6xl px-2 sm:px-8 w-72">
                           <span className="block text-white font-extrabold lg:text-10xl sm:text-5xl text-2xl">+{results.horasTreinamento}</span>

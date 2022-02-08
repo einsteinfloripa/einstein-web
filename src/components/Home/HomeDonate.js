@@ -1,7 +1,6 @@
 function HomeDonate() {
     return (
-      <div className="relative pt-16 pb-24 overflow-hidden">
-        <div aria-hidden="true" className="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-gray-100" />
+      <div className="relative pt-16 pb-24 overflow-hidden bg-white">
           <div className="relative">
           <div className="flex flex-col justify-center">
               <div className="flex justify-center">
