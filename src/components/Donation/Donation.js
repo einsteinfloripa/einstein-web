@@ -2,7 +2,7 @@ function Donation () {
     return (
         <>
             <div className="relative">
-                <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
+                <div className="max-w-7xl mx-auto sm:px-6 lg:px-0">
                     <div className="absolute inset-0">
                         <div className="absolute inset-0 bg-home-pattern" />
                         <div className="absolute inset-x-0 bottom-0">
@@ -15,10 +15,10 @@ function Donation () {
                             </div>
                         </div>
                     </div>
-                    <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
-                        <h1 className="text-center font-extrabold tracking-tight">
+                    <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-0">
+                        <h1 className="text-center font-semibold tracking-tight">
                             <span className="block text-blue-900 lg:text-5xl text-2xl">
-                                “A EDUCAÇÃO É A ARMA MAIS PODEROSA PARA MUDAR O MUNDO” - MANDELA, Nelson
+                                “A educação é a arma mais poderosa para mudar o Mundo”  Mandela, Nelson
                             </span>
                         </h1>
                     </div>
@@ -30,7 +30,7 @@ function Donation () {
                         <div className="absolute inset-0 bg-blue-900" />
                     </div>
                     <div className="relative px-4 py-16 sm:px-6 sm:py-16 lg:py-20 lg:px-8">
-                        <h2 className="text-center font-extrabold tracking-tight">
+                        <h2 className="text-center font-semibold tracking-tight">
                             <span className="block text-white lg:text-4xl text-2xl">
                                 AJUDE A TRANSFORMAR A EDUCAÇÃO: SEJA UM DOADOR!
                             </span>
@@ -58,7 +58,7 @@ function Donation () {
                         <div className="absolute inset-0 bg-blue-50	" />
                     </div>
                     <div className="relative px-4 py-16 sm:px-6 sm:py-16 lg:py-20 lg:px-8">
-                        <h2 className="text-center font-extrabold tracking-tight">
+                        <h2 className="text-center font-semibold tracking-tight">
                             <span className="block text-blue-900 lg:text-4xl text-2xl">
                                 POR QUE SER UM AMIGO DO EINSTEIN FLORIPA?
                             </span>
@@ -72,7 +72,7 @@ function Donation () {
                         <div className="absolute inset-0 bg-blue-900	" />
                     </div>
                     <div className="relative px-4 py-16 sm:px-6 sm:py-16 lg:py-20 lg:px-8">
-                        <h2 className="font-extrabold tracking-tight">
+                        <h2 className="font-semibold tracking-tight">
                             <span className="text-blue-900 bg-white lg:text-3xl text-2xl p-2">
                                 01 MUDAR A EDUCAÇÃO
                             </span>
@@ -90,7 +90,7 @@ function Donation () {
                         <div className="absolute inset-0 bg-white	" />
                     </div>
                     <div className="relative px-4 py-16 sm:px-6 sm:py-16 lg:py-20 lg:px-8">
-                        <h2 className="font-extrabold tracking-tight">
+                        <h2 className="font-semibold tracking-tight">
                             <span className="bg-blue-900 text-white lg:text-3xl text-2xl p-2">
                                 02 DUPLO IMPACTO
                             </span>
@@ -108,7 +108,7 @@ function Donation () {
                         <div className="absolute inset-0 bg-blue-900	" />
                     </div>
                     <div className="relative px-4 py-16 sm:px-6 sm:py-16 lg:py-20 lg:px-8">
-                        <h2 className="font-extrabold tracking-tight">
+                        <h2 className="font-semibold tracking-tight">
                             <span className="text-blue-900 bg-white lg:text-3xl text-2xl p-2">
                                 03 MUDAR VIDAS
                             </span>
@@ -126,7 +126,7 @@ function Donation () {
                         <div className="absolute inset-0 bg-white	" />
                     </div>
                     <div className="relative px-4 py-16 sm:px-6 sm:py-16 lg:py-20 lg:px-8">
-                        <h2 className="font-extrabold tracking-tight">
+                        <h2 className="font-semibold tracking-tight">
                             <span className="bg-blue-900 text-white lg:text-3xl text-2xl p-2">
                                 04 REALIZAR SONHOS
                             </span>
@@ -144,7 +144,7 @@ function Donation () {
                         <div className="absolute inset-0 bg-blue-900	" />
                     </div>
                     <div className="relative px-4 py-16 sm:px-6 sm:py-16 lg:py-20 lg:px-8">
-                        <h2 className="font-extrabold tracking-tight">
+                        <h2 className="font-semibold tracking-tight">
                             <span className="text-blue-900 bg-white lg:text-3xl text-2xl p-2">
                                 05 RECEBER BENEFÍCIOS EXCLUSIVOS
                             </span>
@@ -162,7 +162,7 @@ function Donation () {
                         <div className="absolute inset-0	" />
                     </div>
                     <div className="relative px-4 py-16 sm:px-6 sm:py-16 lg:py-20 lg:px-8">
-                        <h2 className="font-extrabold tracking-tight text-center">
+                        <h2 className="font-semibold tracking-tight text-center">
                             <span className="block lg:text-3xl text-2xl text-blue-900">
                                 BORA FAZER PARTE DO PROGRAMA AMIGOS DO EINSTEIN?
                             </span>
@@ -175,14 +175,14 @@ function Donation () {
             </div>
 
             <div className="relative">
-                <div className="grid lg:grid-cols-5 md:grid-cols-3">
+                <div className="grid 2xl:grid-cols-5 lg:grid-cols-3">
                     <div className="bg-blue-900 group">
                         <a
                             href="https://pag.ae/7VZFt-ama"
                             target="_blank"
                         >
                             <div className="relative px-4 py-16 sm:px-6 sm:py-16 lg:py-20 lg:px-8 text-center space-y-6">
-                            <h2 className="font-extrabold tracking-tight">
+                            <h2 className="font-semibold tracking-tight">
                                 <span className="block text-white text-1xl md:text-2xl lg:text-3xl xl:text-4xl group-hover:text-blue-50">
                                 R$
                                 <span className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl group-hover:text-blue-50">
@@ -193,7 +193,7 @@ function Donation () {
                                 Mensais
                                 </span>
                             </h2>
-                            <h3 className="font-extrabold tracking-tight">
+                            <h3 className="font-semibold tracking-tight">
                                 <span className="text-base text-white group-hover:text-blue-50">
                                     Você proporciona material didático para dois estudantes
                                     por um mês
@@ -208,7 +208,7 @@ function Donation () {
                             target="_blank"
                         >
                             <div className="relative px-4 py-16 sm:px-6 sm:py-16 lg:py-20 lg:px-8 text-center	space-y-6">
-                            <h2 className="font-extrabold tracking-tight">
+                            <h2 className="font-semibold tracking-tight">
                                 <span className="block text-white text-1xl md:text-2xl lg:text-3xl xl:text-4xl">
                                 R$
                                 <span className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl">
@@ -219,7 +219,7 @@ function Donation () {
                                 Mensais
                                 </span>
                             </h2>
-                            <h3 className="font-extrabold tracking-tight">
+                            <h3 className="font-semibold tracking-tight">
                                 <span className="text-base text-white">
                                 Você fornece material de aula para todos os nossos professores e monitores por uma semana
                                 </span>
@@ -234,7 +234,7 @@ function Donation () {
                             target="_blank"
                         >
                             <div className="relative px-4 py-16 sm:px-6 sm:py-16 lg:py-20 lg:px-8 text-center	space-y-6">
-                            <h2 className="font-extrabold tracking-tight">
+                            <h2 className="font-semibold tracking-tight">
                                 <span className="block text-white text-1xl md:text-2xl lg:text-3xl xl:text-4xl">
                                 R$
                                 <span className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl">
@@ -245,7 +245,7 @@ function Donation () {
                                 Mensais
                                 </span>
                             </h2>
-                            <h3 className="font-extrabold tracking-tight">
+                            <h3 className="font-semibold tracking-tight">
                                 <span className="text-base text-white">
                                 Você garante a participação de um estudante em todos os
                                 nossos simulados ao longo do ano
@@ -261,7 +261,7 @@ function Donation () {
                             target="_blank"
                         >
                             <div className="relative px-4 py-16 sm:px-6 sm:py-16 lg:py-20 lg:px-8 text-center	space-y-6">
-                            <h2 className="font-extrabold tracking-tight">
+                            <h2 className="font-semibold tracking-tight">
                                 <span className="block text-white text-1xl md:text-2xl lg:text-3xl xl:text-4xl">
                                 R$
                                 <span className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl">
@@ -272,7 +272,7 @@ function Donation () {
                                 Mensais
                                 </span>
                             </h2>
-                            <h3 className="font-extrabold tracking-tight">
+                            <h3 className="font-semibold tracking-tight">
                                 <span className="text-base text-white">
                                 Você possibilita um mês de estudo para três alunos
                                 </span>
@@ -287,7 +287,7 @@ function Donation () {
                             target="_blank"
                         >
                             <div className="relative px-4 py-16 sm:px-6 sm:py-16 lg:py-20 lg:px-8 text-center	space-y-6">
-                            <h2 className="font-extrabold tracking-tight">
+                            <h2 className="font-semibold tracking-tight">
                                 <span className="block text-white text-1xl md:text-2xl lg:text-3xl xl:text-4xl">
                                 R$
                                 <span className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl">
@@ -298,7 +298,7 @@ function Donation () {
                                 Mensais
                                 </span>
                             </h2>
-                            <h3 className="font-extrabold tracking-tight">
+                            <h3 className="font-semibold tracking-tight">
                                 <span className="text-base text-white">
                                 Você proporciona meio ano letivo de estudo para um aluno
                                 com todas as despesas do projeto incluídas
@@ -316,7 +316,7 @@ function Donation () {
                         <div className="absolute inset-0 bg-blue-50" />
                     </div>
                     <div className="relative px-4 py-16 sm:px-6 sm:py-16 lg:py-20 lg:px-8 space-y-6">
-                        <h2 className="font-extrabold tracking-tight">
+                        <h2 className="font-semibold tracking-tight">
                             <span className="block text-center lg:text-3xl text-2xl text-blue-900">
                             Para doar outros valores:
                             </span>

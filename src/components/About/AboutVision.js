@@ -19,7 +19,7 @@ function AboutVison() {
                       </div>
                       <h1 className="lg:ml-32 lg:justify-self-start self-center tracking-tight pt-2">
                           <span className="block font-extrabold text-blue-50 lg:text-6xl md:text-4xl text-5xl lg:text-left text-center self-center py-2">Missão</span>
-                          <span className="block font-medium text-white lg:text-3xl md:text-2xl text-xl lg:text-left text-center self-center lg:px-0 md:px-0 sm:px-0 px-8">Viablizar o acesso de pessoas de baixa renda à educação superior de qualidade e fomentar o desevolvimento de graduandos através de um cursinho pré-vestibular social, voluntário e gratuito.</span>
+                          <span className="block font-medium text-white lg:text-3xl md:text-2xl text-xl lg:text-left text-center self-center lg:px-0 md:px-0 sm:px-0 px-8">Viabilizar o acesso de pessoas de baixa renda à educação superior de qualidade e fomentar o desenvolvimento de graduandos através de um cursinho pré-vestibular social, voluntário e gratuito.</span>
                       </h1>
                     </div>
                   </dt>

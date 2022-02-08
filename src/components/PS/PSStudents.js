@@ -15,7 +15,7 @@ function PSStudents () {
                 <div className="mt-6 self-center flex justify-center">
                   <a
                     href="https://app.pipefy.com/public/form/FxNEJ30S" target="Starfall"
-                    className="text-center text-5xl font-extrabold inline-flex bg-blue-900 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-white hover:bg-blue-50 hover:text-blue-900"
+                    className="text-center text-5xl font-bold inline-flex bg-blue-900 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-white hover:bg-blue-50 hover:text-blue-900"
                   >
                     Seja um inscrito
                   </a>
@@ -29,7 +29,7 @@ function PSStudents () {
                 <div className="absolute inset-0 bg-blue-900" />
             </div>
             <div className="relative px-10 py-16 sm:px-6 sm:py-16 lg:py-20 lg:px-8">
-                <h2 className="text-justify font-extrabold tracking-tight">
+                <h2 className="text-justify font-semibold tracking-tight">
                     <span className="block text-white lg:text-4xl text-2xl">
                       Conquiste com o <span className="text-blue">Einstein Floripa!</span>
                     </span>
@@ -45,34 +45,34 @@ function PSStudents () {
                     </span>
                 </h2>
                 <div className="mb-10">
-                  <h2 className="text-justify font-extrabold tracking-tight bg-white p-5 rounded-lg">
+                  <h2 className="text-justify font-semibold tracking-tight bg-white p-5 rounded-lg">
                       <span className="block text-blue-900 lg:text-4xl text-2xl">  
                         <span className="text-blue">1.</span> Como primeiro passo, os candidatos devem realizar a pré-inscrição, mas esta etapa ainda não lhe torna um candidato, portanto, fique atento ao seu e-mail, te lembraremos sobre a data de inscrição. 
                       </span> 
                   </h2>
                 </div>
                 <div className="mb-10">
-                  <h2 className="text-justify font-extrabold tracking-tight bg-white p-5 rounded-lg">
+                  <h2 className="text-justify font-semibold tracking-tight bg-white p-5 rounded-lg">
                       <span className="block text-blue-900 lg:text-4xl text-2xl">  
                         <span className="text-blue">2.</span> Assim que a inscrição for liberada, os candidatos devem preencher o formulário com seus dados pessoais e demais informações solicitadas. 
                       </span> 
                   </h2>
                 </div>
                 <div className="mb-10">
-                  <h2 className="text-justify font-extrabold tracking-tight bg-white p-5 rounded-lg">
+                  <h2 className="text-justify font-semibold tracking-tight bg-white p-5 rounded-lg">
                       <span className="block text-blue-900 lg:text-4xl text-2xl">   
                         <span className="text-blue">3.</span> Os aprovados na etapa de inscrição receberão informações sobre a realização de uma prova teórica virtual. Este teste engloba conhecimentos gerais do ensino médio. 
                       </span> 
                   </h2>
                 </div>
                 <div className="mb-10">
-                  <h2 className="text-justify font-extrabold tracking-tight bg-white p-5 rounded-lg"> 
+                  <h2 className="text-justify font-semibold tracking-tight bg-white p-5 rounded-lg"> 
                       <span className="block text-blue-900 lg:text-4xl text-2xl"> 
                         <span className="text-blue">4.</span> Os aprovados na prova teórica seguirão para a etapa final: a entrevista. Neste momento,  iremos conhecer um pouquinho mais sobre cada candidato, analisaremos o perfil e também os  documentos para validação de renda. Não se preocupe, os entrevistadores estarão recebendo todos de braços abertos! 
                       </span> 
                   </h2>
                 </div>
-                <h2 className="text-justify font-extrabold tracking-tight">
+                <h2 className="text-justify font-semibold tracking-tight">
                     <span className="block text-white lg:text-4xl text-2xl mt-10"> 
                       Passou na entrevista e está tudo "ok" com os seus documentos?! Bem-vindo ao Einstein Floripa!! Conquiste com a gente!!
                     </span> 
@@ -88,12 +88,12 @@ function PSStudents () {
                 </h2>
             </div>
           <div className="relative px-4  sm:px-6 lg:px-8 pb-10">
-            <h1 className="text-blue lg:text-4xl text-2xl font-extrabold tracking-tight">Links úteis</h1>
+            <h1 className="text-blue lg:text-4xl text-2xl font-semibold tracking-tight">Links úteis</h1>
             <div className="mt-6 flex justify-start flex-col">
               <div>
                 <a
                   href="https://app.pipefy.com/public/form/FxNEJ30S" target="Starfall"
-                  className="text-center text-2xl font-extrabold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white"
+                  className="text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white"
                 >
                   Inscrição para o processo seletivo de alunos de 2022
                 </a>
@@ -101,7 +101,7 @@ function PSStudents () {
               <div className="mt-8">
                 <a
                   href="https://drive.google.com/file/d/1CKlD8bYgHVxL3NLPG3rZNeAxzd4TQ19i/view?usp=sharing" target="Starfall"
-                  className="text-center text-2xl font-extrabold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white"
+                  className="text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white"
                 >
                   Edital do processo seletivo de alunos de 2022
                 </a>
