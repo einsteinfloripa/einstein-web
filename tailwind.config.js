@@ -1,3 +1,5 @@
+const { fontFamily } = require('tailwindcss/defaultTheme')
+
 module.exports = {
   mode: "jit",
   purge: [
@@ -7,6 +9,9 @@ module.exports = {
   darkMode: false,
   theme: {
     extend: {
+      fontFamily: {
+        'sans': ['Roboto', 'sans-serif'],
+      },
       rotate: {
         270: "270deg",
       },
@@ -145,9 +150,6 @@ module.exports = {
         magenta: "#7622A8",
         "secondary-black": "#0B0A15",
         black: "#0A0A06",
-      },
-      fontFamily: {
-        sans: ["Roboto", "sans-serif"],
       },
     },
   },
