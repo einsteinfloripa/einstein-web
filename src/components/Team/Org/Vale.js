@@ -1,38 +1,31 @@
 const member = [
     {
-        name: 'Murillo Stein',
-        role: 'Diretor',
-        course: 'Engenharia Mecânica (UFSC)',
-        imageUrl:
-            '/images/membros/vale/murillo.png',
-    },
-    {
         name: 'Djonys Dalmy de Oliveira',
-        role: 'Assessor',
+        role: 'Diretor',
         course: 'Sistemas da Informação (UFSC)',
         imageUrl:
-            '/images/membros/vale/djonys.png',
+            'https://einsteinfloripa.com.br/images/djonys.png',
     },
     {
         name: 'Luiza Kataoka P. de Oliveira',
         role: 'Assessora',
         course: 'Engenharia de Materiais (UFSC)',
         imageUrl:
-            '/images/membros/vale/luiza.png',
+            'https://einsteinfloripa.com.br/images/luiza.png',
     },
     {
         name: 'Pedro Henrique Fernandes',
         role: 'Assessor',
         course: 'Engenharia Eletrônica (UFSC)',
         imageUrl:
-            '/images/membros/vale/pedro.png',
+            'https://einsteinfloripa.com.br/images/pedro.png',
     },
     {
         name: 'Eduardo Battisti Leites',
         role: 'Assessor',
         course: 'Engenharia de Produção Elétrica (UFSC)',
         imageUrl:
-            '/images/membros/vale/eduardo.png',
+            'https://einsteinfloripa.com.br/images/eduardo.png',
     },
   ]
 
@@ -47,13 +40,13 @@ function Vale(){
             <li key={eisteiniano.name} className="h-96 w-72">
                 <div className="pt-5 space-y-4 bg-white rounded-md drop-shadow-xl h-96 flex flex-col items-center">
                     <div>
-                        <img className="object-cover shadow-lg rounded-lg h-64" src={eisteiniano.imageUrl} alt="" />
+                        <img className="object-cover shadow-lg rounded-lg h-64 w-64 grayscale" src={eisteiniano.imageUrl} alt="" />
                     </div>
 
                     <div className="space-y-1 xl:flex xl:items-center xl:justify-between">
                             <div className="font-medium text-sm text-center">
                             <h3 className="text-xl">{eisteiniano.name}</h3>
-                                <p className="text-blue-900 text-center">{eisteiniano.role}</p>
+                                <p className="text-blue text-center">{eisteiniano.role}</p>
                                 <p className="text-center">{eisteiniano.course}</p>
                         </div>
                     </div>

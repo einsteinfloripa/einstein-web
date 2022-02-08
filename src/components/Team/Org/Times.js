@@ -1,31 +1,24 @@
 const member = [
     {
-        name: 'Camila Guarnieri',
+        name: 'Karim Cruz',
         role: 'Diretora',
-        course: 'Engenharia de Alimentos (UFSC)',
+        course: 'Farmácia (UFSC)',
         imageUrl:
-            '/images/membros/times/cami.png',
+            'https://einsteinfloripa.com.br/images/karim.png',
     },
     {
         name: 'Sofia Sauer',
         role: 'Assessora',
         course: 'Relações Internacionais (UFSC)',
         imageUrl:
-            '/images/membros/times/sofia.png',
-    },
-    {
-        name: 'Karim Cruz',
-        role: 'Assessora',
-        course: 'Farmácia (UFSC)',
-        imageUrl:
-            '/images/membros/times/karim.png',
+            'https://einsteinfloripa.com.br/images/sofia.png',
     },
     {
         name: 'Liliane Matsuzawa',
         role: 'Assessora',
         course: 'Design (IFSC)',
         imageUrl:
-            '/images/membros/times/lili.png',
+            'https://einsteinfloripa.com.br/images/lili.png',
     },
   ]
 
@@ -40,13 +33,13 @@ function Times(){
             <li key={eisteiniano.name} className="h-96 w-72">
                 <div className="pt-5 space-y-4 bg-white rounded-md drop-shadow-xl h-96 flex flex-col items-center">
                     <div>
-                        <img className="object-cover shadow-lg rounded-lg h-64" src={eisteiniano.imageUrl} alt="" />
+                        <img className="object-cover shadow-lg rounded-lg h-64 grayscale" src={eisteiniano.imageUrl} alt="" />
                     </div>
 
                     <div className="space-y-1 xl:flex xl:items-center xl:justify-between">
                             <div className="font-medium text-sm text-center">
                             <h3 className="text-xl">{eisteiniano.name}</h3>
-                                <p className="text-blue-900 text-center">{eisteiniano.role}</p>
+                                <p className="text-blue text-center">{eisteiniano.role}</p>
                                 <p className="text-center">{eisteiniano.course}</p>
                         </div>
                     </div>

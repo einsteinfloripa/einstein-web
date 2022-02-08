@@ -18,7 +18,7 @@ function TeamOrgTab() {
                             <div className="flex items-center justify-center w-200 h-200 mx-auto bg-transparente text-blue-900 sm:w-200 sm:h-200">
                                 <img className="imgtran" src="/images/departamentos/capital.svg" width="200" height="200" />
                             </div>
-                            <span className="text-center font-extrabold text-blue-900 text-lg">Capital</span>
+                            <span className="text-center font-semibold text-blue-900 text-lg">Capital</span>
                             <span>[Diretoria Administrativa]</span>
                         </div>
                     </Tab>
@@ -27,7 +27,7 @@ function TeamOrgTab() {
                             <div className="flex items-center justify-center w-200 h-200 mx-auto bg-transparente text-blue-900 sm:w-200 sm:h-200">
                                 <img className="imgtran" src="/images/departamentos/capital.svg" width="200" height="200" />
                             </div>
-                            <span className="text-center font-extrabold text-blue-900 text-lg">Capital</span>
+                            <span className="text-center font-semibold text-blue-900 text-lg">Capital</span>
                             <span>[Diretoria Administrativa]</span>
                         </div>
                     </Tab>
@@ -36,7 +36,7 @@ function TeamOrgTab() {
                             <div className="flex items-center justify-center w-200 h-200 mx-auto bg-transparente text-blue-900 sm:w-200 sm:h-200">
                                 <img  src="/images/departamentos/embaixada.svg" alt="Embaixada do Amor" width="200" height="200" />
                             </div>
-                            <span className="text-center font-extrabold text-blue-900 text-lg">Embaixada do Amor</span>
+                            <span className="text-center font-semibold text-blue-900 text-lg">Embaixada do Amor</span>
                             <span className="text-center">[Gestão de pessoas]</span>
                         </div>
                     </Tab>
@@ -45,7 +45,7 @@ function TeamOrgTab() {
                             <div className="flex items-center justify-center w-200 h-200 mx-auto bg-transparente text-blue-900 sm:w-200 sm:h-200">
                                 <img className="imgtran" src="/images/departamentos/times.svg" width="200" height="200"/>
                             </div>
-                            <span className="text-center font-extrabold text-blue-900 text-lg">Times Square</span>
+                            <span className="text-center font-semibold text-blue-900 text-lg">Times Square</span>
                             <span>[Captação de recursos e Marketing]</span>
                         </div>
                     </Tab>
@@ -56,7 +56,7 @@ function TeamOrgTab() {
                             <div className="flex items-center justify-center w-200 h-200 mx-auto bg-transparente text-blue-900 sm:w-200 sm:h-200">
                                 <img className="imgtran" src="/images/departamentos/vale.svg" width="200" height="200" />
                             </div>
-                            <span className="text-center font-extrabold text-blue-900 text-lg">Vale do Silício</span>
+                            <span className="text-center font-semibold text-blue-900 text-lg">Vale do Silício</span>
                             <span>[T.I.]</span>
                         </div>
                     </Tab>
@@ -65,7 +65,7 @@ function TeamOrgTab() {
                             <div className="flex items-center justify-center w-200 h-200 mx-auto bg-transparente text-blue-900 sm:w-200 sm:h-200">
                                 <img className="imgtran" src="/images/departamentos/ministerio.svg" width="215" height="200" />
                             </div>
-                            <span className="text-center font-extrabold text-blue-900 text-lg">Ministério</span>
+                            <span className="text-center font-semibold text-blue-900 text-lg">Ministério</span>
                             <span>[Financeiro e Jurídico]</span>
                         </div>
                     </Tab>
@@ -74,7 +74,7 @@ function TeamOrgTab() {
                             <div className="flex items-center justify-center w-200 h-200 mx-auto bg-transparente text-blue-900 sm:w-200 sm:h-200">
                                 <img className="imgtran" src="/images/departamentos/hogwarts.svg" width="200" height="200" />    
                             </div>
-                            <span className="text-center font-extrabold text-blue-900 text-lg">Hogwarts</span>
+                            <span className="text-center font-semibold text-blue-900 text-lg">Hogwarts</span>
                             <span>[Ensino]</span>
                         </div>
                     </Tab>
@@ -85,37 +85,37 @@ function TeamOrgTab() {
             <Tab.Panels>
                 <Tab.Panel></Tab.Panel>
                 <Tab.Panel>
-                    <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl py-20">
+                    <h1 className="text-center text-4xl font-semibold tracking-tight sm:text-5xl lg:text-6xl py-20">
                         <span className="block text-blue-900 text-3xl">Conheça os membros da Capital</span>
                     </h1>
                     <Capital />
                 </Tab.Panel>
                 <Tab.Panel>
-                    <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl py-20">
+                    <h1 className="text-center text-4xl font-semibold tracking-tight sm:text-5xl lg:text-6xl py-20">
                         <span className="block text-blue-900 text-3xl">Conheça os membros da Embaixada do Amor</span>
                     </h1>
                     <Embaixada />
                 </Tab.Panel>
                 <Tab.Panel>
-                    <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl py-20">
+                    <h1 className="text-center text-4xl font-semibold tracking-tight sm:text-5xl lg:text-6xl py-20">
                         <span className="block text-blue-900 text-3xl">Conheça os membros da Times Square</span>
                     </h1>
                     <Times />
                 </Tab.Panel>
                 <Tab.Panel>
-                    <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl py-20">
+                    <h1 className="text-center text-4xl font-semibold tracking-tight sm:text-5xl lg:text-6xl py-20">
                         <span className="block text-blue-900 text-3xl">Conheça os membros do Vale de Silício</span>
                     </h1>
                     <Vale />
                 </Tab.Panel>
                 <Tab.Panel>
-                    <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl py-20">
+                    <h1 className="text-center text-4xl font-semibold tracking-tight sm:text-5xl lg:text-6xl py-20">
                         <span className="block text-blue-900 text-3xl">Conheça os membros do Ministerio</span>
                     </h1>
                     <Ministerio />
                 </Tab.Panel>
                 <Tab.Panel>
-                    <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl py-20">
+                    <h1 className="text-center text-4xl font-semibold tracking-tight sm:text-5xl lg:text-6xl py-20">
                         <span className="block text-blue-900 text-3xl">Conheça os membros de Hogwarts</span>
                     </h1>
                     <Hogwarts />

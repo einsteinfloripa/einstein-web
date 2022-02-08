@@ -31,7 +31,7 @@ function Humanities(){
                     <div className="space-y-1 xl:flex xl:items-center xl:justify-between">
                             <div className="font-medium text-sm text-center">
                             <h3 className="text-xl">{eisteiniano.name}</h3>
-                                <p className="text-blue-900 text-center">{eisteiniano.role} de {eisteiniano.subject}</p>
+                                <p className="text-blue text-center">{eisteiniano.role} de {eisteiniano.subject}</p>
                                 <p className="text-center">{eisteiniano.course}</p>
                         </div>
                     </div>
