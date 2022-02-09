@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import PSOTeach from '../../components/PS/PSTeach'
+import PSTeach from '../../components/PS/PSTeach'
 
 
 
@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>Einstein Floripa | PS Docentes</title>
       </Head>
-      <PSOTeach />
+      <PSTeach />
     </>
   )
 }
