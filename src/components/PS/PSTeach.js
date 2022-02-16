@@ -14,10 +14,10 @@ function PSTeach () {
                 </h1>
                 <div className="mt-6 self-center flex justify-center">
                   <a
-                    href="https://app.pipefy.com/public/form/ydrD6spS" target="Starfall"
+                    href="https://app.pipefy.com/public/form/BnUIAdm4" target="Starfall"
                     className="text-center text-5xl font-bold inline-flex bg-blue-900 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-white hover:bg-blue-50 hover:text-blue-900"
                   >
-                    Seja um pré-inscrito
+                    Seja um inscrito
                   </a>
                 </div>
             </div>
@@ -72,6 +72,27 @@ function PSTeach () {
                       Boa sorte!
                     </span>
                 </h2>
+                <div className="relative px-4  sm:px-6 lg:px-8 pb-10">
+                  <h1 className="text-blue lg:text-4xl text-2xl font-semibold tracking-tight">Links úteis</h1>
+                  <div className="mt-6 flex justify-start flex-col">
+                    <div>
+                      <a
+                        href="https://app.pipefy.com/public/form/BnUIAdm4" target="Starfall"
+                        className="text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white"
+                      >
+                        Inscrição para o processo seletivo de docentes de 2022
+                      </a>
+                    </div>                  
+                    <div className="mt-8">
+                      <a
+                        href="https://drive.google.com/file/d/1R5QjqGhsGzz6rrhanwbBGoyMOfeeSEUv/view?usp=sharing" target="Starfall"
+                        className="text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white"
+                      >
+                        Edital do processo  de docentes de 2022
+                      </a>
+                    </div>
+                  </div>
+                </div>
             </div>
         </div>
         </div>

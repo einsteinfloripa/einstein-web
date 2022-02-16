@@ -100,10 +100,18 @@ function PSStudents () {
               </div>
               <div className="mt-8">
                 <a
+                  href="https://drive.google.com/file/d/1kPoSHXHgbf3j7BlBmYrHcKgGai5ClJ_Z/view?usp=sharing" target="Starfall"
+                  className="text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white"
+                >
+                  Edital Retificado do processo seletivo de alunos de 2022 [apenas alteração das datas](vigente)
+                </a>
+              </div>
+              <div className="mt-8">
+                <a
                   href="https://drive.google.com/file/d/1CKlD8bYgHVxL3NLPG3rZNeAxzd4TQ19i/view?usp=sharing" target="Starfall"
                   className="text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white"
                 >
-                  Edital do processo seletivo de alunos de 2022
+                  Edital do processo seletivo de alunos de 2022 (fora de uso)
                 </a>
               </div>
             </div>
