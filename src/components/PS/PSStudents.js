@@ -14,10 +14,10 @@ function PSStudents () {
                 </h1>
                 <div className="mt-6 self-center flex justify-center">
                   <a
-                    href="https://app.pipefy.com/public/form/FxNEJ30S" target="Starfall"
+                    href="https://app.pipefy.com/public/form/iuhBZfXr" target="Starfall"
                     className="text-center text-5xl font-bold inline-flex bg-blue-900 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-white hover:bg-blue-50 hover:text-blue-900"
                   >
-                    Seja um inscrito
+                    Seja um pré-inscrito para 2023
                   </a>
                 </div>
             </div>
