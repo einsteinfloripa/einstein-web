@@ -100,6 +100,14 @@ function PSStudents () {
               </div>
               <div className="mt-8">
                 <a
+                  href="https://drive.google.com/file/d/1qt-qRqx_nchrWti7cZVprSRd739yT-47/view?usp=sharing" target="Starfall"
+                  className="text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white"
+                >
+                  Lista dos aprovados para a entrevista
+                </a>
+              </div>
+              <div className="mt-8">
+                <a
                   href="https://drive.google.com/file/d/1kPoSHXHgbf3j7BlBmYrHcKgGai5ClJ_Z/view?usp=sharing" target="Starfall"
                   className="text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white"
                 >
