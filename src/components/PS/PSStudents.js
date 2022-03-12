@@ -92,6 +92,14 @@ function PSStudents () {
             <div className="mt-6 flex justify-start flex-col">
               <div className="mt-8">
                 <a
+                  href="https://drive.google.com/file/d/1tw16VXv8BAF6rkTrcO-ql_9dTKQaugQ2/view?usp=sharing" target="Starfall"
+                  className="text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white"
+                >
+                  Horários da entrevista
+                </a>
+              </div> 
+              <div className="mt-8">
+                <a
                   href="https://drive.google.com/file/d/1jNz0MVV6dLwm8DtHupULmXdIWc_16XjP/view?usp=sharing" target="Starfall"
                   className="text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white"
                 >
