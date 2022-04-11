@@ -1,35 +1,19 @@
 const member = [
     {
-        name: 'Fernando Soares de Jesus',
-        subject: 'Geografia A',
-        role: 'Professor',
-        course: 'Pós-graduação em Geografia (UFSC)',
-        imageUrl:
-          '/images/membros/geografia/fernando.png',
-    },
-    {
-        name: 'Ana Cristina Theisges',
-        subject: 'Geografia A',
-        role: 'Monitora',
-        course: 'Pós-graduação em Engenharia de Transportes e Gestão Territorial (UFSC) ',
-        imageUrl:
-          '/images/membros/geografia/ana.png',
-    },
-    {
-      name: 'Vinícius Schulz Nardes',
+      name: 'Paulo Henrique Rosa',
       subject: 'Geografia B',
       role: 'Professor',
-      course: 'Direito (UFSC)',
+      course: 'Geografia (UFSC)',
       imageUrl:
-        '/images/membros/geografia/vinicius.png',
+        'https://einsteinfloripa.com.br/images/docentes/geography/paulo.png',
     },
     {
-        name: 'Cassio Cecconello Filho',
+        name: 'Mateus Homem de Mello',
         subject: 'Geografia B',
-        role: 'Monitora',
-        course: 'Direito (UFSC)',
+        role: 'Monitor',
+        course: 'Geografia (UFSC)',
         imageUrl:
-          '/images/membros/geografia/cassio.png',
+          'https://einsteinfloripa.com.br/images/docentes/geography/matheus.png',
     },
   ]
 

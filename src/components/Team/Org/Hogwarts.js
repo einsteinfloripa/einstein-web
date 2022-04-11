@@ -1,17 +1,31 @@
 const member = [
     {
+        name: 'Murillo Stein',
+        role: 'Diretor',
+        course: 'Engenharia Mecânica (UFSC)',
+        imageUrl:
+            'https://einsteinfloripa.com.br/images/org/murillo.png',
+    },
+    {
         name: 'Maria Luiza Pierri',
         role: 'Assessora',
         course: 'Relações Internacionais (UFSC)',
         imageUrl:
-            'https://einsteinfloripa.com.br/images/mariaLuiza.png',
+            'https://einsteinfloripa.com.br/images/org/mariaLuiza.png',
     },
     {
         name: 'Matheus Bateli Neumann',
         role: 'Assessor',
         course: 'Engenharia Elétrica (UFSC)',
         imageUrl:
-          'https://einsteinfloripa.com.br/images/matheus.png',
+          'https://einsteinfloripa.com.br/images/org/matheus.png',
+      },
+      {
+        name: 'Fernanda Clemente Hiramoto',
+        role: 'Assessora',
+        course: 'Farmácia (UFSC)',
+        imageUrl:
+          'https://einsteinfloripa.com.br/images/org/fernanda.png',
       },
   ]
 

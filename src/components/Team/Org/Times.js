@@ -4,21 +4,28 @@ const member = [
         role: 'Diretora',
         course: 'Farmácia (UFSC)',
         imageUrl:
-            'https://einsteinfloripa.com.br/images/karim.png',
+            'https://einsteinfloripa.com.br/images/org/karim.png',
     },
     {
         name: 'Sofia Sauer',
         role: 'Assessora',
         course: 'Relações Internacionais (UFSC)',
         imageUrl:
-            'https://einsteinfloripa.com.br/images/sofia.png',
+            'https://einsteinfloripa.com.br/images/org/sofia.png',
     },
     {
         name: 'Liliane Matsuzawa',
         role: 'Assessora',
         course: 'Design (IFSC)',
         imageUrl:
-            'https://einsteinfloripa.com.br/images/lili.png',
+            'https://einsteinfloripa.com.br/images/org/lili.png',
+    },
+    {
+        name: 'Giovana Karsten Tamanini',
+        role: 'Assessora',
+        course: 'Relações Internacionais (UFSC)',
+        imageUrl:
+            'https://einsteinfloripa.com.br/images/org/giovana.png',
     },
   ]
 

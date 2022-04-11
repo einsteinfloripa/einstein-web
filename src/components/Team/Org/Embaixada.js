@@ -1,17 +1,31 @@
 const member = [
     {
-        name: 'Rafaela Dalsenter',
-        role: 'Assessora',
-        course: 'Engenharia Civil (UFSC)',
+        name: 'Karim Cruz',
+        role: 'Diretora',
+        course: 'Farmácia (UFSC)',
         imageUrl:
-            'https://einsteinfloripa.com.br/images/rafa.png',
+            'https://einsteinfloripa.com.br/images/org/karim.png',
     },
     {
-        name: 'Diana Hartmann',
+        name: 'Bruna Bastian da Costa',
         role: 'Assessora',
-        course: 'Engenharia de Alimentos (UFSC)',
+        course: 'Farmácia (UFSC)',
         imageUrl:
-            'https://einsteinfloripa.com.br/images/diana.png',
+            'https://einsteinfloripa.com.br/images/org/bruna-bastian.png',
+    },
+    {
+        name: 'Livia de Oliveira Botelho',
+        role: 'Assessora',
+        course: 'Engenharia de Materiais (UFSC)',
+        imageUrl:
+            'https://einsteinfloripa.com.br/images/org/livia.png',
+    },
+    {
+        name: 'Maitê Silveira Cardoso',
+        role: 'Assessora',
+        course: 'Relações Internacionais (UFSC)',
+        imageUrl:
+            'https://einsteinfloripa.com.br/images/org/maite.png',
     },
   ]
 

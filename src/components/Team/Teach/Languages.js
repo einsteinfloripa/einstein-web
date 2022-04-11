@@ -1,11 +1,11 @@
 const member = [
     {
-        name: 'Marina Aime',
-        subject: 'Espanhol',
-        role: 'Professora',
-        course: 'Arquitetura (UFSC)',
+        name: 'Felipe Augusto Oliveira',
+        subject: 'Inglês',
+        role: 'Professor',
+        course: 'Direito (UFSC)',
         imageUrl:
-          '/images/membros/estrangeira/marina.png',
+          'https://einsteinfloripa.com.br/images/docentes/languages/felipe.png',
     },
   ]
 

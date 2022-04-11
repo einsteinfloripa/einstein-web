@@ -1,51 +1,51 @@
 const member = [
     {
-        name: 'Maria Luiza Peres',
-        subject: 'História A',
-        role: 'Professora',
-        course: 'História (UFSC)',
-        imageUrl:
-          '/images/membros/historia/marialuiza.png',
-    },
-    {
         name: 'Leandro Antonio Batista',
         subject: 'História A',
-        role: 'Monitor',
-        course: 'História (UDESC)',
-        imageUrl:
-          '/images/membros/historia/leandro.png',
-    },
-    {
-      name: 'Pedro Luiz da Cunha',
-      subject: 'História B',
-      role: 'Professor',
-      course: 'História (UFSC)',
-      imageUrl:
-        '/images/membros/historia/pedro.png',
-    },
-    {
-        name: 'Liza Maria de Oliveira Parente',
-        subject: 'História B',
-        role: 'Monitora',
-        course: 'Relações Internacionais (UFSC)',
-        imageUrl:
-          '/images/membros/historia/liza.png',
-    },
-    {
-        name: 'Matheus Flores',
-        subject: 'História C',
         role: 'Professor',
         course: 'História (UDESC)',
         imageUrl:
-          '/images/membros/historia/matheus.png',
+          'https://einsteinfloripa.com.br/images/docentes/history/leandro.png',
+    },
+    {
+        name: 'Éric Gabriel Kundlatsch',
+        subject: 'História A',
+        role: 'Monitor',
+        course: 'História (UFSC)',
+        imageUrl:
+          'https://einsteinfloripa.com.br/images/docentes/history/eric.png',
+    },
+    {
+      name: 'Liza Maria de Oliveira Parente',
+      subject: 'História B',
+      role: 'Professora',
+      course: 'Relações Internacionais (UFSC)',
+      imageUrl:
+        'https://einsteinfloripa.com.br/images/docentes/history/liza.png',
+    },
+    {
+        name: 'Lucca de Aguiar',
+        subject: 'História B',
+        role: 'Monitor',
+        course: 'História (UFSC)',
+        imageUrl:
+          'https://einsteinfloripa.com.br/images/docentes/history/lucca.png',
     },
     {
         name: 'Acácio Garcez Carneiro',
         subject: 'História C',
-        role: 'Monitor',
+        role: 'Professor',
         course: 'História (UFSC)',
         imageUrl:
-          '/images/membros/historia/acacio.png',
+          'https://einsteinfloripa.com.br/images/docentes/history/acacio.png',
+    },
+    {
+        name: 'Marina de Oliveira Bortolatto',
+        subject: 'História C',
+        role: 'Monitora',
+        course: 'História (UFSC)',
+        imageUrl:
+          'https://einsteinfloripa.com.br/images/docentes/history/marina.png',
     },
   ]
 

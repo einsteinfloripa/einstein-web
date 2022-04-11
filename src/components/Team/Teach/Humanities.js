@@ -5,7 +5,7 @@ const member = [
         role: 'Professora',
         course: 'Ciências Sociais (UFSC)',
         imageUrl:
-          '/images/membros/humanidades/leticia.png',
+          'https://einsteinfloripa.com.br/images/docentes/humanities/leticia.png',
     },
     {
         name: 'Isaura Wayhs Ferrari',
@@ -13,7 +13,7 @@ const member = [
         role: 'Monitora',
         course: 'Sociologia (UFSC)',
         imageUrl:
-          '/images/membros/humanidades/isaura.png',
+          'https://einsteinfloripa.com.br/images/docentes/humanities/isaura.png',
     },
   ]
 

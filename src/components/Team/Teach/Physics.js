@@ -5,15 +5,15 @@ const member = [
         role: 'Professora',
         course: 'Engenharia Química (UFSC)',
         imageUrl:
-          '/images/membros/fisica/ana.png',
+          'https://einsteinfloripa.com.br/images/docentes/physics/ana.png',
     },
     {
-        name: 'Ana Clara Rinaldi',
+        name: 'Pedro Graupen Figueiredo',
         subject: 'Física A',
-        role: 'Monitora',
-        course: 'Engenharia Mecânica (UFSC)',
+        role: 'Monitor',
+        course: 'Engenharia Química (UFSC)',
         imageUrl:
-          '/images/membros/fisica/anar.png',
+          'https://einsteinfloripa.com.br/images/docentes/physics/pedro.png',
     },
     {
       name: 'Luiz Cláudio Macedo Januário',
@@ -21,31 +21,15 @@ const member = [
       role: 'Professor',
       course: 'Engenharia Mecânica (UFSC)',
       imageUrl:
-        '/images/membros/fisica/luiz.png',
+        'https://einsteinfloripa.com.br/images/docentes/physics/luiz.png',
     },
     {
-        name: 'Gabriel Viana',
+        name: 'Igor Pires Moreira Damasceno',
         subject: 'Física B',
         role: 'Monitor',
-        course: 'Física (UFSC)',
+        course: 'Engenharia de Materiais (UFSC)',
         imageUrl:
-          '/images/membros/fisica/gabriel.png',
-    },
-    {
-        name: 'Jeferson Cansi Pedroso',
-        subject: 'Física C',
-        role: 'Professor',
-        course: '(UFSC)',
-        imageUrl:
-          '/images/membros/fisica/jeferson.png',
-    },
-    {
-        name: 'Vitor Wahlheim Gagliardi',
-        subject: 'Física C',
-        role: 'Monitor',
-        course: 'Física (UFSC)',
-        imageUrl:
-          '/images/membros/fisica/vitor.png',
+          'https://einsteinfloripa.com.br/images/docentes/physics/igor.png',
     },
   ]
 

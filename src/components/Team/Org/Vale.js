@@ -4,28 +4,28 @@ const member = [
         role: 'Diretor',
         course: 'Sistemas da Informação (UFSC)',
         imageUrl:
-            'https://einsteinfloripa.com.br/images/djonys.png',
+            'https://einsteinfloripa.com.br/images/org/djonys.png',
     },
     {
         name: 'Luiza Kataoka P. de Oliveira',
         role: 'Assessora',
         course: 'Engenharia de Materiais (UFSC)',
         imageUrl:
-            'https://einsteinfloripa.com.br/images/luiza.png',
+            'https://einsteinfloripa.com.br/images/org/luiza.png',
     },
     {
-        name: 'Pedro Henrique Fernandes',
+        name: 'Gabriel Viana Boaes',
         role: 'Assessor',
-        course: 'Engenharia Eletrônica (UFSC)',
+        course: 'Física (UFSC)',
         imageUrl:
-            'https://einsteinfloripa.com.br/images/pedro.png',
+            'https://einsteinfloripa.com.br/images/org/viana.png',
     },
     {
         name: 'Eduardo Battisti Leites',
         role: 'Assessor',
         course: 'Engenharia de Produção Elétrica (UFSC)',
         imageUrl:
-            'https://einsteinfloripa.com.br/images/eduardo.png',
+            'https://einsteinfloripa.com.br/images/org/eduardo.png',
     },
   ]
 

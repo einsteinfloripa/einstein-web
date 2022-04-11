@@ -1,25 +1,32 @@
 const member = [
     {
+        name: 'Laísa Ágathe Dacroce',
+        role: 'Diretora',
+        course: 'Relações Internacionais (UFSC)',
+        imageUrl:
+            'https://einsteinfloripa.com.br/images/org/laisa.png',
+    },
+    {
         name: 'Pietro Braga Figueiredo',
         role: 'Assessor',
         course: 'Economia (UFSC)',
         imageUrl:
-            'https://einsteinfloripa.com.br/images/pietro.png',
+            'https://einsteinfloripa.com.br/images/org/pietro.png',
     },
     {
-        name: 'Laísa Ágathe Dacroce',
-        role: 'Assessora',
-        course: 'Relações Internacionais (UFSC)',
-        imageUrl:
-            'https://einsteinfloripa.com.br/images/laisa.png',
-    },
-    {
-        name: 'Gabriela Sant Anna Virtuoso',
+        name: "Gabriela Sant'Anna Virtuoso",
         role: 'Assessora',
         course: 'Direito (UFSC)',
         imageUrl:
-            'https://einsteinfloripa.com.br/images/gabriela.png',
+            'https://einsteinfloripa.com.br/images/org/gabriela.png',
     },
+    {
+        name: "Camila Zambom",
+        role: 'Assessora',
+        course: 'Relações Internacionais (UFSC)',
+        imageUrl:
+            'https://einsteinfloripa.com.br/images/org/camila.png',
+    }
   ]
 
 function Ministerio(){
