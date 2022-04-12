@@ -1,11 +1,21 @@
+import dayjs from "dayjs";
+
+const day = dayjs().locale("pt-br").format("DD/MM");
 const member = [
     {
         name: 'Felipe Augusto Oliveira',
         subject: 'Inglês',
         role: 'Professor',
         course: 'Direito (UFSC)',
-        imageUrl:
-          'https://einsteinfloripa.com.br/images/docentes/languages/felipe.png',
+        birthday: "10/04",
+    get isBirthday() {
+      return day === this.birthday;
+    },
+    get imageUrl() {
+      return this.isBirthday
+        ? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
+        : 'https://einsteinfloripa.com.br/images/docentes/languages/felipe.png';
+    },
     },
   ]
 
@@ -17,7 +27,9 @@ function Languages(){
             <li key={eisteiniano.name} className="h-96 w-72">
                 <div className="pt-5 space-y-4 bg-white rounded-md drop-shadow-xl h-96 flex flex-col items-center">
                     <div>
-                        <img className="object-cover shadow-lg rounded-lg h-64 w-64" src={eisteiniano.imageUrl} alt="" />
+                        <img className={`object-cover shadow-lg rounded-lg h-64 w-64 ${
+                    eisteiniano.isBirthday ? "" : "grayscale"
+                  }`} src={eisteiniano.imageUrl} alt="" />
                     </div>
 
                     <div className="space-y-1 xl:flex xl:items-center xl:justify-between">
