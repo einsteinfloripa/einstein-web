@@ -6,7 +6,7 @@ const member = [
     name: "Karim Cruz",
     role: "Diretora",
     course: "Farmácia (UFSC)",
-    birthday: "10/04",
+    birthday: "14/04",
     get isBirthday() {
       return day === this.birthday;
     },

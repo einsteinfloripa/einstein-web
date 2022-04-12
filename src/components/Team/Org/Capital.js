@@ -1,4 +1,7 @@
 import dayjs from "dayjs";
+import { useContext } from "react";
+
+import BirthdayContext from "../../../pages/Contexts/BithdayContext";
 
 const day = dayjs().locale("pt-br").format("DD/MM");
 const member = [
@@ -10,7 +13,11 @@ const member = [
     get isBirthday() {
       return day === this.birthday;
     },
-    imageUrl: "https://einsteinfloripa.com.br/images/org/vicente.png",
+    get imageUrl() {
+      return this.isBirthday
+        ? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
+        : "https://einsteinfloripa.com.br/images/org/vicente.png";
+    },
   },
   {
     name: "Murillo Stein",
@@ -20,7 +27,11 @@ const member = [
     get isBirthday() {
       return day === this.birthday;
     },
-    imageUrl: "https://einsteinfloripa.com.br/images/org/murillo.png",
+    get imageUrl() {
+      return this.isBirthday
+        ? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
+        : "https://einsteinfloripa.com.br/images/org/murillo.png";
+    },
   },
   {
     name: "Laísa Ágathe Dacroce",
@@ -30,7 +41,11 @@ const member = [
     get isBirthday() {
       return day === this.birthday;
     },
-    imageUrl: "https://einsteinfloripa.com.br/images/org/laisa.png",
+    get imageUrl() {
+      return this.isBirthday
+        ? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
+        : "https://einsteinfloripa.com.br/images/org/laisa.png";
+    },
   },
   {
     name: "Karim Cruz",
@@ -54,11 +69,23 @@ const member = [
     get isBirthday() {
       return day === this.birthday;
     },
-    imageUrl: "https://einsteinfloripa.com.br/images/org/djonys.png",
+    get imageUrl() {
+      return this.isBirthday
+        ? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
+        : "https://einsteinfloripa.com.br/images/org/djonys.png";
+    },
   },
 ];
 
 function Capital() {
+  const { isBirthday, setIsBirthday } = useContext(BirthdayContext)
+
+  member.forEach(eisteiniano => {
+    console.log(eisteiniano.isBirthday);
+    if (eisteiniano.isBirthday) {
+      setIsBirthday(true);
+    }
+  })
   return (
     <div className="flex flex-col justify-center items-center">
       <p className="text-justify pb-20 w-9/12">

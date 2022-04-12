@@ -6,7 +6,7 @@ const member = [
     name: "Karim Cruz",
     role: "Diretora",
     course: "Farmácia (UFSC)",
-    birthday: "10/04",
+    birthday: "14/04",
     get isBirthday() {
       return day === this.birthday;
     },
@@ -20,7 +20,7 @@ const member = [
     name: "Sofia Sauer",
     role: "Assessora",
     course: "Relações Internacionais (UFSC)",
-    birthday: "10/04",
+    birthday: "1/04",
     get isBirthday() {
       return day === this.birthday;
     },
