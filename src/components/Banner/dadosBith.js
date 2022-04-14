@@ -60,6 +60,15 @@ const member = [
 		},
 	},
 	{
+		name: "Carine Redivo Bonchristiani",
+		role: "Assessora",
+		course: "Psicólogia (UFSC)",
+		birthday: "26/12",
+		get isBirthday() {
+			return day === this.birthday;
+		},
+	},
+	{
 		name: "Bruna Bastian da Costa",
 		role: "Assessora",
 		course: "Farmácia (UFSC)",

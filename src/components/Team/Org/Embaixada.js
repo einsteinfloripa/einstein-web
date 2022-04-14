@@ -17,6 +17,20 @@ const member = [
 		},
 	},
 	{
+		name: "Carine Redivo Bonchristiani",
+		role: "Assessora",
+		course: "Psicólogia (UFSC)",
+		birthday: "26/12",
+		get isBirthday() {
+			return day === this.birthday;
+		},
+		get imageUrl() {
+			return this.isBirthday
+				? "https://einsteinfloripa.com.br/images/aniversarios/carine.png"
+				: "https://einsteinfloripa.com.br/images/org/carine.png";
+		},
+	},
+	{
 		name: "Bruna Bastian da Costa",
 		role: "Assessora",
 		course: "Farmácia (UFSC)",
