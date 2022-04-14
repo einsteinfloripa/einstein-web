@@ -5,7 +5,7 @@
 h1.text {
 	position: absolute;
 	text-align: center;
-	width: 100vw;
+	width: 100%;
 	left: 50%;
 	top: 21%;
 	transform: translate(-50%, -50%);

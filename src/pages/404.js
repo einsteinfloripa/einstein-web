@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 function Custom404() {
   return (
-    <main className="flex-grow mx-auto max-w-7xl w-full flex flex-col px-4 sm:px-6 lg:px-8">
+    <main className="flex-grow mx-auto max-w-7xl w-full flex flex-col px-4 sm:px-6 lg:px-8 overflow-x-hidden">
       <div className="flex-shrink-0 my-auto py-16 sm:py-32">
         <p className="font-rubik text-sm font-semibold text-blue-500 uppercase tracking-wide">
           Erro 404

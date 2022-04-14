@@ -1,14 +1,14 @@
 import Head from "next/head";
 import { useContext } from "react";
 
-import BirthdayContext from "./Contexts/BithdayContext";
+import BirthdayContext from "../components/Contexts/BithdayContext";
 import HomeBanner from "../components/Home/HomeBanner";
 import HomeText from "../components/Home/HomeText";
 import HomeNumbers from "../components/Home/HomeNumbers";
 import HomeDonate from "../components/Home/HomeDonate";
 import HomePartners from "../components/Home/HomePartners";
-import BannerBithday from "./Birthday/Banner";
-import member from "./Birthday/Banner/dadosBith";
+import BannerBithday from '../components/Banner'
+import member from "../components/Banner/dadosBith";
 
 export default function Home() {
 	const { isBirthday, setIsBirthday, setBirthPerson } = useContext(BirthdayContext);
@@ -21,7 +21,7 @@ export default function Home() {
 		}
 	});
 	return (
-		<>
+		<div className="overflow-x-hidden">
 			<Head>
 				<title>Einstein Floripa</title>
 			</Head>
@@ -31,6 +31,6 @@ export default function Home() {
 			<HomeNumbers />
 			<HomeDonate />
 			<HomePartners />
-		</>
+		</div>
 	);
 }

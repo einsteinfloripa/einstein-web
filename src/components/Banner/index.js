@@ -1,6 +1,6 @@
 import { useContext, useLayoutEffect } from "react";
 
-import BirthdayContext from "../../../pages/Contexts/BithdayContext";
+import BirthdayContext from "../Contexts/BithdayContext";
 import fireworks from "./fireworks";
 
 function BannerBithday() {

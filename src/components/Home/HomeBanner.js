@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function HomeBanner() {
 	return (
-		<div className='relative'>
+		<div className='relative overflow-x-hidden'>
 			<div className='max-w-7xl mx-auto sm:px-6 lg:px-8'>
 				<div className='absolute inset-0'>
 					<div className='absolute inset-0 bg-home-pattern' />

@@ -1,7 +1,7 @@
 import dayjs from "dayjs";
 import { useContext } from "react";
 
-import BirthdayContext from "../../../pages/Contexts/BithdayContext";
+import BirthdayContext from "../../Contexts/BithdayContext";
 
 const day = dayjs().locale("pt-br").format("DD/MM");
 const member = [
@@ -103,19 +103,21 @@ function Capital() {
       </p>
       <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
         {member.map((eisteiniano, index) => (
-          <li key={eisteiniano.name} className="h-96 w-72">
+          <li key={eisteiniano.name} className="h-96 w-72 relative">
             {
-              /*eisteiniano.isBirthday*/ false ? (
-                <div className="cake">
-                  <div className="candle">
-                    <div className="fire"></div>
-                    <div className="fire"></div>
-                    <div className="fire"></div>
-                    <div className="fire"></div>
-                    <div className="fire"></div>
+              eisteiniano.isBirthday ? (
+                <div className="conteiner-cake">
+                  <div className="cake">
+                    <div className="candle">
+                      <div className="fire"></div>
+                      <div className="fire"></div>
+                      <div className="fire"></div>
+                      <div className="fire"></div>
+                      <div className="fire"></div>
+                    </div>
+                    <div className="frosting"></div>
+                    <div className="bizcocho"></div>
                   </div>
-                  <div className="frosting"></div>
-                  <div className="bizcocho"></div>
                 </div>
               ) : (
                 <></>
