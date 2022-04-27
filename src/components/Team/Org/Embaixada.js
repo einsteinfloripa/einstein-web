@@ -44,34 +44,20 @@ const member = [
 				: "https://einsteinfloripa.com.br/images/org/bruna-bastian.png";
 		},
 	},
-	{
-		name: "Livia de Oliveira Botelho",
-		role: "Assessora",
-		course: "Engenharia de Materiais (UFSC)",
-		birthday: "06/04",
-		get isBirthday() {
-			return day === this.birthday;
-		},
-		get imageUrl() {
-			return this.isBirthday
-				? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
-				: "https://einsteinfloripa.com.br/images/org/livia.png";
-		},
-	},
-	{
-		name: "Maitê Silveira Cardoso",
-		role: "Assessora",
-		course: "Relações Internacionais (UFSC)",
-		birthday: "06/04",
-		get isBirthday() {
-			return day === this.birthday;
-		},
-		get imageUrl() {
-			return this.isBirthday
-				? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
-				: "https://einsteinfloripa.com.br/images/org/maite.png";
-		},
-	},
+	// {
+	// 	name: "Maitê Silveira Cardoso",
+	// 	role: "Assessora",
+	// 	course: "Relações Internacionais (UFSC)",
+	// 	birthday: "06/04",
+	// 	get isBirthday() {
+	// 		return day === this.birthday;
+	// 	},
+	// 	get imageUrl() {
+	// 		return this.isBirthday
+	// 			? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
+	// 			: "https://einsteinfloripa.com.br/images/org/maite.png";
+	// 	},
+	// },
 ];
 
 function Embaixada() {

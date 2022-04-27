@@ -7,7 +7,7 @@ const member = [
 		name: "Vicente Cassol Silva ",
 		role: "Presidente",
 		course: "Engenharia de Produção Mecânica (UFSC)",
-		birthday: "06/04",
+		birthday: "28/04",
 		get isBirthday() {
 			return day === this.birthday;
 		},
