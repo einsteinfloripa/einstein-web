@@ -17,20 +17,6 @@ const member = [
 		},
 	},
 	{
-		name: "Luiza Kataoka P. de Oliveira",
-		role: "Assessora",
-		course: "Engenharia de Materiais (UFSC)",
-		birthday: "10/04",
-		get isBirthday() {
-			return day === this.birthday;
-		},
-		get imageUrl() {
-			return this.isBirthday
-				? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
-				: "https://einsteinfloripa.com.br/images/org/luiza.png";
-		},
-	},
-	{
 		name: "Gabriel Viana Boaes",
 		role: "Assessor",
 		course: "Física (UFSC)",
