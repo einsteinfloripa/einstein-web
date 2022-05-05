@@ -33,9 +33,9 @@ function PSStudents () {
                     <span className="block text-white lg:text-4xl text-2xl">
                       Conquiste com o <span className="text-blue">Einstein Floripa!</span>
                     </span>
-                    <span className="block text-white lg:text-4xl text-2xl mt-10">
+                    {/*<span className="block text-white lg:text-4xl text-2xl mt-10">
                       Nossas Inscrições estão abertas!! 
-                    </span>  
+  </span> */} 
                     <span className="block text-white lg:text-4xl text-2xl mt-10">
                       O processo seletivo do Projeto Einstein Floripa destina-se para alunos de baixa renda, que estão no último ano ou já finalizaram o Ensino Médio e procuram ingressar em um Ensino Superior de qualidade. 
                     </span>
