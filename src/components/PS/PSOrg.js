@@ -14,7 +14,7 @@ function PSTeach() {
             </h1>
             <div className="mt-6 self-center flex justify-center">
               <a
-                href="https://app.pipefy.com/public/form/KLSenPrv" target="Starfall"
+                href="https://app.pipefy.com/public/form/n2VYv_KH" target="Starfall"
                 className="text-center text-5xl font-bold inline-flex bg-blue-900 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-white hover:bg-blue-50 hover:text-blue-900"
               >
                 Seja um inscrito
@@ -30,9 +30,9 @@ function PSTeach() {
           </div>
           <div className="relative px-10 py-16 sm:px-6 sm:py-16 lg:py-20 lg:px-8">
             <h2 className="text-justify font-semibold tracking-tight">
-              {/*<span className="block text-blue lg:text-4xl text-2xl">
+              <span className="block text-blue lg:text-4xl text-2xl">
                       O Einstein Floripa está com vagas abertas para organizadores!
-  </span>*/}
+  </span>
               <span className="block text-white lg:text-4xl text-2xl mt-10 font-medium">
                 Nosso cursinho pré-vestibular é construído por <strong>estudantes de graduação</strong> que atuam de maneira voluntária dentro do projeto. Somos docentes e organizadores comprometidos com a transformação do cenário do Ensino Superior no Brasil, voltados para a ampliação do acesso de todos à educação pública e de qualidade!
                     </span>
@@ -69,22 +69,22 @@ function PSTeach() {
                 Para qualquer dúvida entre em contato com a gente, através das nossas redes sociais: <span className="text-blue">@einsteinfloripa</span> ou <span className="text-blue">ps.einsteinfloripa@gmail.com</span>
               </span>
               <span className="block text-white lg:text-4xl text-2xl mt-10">
-                No momento não estamos com vagas abertas para organizadores.
+                Boa sorte!
                     </span>
             </h2>
-            {/*<div className="relative px-4  sm:px-6 lg:px-8 pb-10">
+            <div className="relative px-4  sm:px-6 lg:px-8 pb-10">
                   <h1 className="text-blue lg:text-4xl text-2xl font-semibold tracking-tight">Links úteis</h1>
                   <div className="mt-6 flex justify-start flex-col">
                     <div>
                       <a
-                        href="https://app.pipefy.com/public/form/KLSenPrv" target="Starfall"
+                        href="https://app.pipefy.com/public/form/n2VYv_KH" target="Starfall"
                         className="text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white"
                       >
                         Inscrição para o processo seletivo de organizadores de 2022
                       </a>
                     </div>                  
                   </div>
-</div>*/}
+                </div>
           </div>
         </div>
       </div>

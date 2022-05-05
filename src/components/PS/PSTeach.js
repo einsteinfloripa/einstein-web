@@ -14,7 +14,7 @@ function PSTeach() {
             </h1>
             <div className="mt-6 self-center flex justify-center">
               <a
-                href="https://app.pipefy.com/public/form/BnUIAdm4" target="Starfall"
+                href="https://app.pipefy.com/public/form/N6j-yVmv" target="Starfall"
                 className="text-center text-5xl font-bold inline-flex bg-blue-900 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-white hover:bg-blue-50 hover:text-blue-900"
               >
                 Seja um inscrito
@@ -74,33 +74,16 @@ function PSTeach() {
             </h2>
             <div className="relative px-4  sm:px-6 lg:px-8 pb-10">
               <h1 className="text-blue lg:text-4xl text-2xl font-semibold tracking-tight">Links úteis</h1>
-              <div className="mt-6 flex justify-start flex-col">
-                <div className="mt-8">
-                  <a
-                    href="https://docs.google.com/document/d/1QAHZZ3zbbQ37BJxqWUb0hhtNdPKJiKf-/edit" target="Starfall"
-                    className="text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white"
-                  >
-                    Edital do processo  de docentes de 2022.C (Atual)
+                  <div className="mt-6 flex justify-start flex-col">
+                    <div>
+                      <a
+                        href="https://app.pipefy.com/public/form/N6j-yVmv" target="Starfall"
+                        className="text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white"
+                      >
+                        Inscrição para o processo seletivo de docentes de 2022
                       </a>
-                </div>
-
-                <div className="mt-8">
-                  <a
-                    href="https://drive.google.com/file/d/1pjcqqHwXiD2uL1gCYQyiHDHXXj-j0MbX/view?usp=sharing" target="Starfall"
-                    className="text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white"
-                  >
-                    Edital do processo  de docentes de 2022.B (Fora de uso)
-                      </a>
-                </div>
-                <div className="mt-8">
-                  <a
-                    href="https://drive.google.com/file/d/1R5QjqGhsGzz6rrhanwbBGoyMOfeeSEUv/view?usp=sharing" target="Starfall"
-                    className="text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white"
-                  >
-                    Edital do processo  de docentes de 2022.A (Fora de uso)
-                      </a>
-                </div>
-              </div>
+                    </div>                  
+                  </div>
             </div>
           </div>
         </div>
