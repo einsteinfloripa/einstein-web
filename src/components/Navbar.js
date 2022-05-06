@@ -3,6 +3,7 @@ import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
 import Dropdown from "./Dropdown";
+import DropdownMobile from "./DropdownMobile"
 
 const navigation = {
 	main: [
@@ -83,7 +84,7 @@ function Navbar() {
 					</div>
 
 					<Disclosure.Panel className='sm:hidden'>
-						<div className='pt-2 pb-4 space-y-1'>
+						<div className='pt-2 pb-4 space-y-1 flex flex-col items-end'>
 							{/* Current: "bg-purple-50 border-purple-500 text-purple-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
 							<Link href='/'>
 								<a className='border-transparent text-white hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium text-right'>
@@ -115,6 +116,7 @@ function Navbar() {
 									Apoie
 								</a>
 							</Link>
+              <DropdownMobile />
 						</div>
 					</Disclosure.Panel>
 				</>
