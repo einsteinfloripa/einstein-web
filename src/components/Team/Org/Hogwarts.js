@@ -12,7 +12,7 @@ const member = [
 		},
 		get imageUrl() {
 			return this.isBirthday
-				? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
+				? "https://einsteinfloripa.com.br/images/aniversarios/murillo.png"
 				: "https://einsteinfloripa.com.br/images/org/murillo.png";
 		},
 	},
