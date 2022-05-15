@@ -23,13 +23,13 @@ const member = [
     name: "Murillo Stein",
     role: "Diretor de Projetos/Hogwarts",
     course: "Engenharia Mecânica (UFSC)",
-    birthday: "07/04",
+    birthday: "15/05",
     get isBirthday() {
       return day === this.birthday;
     },
     get imageUrl() {
       return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
+        ? "https://einsteinfloripa.com.br/images/aniversarios/murillo.png"
         : "https://einsteinfloripa.com.br/images/org/murillo.png";
     },
   },
