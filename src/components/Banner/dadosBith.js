@@ -155,7 +155,7 @@ const member = [
 		name: "Gabriel Viana Boaes",
 		role: "Assessor",
 		course: "Física (UFSC)",
-		birthday: "10/04",
+		birthday: "16/05",
 		get isBirthday() {
 			return day === this.birthday;
 		},
