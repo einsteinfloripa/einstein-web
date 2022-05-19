@@ -22,7 +22,7 @@ function HomeBanner() {
 							De Aluno para Aluno
 						</span>
 						<span className='block text-blue-900 lg:text-5xl text-2xl'>
-							transformando a história
+							transformando a história..
 						</span>
 						<br />
 					</h1>
