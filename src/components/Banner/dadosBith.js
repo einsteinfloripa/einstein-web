@@ -155,7 +155,7 @@ const member = [
 		name: "Gabriel Viana Boaes",
 		role: "Assessor",
 		course: "Física (UFSC)",
-		birthday: "10/04",
+		birthday: "16/05",
 		get isBirthday() {
 			return day === this.birthday;
 		},
@@ -238,10 +238,21 @@ const member = [
 		name: "Fernanda Clemente Hiramoto",
 		role: "Assessora",
 		course: "Farmácia (UFSC)",
-		birthday: "10/04",
+		birthday: "19/04",
+		get isBirthday() {
+			return day === this.birthday;
+		},
+	},
+	{
+		name: "Isabelli Sivalli",
+		subject: "Redação",
+		role: "Monitora",
+		course: "Relações Internacionais (UFSC)",
+		birthday: "19/05",
 		get isBirthday() {
 			return day === this.birthday;
 		},
 	},
 ];
 export default member;
+// 

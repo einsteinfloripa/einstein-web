@@ -6,9 +6,7 @@ h1.text {
 	position: absolute;
 	text-align: center;
 	width: 100%;
-	left: 50%;
-	top: 21%;
-	transform: translate(-50%, -50%);
+	top: 3em;
 	color: #fff;
 	font-family: "Source Sans Pro";
 	font-size: 2em;

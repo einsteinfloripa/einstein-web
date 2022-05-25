@@ -82,13 +82,13 @@ const member = [
 		subject: "Redação",
 		role: "Monitora",
 		course: "Relações Internacionais (UFSC)",
-		birthday: "10/04",
+		birthday: "19/05",
 		get isBirthday() {
 			return day === this.birthday;
 		},
 		get imageUrl() {
 			return this.isBirthday
-				? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
+				? "https://einsteinfloripa.com.br/images/aniversarios/isabelli.png"
 				: "https://einsteinfloripa.com.br/images/docentes/portugues/isabelli.png";
 		},
 	},

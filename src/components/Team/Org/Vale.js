@@ -20,13 +20,13 @@ const member = [
 		name: "Gabriel Viana Boaes",
 		role: "Assessor",
 		course: "Física (UFSC)",
-		birthday: "10/04",
+		birthday: "16/05",
 		get isBirthday() {
 			return day === this.birthday;
 		},
 		get imageUrl() {
 			return this.isBirthday
-				? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
+				? "https://einsteinfloripa.com.br/images/aniversarios/Viana.jpeg"
 				: "https://einsteinfloripa.com.br/images/org/viana.png";
 		},
 	},
