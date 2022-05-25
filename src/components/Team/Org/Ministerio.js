@@ -3,20 +3,6 @@ import dayjs from "dayjs";
 const day = dayjs().locale("pt-br").format("DD/MM");
 const member = [
   {
-    name: "Laísa Ágathe Dacroce",
-    role: "Diretora",
-    course: "Relações Internacionais (UFSC)",
-    birthday: "10/04",
-    get isBirthday() {
-      return day === this.birthday;
-    },
-    get imageUrl() {
-      return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
-        : "https://einsteinfloripa.com.br/images/org/laisa.png";
-    },
-  },
-  {
     name: "Pietro Braga Figueiredo",
     role: "Assessor",
     course: "Economia (UFSC)",

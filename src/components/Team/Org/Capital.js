@@ -7,7 +7,7 @@ const day = dayjs().locale("pt-br").format("DD/MM");
 const member = [
   {
     name: "Vicente Cassol Silva ",
-    role: "Presidente",
+    role: "Presidente/Diretor do Ministério",
     course: "Engenharia de Produção Mecânica (UFSC)",
     birthday: "28/04",
     get isBirthday() {
@@ -34,22 +34,8 @@ const member = [
     },
   },
   {
-    name: "Laísa Ágathe Dacroce",
-    role: "Diretora",
-    course: "Relações Internacionais (UFSC)",
-    birthday: "11/04",
-    get isBirthday() {
-      return day === this.birthday;
-    },
-    get imageUrl() {
-      return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
-        : "https://einsteinfloripa.com.br/images/org/laisa.png";
-    },
-  },
-  {
     name: "Karim Cruz",
-    role: "Diretora de Times Square/Embaixada",
+    role: "Diretora da Times Square/Embaixada",
     course: "Farmácia (UFSC)",
     birthday: "14/04",
     get isBirthday() {
