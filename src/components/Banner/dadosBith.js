@@ -253,6 +253,16 @@ const member = [
 			return day === this.birthday;
 		},
 	},
+	{
+	  name: "Acácio Garcez Carneiro",
+	  subject: "História C",
+	  role: "Professor",
+	  course: "História (UFSC)",
+	  birthday: "04/04",
+	  get isBirthday() {
+		return day === this.birthday;
+	  },
+	},
 ];
 export default member;
 // 
