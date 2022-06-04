@@ -67,7 +67,7 @@ const member = [
     subject: "História C",
     role: "Professor",
     course: "História (UFSC)",
-    birthday: "04/06",
+    birthday: "03/06",
     get isBirthday() {
       return day === this.birthday;
     },
