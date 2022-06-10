@@ -51,13 +51,13 @@ const member = [
     name: "Djonys Dalmy de Oliveira",
     role: "Diretor do Vale do Silício",
     course: "Sistemas da Informação (UFSC)",
-    birthday: "06/04",
+    birthday: "10/06",
     get isBirthday() {
       return day === this.birthday;
     },
     get imageUrl() {
       return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
+        ? "https://einsteinfloripa.com.br/images/aniversarios/djonys.png"
         : "https://einsteinfloripa.com.br/images/org/djonys.png";
     },
   },

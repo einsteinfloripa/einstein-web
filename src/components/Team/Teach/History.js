@@ -67,13 +67,13 @@ const member = [
     subject: "História C",
     role: "Professor",
     course: "História (UFSC)",
-    birthday: "03/06",
+    birthday: "10/06",
     get isBirthday() {
       return day === this.birthday;
     },
     get imageUrl() {
       return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/acacio.JPG" // Foto Aniversario
+        ? "https://einsteinfloripa.com.br/images/aniversarios/acacio.png" // Foto Aniversario
         : "https://einsteinfloripa.com.br/images/docentes/history/acacio.png"; // Foto Normal
     },  },
   {
