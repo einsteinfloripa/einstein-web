@@ -6,36 +6,8 @@ import BirthdayContext from "../../Contexts/BithdayContext";
 const day = dayjs().locale("pt-br").format("DD/MM");
 const member = [
   {
-    name: "Vicente Cassol Silva ",
-    role: "Presidente/Diretor do Ministério",
-    course: "Engenharia de Produção Mecânica (UFSC)",
-    birthday: "28/04",
-    get isBirthday() {
-      return day === this.birthday;
-    },
-    get imageUrl() {
-      return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/vicente.png"
-        : "https://einsteinfloripa.com.br/images/org/vicente.png";
-    },
-  },
-  {
-    name: "Murillo Stein",
-    role: "Diretor de Projetos/Hogwarts",
-    course: "Engenharia Mecânica (UFSC)",
-    birthday: "15/05",
-    get isBirthday() {
-      return day === this.birthday;
-    },
-    get imageUrl() {
-      return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/murillo.png"
-        : "https://einsteinfloripa.com.br/images/org/murillo.png";
-    },
-  },
-  {
     name: "Karim Cruz",
-    role: "Diretora da Times Square/Embaixada",
+    role: "Presidente",
     course: "Farmácia (UFSC)",
     birthday: "14/04",
     get isBirthday() {
@@ -48,30 +20,86 @@ const member = [
     },
   },
   {
-    name: "Djonys Dalmy de Oliveira",
-    role: "Diretor do Vale do Silício",
-    course: "Sistemas da Informação (UFSC)",
+    name: "Murillo Stein",
+    role: "Diretor de Projetos",
+    course: "Engenharia Mecânica (UFSC)",
+    birthday: "15/05",
+    get isBirthday() {
+      return day === this.birthday;
+    },
+    get imageUrl() {
+      return this.isBirthday
+        ? "https://einsteinfloripa.com.br/images/aniversarios/murillo.png"
+        : "https://einsteinfloripa.com.br/images/org/murillo.png";
+    },
+  },
+  {
+    name: "Vicente Cassol Silva ",
+    role: "Diretor do Ministério",
+    course: "Engenharia de Produção Mecânica (UFSC)",
+    birthday: "28/04",
+    get isBirthday() {
+      return day === this.birthday;
+    },
+    get imageUrl() {
+      return this.isBirthday
+        ? "https://einsteinfloripa.com.br/images/aniversarios/vicente.png"
+        : "https://einsteinfloripa.com.br/images/org/vicente.png";
+    },
+  },
+  {
+    name: "Matheus Bateli Neumann",
+    role: "Diretor de Hogwarts",
+    course: "Engenharia Elétrica (UFSC)",
+    birthday: "10/04",
+    get isBirthday() {
+      return day === this.birthday;
+    },
+    get imageUrl() {
+      return this.isBirthday
+        ? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
+        : "https://einsteinfloripa.com.br/images/org/matheus.png";
+    },
+  },
+  {
+    name: "Carine Redivo Bonchristiani",
+    role: "Diretora da Embaixada",
+    course: "Psicólogia (UFSC)",
+    birthday: "26/12",
+    get isBirthday() {
+      return day === this.birthday;
+    },
+    get imageUrl() {
+      return this.isBirthday
+        ? "https://einsteinfloripa.com.br/images/aniversarios/carine.png"
+        : "https://einsteinfloripa.com.br/images/org/carine.png";
+    },
+  },
+  {
+    name: "Gabriel Viana Boaes",
+    role: "Gestor do Vale do Silício",
+    course: "Física (UFSC)",
     birthday: "10/06",
     get isBirthday() {
       return day === this.birthday;
     },
     get imageUrl() {
       return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/djonys.png"
-        : "https://einsteinfloripa.com.br/images/org/djonys.png";
+        ? "https://einsteinfloripa.com.br/images/aniversarios/viana.png"
+        : "https://einsteinfloripa.com.br/images/org/viana.png";
     },
   },
 ];
 
 function Capital() {
-  const { isBirthday, setIsBirthday } = useContext(BirthdayContext)
+  const { isBirthday, setIsBirthday } = useContext(BirthdayContext);
 
-  member.forEach(eisteiniano => {
+  member.forEach((eisteiniano) => {
     console.log(eisteiniano.isBirthday);
     if (eisteiniano.isBirthday) {
       setIsBirthday(true);
     }
-  })
+  });
   return (
     <div className="flex flex-col justify-center items-center">
       <p className="text-justify pb-20 w-9/12">
@@ -90,25 +118,23 @@ function Capital() {
       <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
         {member.map((eisteiniano, index) => (
           <li key={eisteiniano.name} className="h-96 w-72 relative">
-            {
-              eisteiniano.isBirthday ? (
-                <div className="conteiner-cake">
-                  <div className="cake">
-                    <div className="candle">
-                      <div className="fire"></div>
-                      <div className="fire"></div>
-                      <div className="fire"></div>
-                      <div className="fire"></div>
-                      <div className="fire"></div>
-                    </div>
-                    <div className="frosting"></div>
-                    <div className="bizcocho"></div>
+            {eisteiniano.isBirthday ? (
+              <div className="conteiner-cake">
+                <div className="cake">
+                  <div className="candle">
+                    <div className="fire"></div>
+                    <div className="fire"></div>
+                    <div className="fire"></div>
+                    <div className="fire"></div>
+                    <div className="fire"></div>
                   </div>
+                  <div className="frosting"></div>
+                  <div className="bizcocho"></div>
                 </div>
-              ) : (
-                <></>
-              )
-            }
+              </div>
+            ) : (
+              <></>
+            )}
 
             <div className="pt-5 space-y-4 bg-white rounded-md drop-shadow-xl h-96 flex flex-col items-center ">
               <div>
