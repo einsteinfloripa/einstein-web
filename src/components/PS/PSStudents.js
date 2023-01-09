@@ -35,9 +35,9 @@ function PSStudents() {
                 Conquiste com o{" "}
                 <span className='text-blue'>Einstein Floripa!</span>
               </span>
-              {/*<span className="block text-white lg:text-4xl text-2xl mt-10">
+              <span className="block text-white lg:text-4xl text-2xl mt-10">
                       Nossas Inscrições estão abertas!! 
-  </span> */}
+              </span>
               <span className='block text-white lg:text-4xl text-2xl mt-10'>
                 O processo seletivo do Projeto Einstein Floripa destina-se para
                 alunos de baixa renda, que estão no último ano ou já finalizaram
@@ -119,43 +119,18 @@ function PSStudents() {
             <div className='mt-6 flex justify-start flex-col'>
               <div className='mt-8'>
                 <a
-                  href='https://drive.google.com/file/d/1tw16VXv8BAF6rkTrcO-ql_9dTKQaugQ2/view?usp=sharing'
+                  href='https://drive.google.com/file/d/18mHlvRSgH2Pei39UJo8u83TF8-KJDJqF/view?usp=sharing'
                   target='Starfall'
                   className='text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white'>
-                  Horários da entrevista
+                  Manual do Candidato
                 </a>
               </div>
               <div className='mt-8'>
                 <a
-                  href='https://drive.google.com/file/d/1jNz0MVV6dLwm8DtHupULmXdIWc_16XjP/view?usp=sharing'
+                  href='https://drive.google.com/file/d/1PRVKS_IDLH3hk1NSw0k3QStJynvb0fdH/view?usp=sharing'
                   target='Starfall'
                   className='text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white'>
-                  Gabarito Oficial Prova 2022
-                </a>
-              </div>
-              <div className='mt-8'>
-                <a
-                  href='https://drive.google.com/file/d/1qt-qRqx_nchrWti7cZVprSRd739yT-47/view?usp=sharing'
-                  target='Starfall'
-                  className='text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white'>
-                  Lista dos aprovados para a entrevista
-                </a>
-              </div>
-              <div className='mt-8'>
-                <a
-                  href='https://drive.google.com/file/d/1kPoSHXHgbf3j7BlBmYrHcKgGai5ClJ_Z/view?usp=sharing'
-                  target='Starfall'
-                  className='text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white'>
-                  Edital Retificado do processo seletivo de alunos de 2022
-                  [apenas alteração das datas](vigente)
-                </a>
-              </div>
-              <div className='mt-8'>
-                <a
-                  href='https://drive.google.com/file/d/1CKlD8bYgHVxL3NLPG3rZNeAxzd4TQ19i/view?usp=sharing'
-                  target='Starfall'
-                  className='text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white'>
-                  Edital do processo seletivo de alunos de 2022 (fora de uso)
+                  Edital do processo seletivo de alunos de 2023
                 </a>
               </div>
             </div>
