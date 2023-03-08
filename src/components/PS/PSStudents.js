@@ -1,5 +1,11 @@
+import { useRouter } from "next/router";
+
+import { handlePipefyForm } from "../../utils/handlePipefyForm";
+
 function PSStudents() {
-  const linkAccessPS = "https://app.pipefy.com/public/form/-YzkyVtg";
+  const { pathname } = useRouter();
+  const linkAccessPS = handlePipefyForm(pathname);
+
   return (
     <>
       <div className='relative'>
@@ -15,10 +21,11 @@ function PSStudents() {
             </h1>
             <div className='mt-6 self-center flex justify-center'>
               <a
-                href={linkAccessPS}
+                href={!!linkAccessPS && linkAccessPS}
                 target='Starfall'
-                className='text-center text-5xl font-bold inline-flex bg-blue-900 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-white hover:bg-blue-50 hover:text-blue-900'>
-                Seja um inscrito
+                className='text-center text-5xl font-bold inline-flex bg-blue-900 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-white hover:bg-blue-50 hover:text-blue-900'
+              >
+                {!!linkAccessPS ? "Seja um inscrito" : "Em breve"}
               </a>
             </div>
           </div>
@@ -35,8 +42,8 @@ function PSStudents() {
                 Conquiste com o{" "}
                 <span className='text-blue'>Einstein Floripa!</span>
               </span>
-              <span className="block text-white lg:text-4xl text-2xl mt-10">
-                      Nossas Inscrições estão abertas!! 
+              <span className='block text-white lg:text-4xl text-2xl mt-10'>
+                Nossas Inscrições estão abertas!!
               </span>
               <span className='block text-white lg:text-4xl text-2xl mt-10'>
                 O processo seletivo do Projeto Einstein Floripa destina-se para
@@ -121,7 +128,8 @@ function PSStudents() {
                 <a
                   href='https://drive.google.com/file/d/18mHlvRSgH2Pei39UJo8u83TF8-KJDJqF/view?usp=sharing'
                   target='Starfall'
-                  className='text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white'>
+                  className='text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white'
+                >
                   Manual do Candidato
                 </a>
               </div>
@@ -129,7 +137,8 @@ function PSStudents() {
                 <a
                   href='https://drive.google.com/file/d/1PRVKS_IDLH3hk1NSw0k3QStJynvb0fdH/view?usp=sharing'
                   target='Starfall'
-                  className='text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white'>
+                  className='text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white'
+                >
                   Edital do processo seletivo de alunos de 2023
                 </a>
               </div>

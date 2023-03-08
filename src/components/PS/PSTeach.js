@@ -1,5 +1,10 @@
+import { useRouter } from "next/router";
+
+import { handlePipefyForm } from "../../utils/handlePipefyForm";
+
 function PSTeach() {
-  const linkAccessPS = "https://app.pipefy.com/public/form/s-Fr_0OE";
+  const { pathname } = useRouter();
+  const linkAccessPS = handlePipefyForm(pathname);
   return (
     <>
       <div className='relative'>
@@ -15,10 +20,11 @@ function PSTeach() {
             </h1>
             <div className='mt-6 self-center flex justify-center'>
               <a
-                href={linkAccessPS}
+                href={!!linkAccessPS && linkAccessPS}
                 target='Starfall'
-                className='text-center text-5xl font-bold inline-flex bg-blue-900 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-white hover:bg-blue-50 hover:text-blue-900'>
-                Seja um inscrito
+                className='text-center text-5xl font-bold inline-flex bg-blue-900 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-white hover:bg-blue-50 hover:text-blue-900'
+              >
+                {!!linkAccessPS ? "Seja um inscrito" : "Em breve"}
               </a>
             </div>
           </div>
@@ -105,7 +111,8 @@ function PSTeach() {
                   <a
                     href='https://app.pipefy.com/public/form/N6j-yVmv'
                     target='Starfall'
-                    className='text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white'>
+                    className='text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white'
+                  >
                     Inscrição para o processo seletivo de docentes de 2022
                   </a>
                 </div>
