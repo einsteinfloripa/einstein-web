@@ -4,6 +4,8 @@ import { handlePipefyForm } from "../../utils/handlePipefyForm";
 
 function PSStudents() {
   const { pathname } = useRouter();
+  const linkEditalPS =
+    "https://drive.google.com/file/d/1PRVKS_IDLH3hk1NSw0k3QStJynvb0fdH/view?usp=sharing";
   const linkAccessPS = handlePipefyForm(pathname);
 
   return (
@@ -104,15 +106,21 @@ function PSStudents() {
                 Bem-vindo ao Einstein Floripa!! Conquiste com a gente!!
               </span>
               <span className='block text-white lg:text-4xl text-2xl mt-10'>
-                Para qualquer dúvida entrem em contato com a gente, através das
-                nossas redes sociais: @einsteinfloripa ou
-                einsteinfloripa.ps@gmail.com
-              </span>
-              <span className='block text-white lg:text-4xl text-2xl mt-10'>
-                Além disso, este ano estamos disponibilizando o Manual do
-                Candidato, um documento no qual explicamos o Processo Seletivo
-                com uma linguagem descontraída e tiramos as principais dúvidas
-                que podem surgir.
+                Para qualquer dúvida entre em contato com a gente, através das
+                nossas redes sociais:{" "}
+                <a
+                  href='https://www.instagram.com/einsteinfloripa/'
+                  className='text-blue'
+                >
+                  @einsteinfloripa
+                </a>{" "}
+                ou{" "}
+                <a
+                  href='mailto:ps.einsteinfloripa@gmail.com'
+                  className='text-blue'
+                >
+                  ps.einsteinfloripa@gmail.com
+                </a>
               </span>
               <span className='block text-white lg:text-4xl text-2xl mt-10'>
                 Boa sorte!
@@ -135,7 +143,7 @@ function PSStudents() {
               </div>
               <div className='mt-8'>
                 <a
-                  href='https://drive.google.com/file/d/1PRVKS_IDLH3hk1NSw0k3QStJynvb0fdH/view?usp=sharing'
+                  href={linkEditalPS}
                   target='Starfall'
                   className='text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white'
                 >

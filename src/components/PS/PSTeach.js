@@ -4,6 +4,8 @@ import { handlePipefyForm } from "../../utils/handlePipefyForm";
 
 function PSTeach() {
   const { pathname } = useRouter();
+  const linkEditalPS =
+    "https://drive.google.com/file/d/1KMxl8HVDWWcT8Y_WogUuRKbGxZM0FSoH/view";
   const linkAccessPS = handlePipefyForm(pathname);
   return (
     <>
@@ -95,8 +97,19 @@ function PSTeach() {
               <span className='block text-white lg:text-4xl text-2xl mt-10'>
                 Para qualquer dúvida entre em contato com a gente, através das
                 nossas redes sociais:{" "}
-                <span className='text-blue'>@einsteinfloripa</span> ou{" "}
-                <span className='text-blue'>ps.einsteinfloripa@gmail.com</span>
+                <a
+                  href='https://www.instagram.com/einsteinfloripa/'
+                  className='text-blue'
+                >
+                  @einsteinfloripa
+                </a>{" "}
+                ou{" "}
+                <a
+                  href='mailto:ps.einsteinfloripa@gmail.com'
+                  className='text-blue'
+                >
+                  ps.einsteinfloripa@gmail.com
+                </a>
               </span>
               <span className='block text-white lg:text-4xl text-2xl mt-10'>
                 Boa sorte!
@@ -109,11 +122,11 @@ function PSTeach() {
               <div className='mt-6 flex justify-start flex-col'>
                 <div>
                   <a
-                    href='https://app.pipefy.com/public/form/N6j-yVmv'
+                    href={linkEditalPS}
                     target='Starfall'
                     className='text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white'
                   >
-                    Inscrição para o processo seletivo de docentes de 2022
+                    Edital do processo seletivo de alunos de 2023
                   </a>
                 </div>
               </div>
