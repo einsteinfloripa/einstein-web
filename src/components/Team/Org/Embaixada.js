@@ -3,81 +3,56 @@ import dayjs from "dayjs";
 const day = dayjs().locale("pt-br").format("DD/MM");
 const member = [
   {
-    name: "Carine Redivo Bonchristiani",
+    name: "Larissa Mariah Maia",
     role: "Diretora",
-    course: "Psicólogia (UFSC)",
-    birthday: "26/12",
-    get isBirthday() {
-      return day === this.birthday;
-    },
-    get imageUrl() {
-      return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/carine.png"
-        : "https://einsteinfloripa.com.br/images/org/carine.png";
-    },
-  },
-  {
-    name: "Bruna Bastian da Costa",
-    role: "Assessora",
-    course: "Farmácia (UFSC)",
-    birthday: "06/04",
-    get isBirthday() {
-      return day === this.birthday;
-    },
-    get imageUrl() {
-      return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
-        : "https://einsteinfloripa.com.br/images/org/bruna-bastian.png";
-    },
-  },
-  {
-    name: "Larissa Maia",
-    role: "Assessora",
     course: "Relações Internacionais (UFSC)",
-    birthday: "06/04",
+    birthday: "19/01",
     get isBirthday() {
       return day === this.birthday;
     },
     get imageUrl() {
+      // TODO: Add Larissa's image
       return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
-        : "https://einsteinfloripa.com.br/images/org/larissa.jpg";
+        ? "https://einsteinfloripa.com.br/images/org/matheus.png"
+        : "https://einsteinfloripa.com.br/images/org/matheus.png";
     },
   },
   {
-    name: "Walley Aristóvolo",
-    role: "Assessor",
-    course: "Odontologia (UFSC)",
-    birthday: "06/04",
+    name: "Maria Julia Dias Ferreira",
+    role: "Assessora",
+    course: "Psicologia (UFSC)",
+    birthday: "02/04",
     get isBirthday() {
       return day === this.birthday;
     },
     get imageUrl() {
+      // TODO: Add Maria's image
       return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
-        : "https://einsteinfloripa.com.br/images/org/walley.jpg";
+        ? "https://einsteinfloripa.com.br/images/org/matheus.png"
+        : "https://einsteinfloripa.com.br/images/org/matheus.png";
     },
   },
-  // {
-  // 	name: "Maitê Silveira Cardoso",
-  // 	role: "Assessora",
-  // 	course: "Relações Internacionais (UFSC)",
-  // 	birthday: "06/04",
-  // 	get isBirthday() {
-  // 		return day === this.birthday;
-  // 	},
-  // 	get imageUrl() {
-  // 		return this.isBirthday
-  // 			? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
-  // 			: "https://einsteinfloripa.com.br/images/org/maite.png";
-  // 	},
-  // },
+  {
+    name: "Arthur Durieux Lopes Destri",
+    role: "Assessor",
+    course: "Psicologia (UFSC)",
+    birthday: "25/09",
+    get isBirthday() {
+      return day === this.birthday;
+    },
+    get imageUrl() {
+      // TODO: Add Arthur's image
+      return this.isBirthday
+        ? "https://einsteinfloripa.com.br/images/org/matheus.png"
+        : "https://einsteinfloripa.com.br/images/org/matheus.png";
+    },
+  },
 ];
 
 function Embaixada() {
   return (
-    <div className="flex flex-col justify-center items-center">
-      <p className="text-justify pb-20 w-9/12">
+    <div className='flex flex-col justify-center items-center'>
+      <p className='text-justify pb-20 w-9/12'>
         É responsável por cuidar da experiência de todos que fazem parte do
         Einstein: organizadores, docentes e alunos! A área trabalha para que
         todos consigam se desenvolver e desempenhar suas funções com excelência
@@ -85,42 +60,42 @@ function Embaixada() {
         guardiões da cultura einsteiniana, promovendo eventos e sempre guiando
         os nossos membros por meio dos nossos valores, missão e visão.
       </p>
-      <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
+      <ul className='space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8'>
         {member.map((eisteiniano) => (
-          <li key={eisteiniano.name} className="h-96 w-72 relative">
+          <li key={eisteiniano.name} className='h-96 w-72 relative'>
             {eisteiniano.isBirthday ? (
-              <div className="conteiner-cake">
-                <div className="cake">
-                  <div className="candle">
-                    <div className="fire"></div>
-                    <div className="fire"></div>
-                    <div className="fire"></div>
-                    <div className="fire"></div>
-                    <div className="fire"></div>
+              <div className='conteiner-cake'>
+                <div className='cake'>
+                  <div className='candle'>
+                    <div className='fire'></div>
+                    <div className='fire'></div>
+                    <div className='fire'></div>
+                    <div className='fire'></div>
+                    <div className='fire'></div>
                   </div>
-                  <div className="frosting"></div>
-                  <div className="bizcocho"></div>
+                  <div className='frosting'></div>
+                  <div className='bizcocho'></div>
                 </div>
               </div>
             ) : (
               <></>
             )}
-            <div className="pt-5 space-y-4 bg-white rounded-md drop-shadow-xl h-96 flex flex-col items-center">
+            <div className='pt-5 space-y-4 bg-white rounded-md drop-shadow-xl h-96 flex flex-col items-center'>
               <div>
                 <img
                   className={`object-cover shadow-lg rounded-lg h-64 w-64 ${
                     eisteiniano.isBirthday ? "" : "grayscale"
                   }`}
                   src={eisteiniano.imageUrl}
-                  alt=""
+                  alt=''
                 />
               </div>
 
-              <div className="space-y-1 xl:flex xl:items-center xl:justify-between">
-                <div className="font-medium text-sm text-center">
-                  <h3 className="text-xl">{eisteiniano.name}</h3>
-                  <p className="text-blue text-center">{eisteiniano.role}</p>
-                  <p className="text-center">{eisteiniano.course}</p>
+              <div className='space-y-1 xl:flex xl:items-center xl:justify-between'>
+                <div className='font-medium text-sm text-center'>
+                  <h3 className='text-xl'>{eisteiniano.name}</h3>
+                  <p className='text-blue text-center'>{eisteiniano.role}</p>
+                  <p className='text-center'>{eisteiniano.course}</p>
                 </div>
               </div>
             </div>

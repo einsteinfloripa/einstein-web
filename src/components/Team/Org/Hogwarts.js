@@ -3,45 +3,48 @@ import dayjs from "dayjs";
 const day = dayjs().locale("pt-br").format("DD/MM");
 const member = [
   {
-    name: "Matheus Bateli Neumann",
-    role: "Diretor",
-    course: "Engenharia Elétrica (UFSC)",
-    birthday: "10/04",
+    name: "Juliana Harumi Tsuji",
+    role: "Diretora",
+    course: "Relações Internacionais (UFSC)",
+    birthday: "07/10",
     get isBirthday() {
       return day === this.birthday;
     },
     get imageUrl() {
+      // TODO: Add Harumi's image
       return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
+        ? "https://einsteinfloripa.com.br/images/org/matheus.png"
         : "https://einsteinfloripa.com.br/images/org/matheus.png";
     },
   },
   {
-    name: "Maria Luiza Pierri",
+    name: "Laura Ribeiro Maria",
     role: "Assessora",
-    course: "Relações Internacionais (UFSC)",
-    birthday: "10/04",
+    course: "Farmácia (UFSC)",
+    birthday: "01/05",
     get isBirthday() {
       return day === this.birthday;
     },
     get imageUrl() {
+      // TODO: Add Laura's image
       return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
-        : "https://einsteinfloripa.com.br/images/org/mariaLuiza.png";
+        ? "https://einsteinfloripa.com.br/images/org/matheus.png"
+        : "https://einsteinfloripa.com.br/images/org/matheus.png";
     },
   },
   {
-    name: "Fernanda Clemente Hiramoto",
+    name: "Bruna Petrelli Franchini",
     role: "Assessora",
-    course: "Farmácia (UFSC)",
-    birthday: "10/04",
+    course: "Engenharia de Produção Civil (UFSC)",
+    birthday: "17/04",
     get isBirthday() {
       return day === this.birthday;
     },
     get imageUrl() {
+      // TODO: Add Bruna's image
       return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
-        : "https://einsteinfloripa.com.br/images/org/fernanda.png";
+        ? "https://einsteinfloripa.com.br/images/org/matheus.png"
+        : "https://einsteinfloripa.com.br/images/org/matheus.png";
     },
   },
 ];

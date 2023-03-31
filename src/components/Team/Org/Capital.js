@@ -6,50 +6,8 @@ import BirthdayContext from "../../Contexts/BithdayContext";
 const day = dayjs().locale("pt-br").format("DD/MM");
 const member = [
   {
-    name: "Karim Cruz",
-    role: "Presidente",
-    course: "Farmácia (UFSC)",
-    birthday: "14/04",
-    get isBirthday() {
-      return day === this.birthday;
-    },
-    get imageUrl() {
-      return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
-        : "https://einsteinfloripa.com.br/images/org/karim.png";
-    },
-  },
-  {
-    name: "Murillo Stein",
-    role: "Diretor de Projetos",
-    course: "Engenharia Mecânica (UFSC)",
-    birthday: "15/05",
-    get isBirthday() {
-      return day === this.birthday;
-    },
-    get imageUrl() {
-      return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/murillo.png"
-        : "https://einsteinfloripa.com.br/images/org/murillo.png";
-    },
-  },
-  {
-    name: "Vicente Cassol Silva ",
-    role: "Diretor do Ministério",
-    course: "Engenharia de Produção Mecânica (UFSC)",
-    birthday: "28/04",
-    get isBirthday() {
-      return day === this.birthday;
-    },
-    get imageUrl() {
-      return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/vicente.png"
-        : "https://einsteinfloripa.com.br/images/org/vicente.png";
-    },
-  },
-  {
     name: "Matheus Bateli Neumann",
-    role: "Diretor de Hogwarts",
+    role: "Presidente",
     course: "Engenharia Elétrica (UFSC)",
     birthday: "10/04",
     get isBirthday() {
@@ -57,38 +15,40 @@ const member = [
     },
     get imageUrl() {
       return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
+        ? "https://einsteinfloripa.com.br/images/org/matheus.png"
         : "https://einsteinfloripa.com.br/images/org/matheus.png";
     },
   },
   {
-    name: "Carine Redivo Bonchristiani",
-    role: "Diretora da Embaixada",
-    course: "Psicólogia (UFSC)",
-    birthday: "26/12",
+    name: "Juliana Harumi Tsuji",
+    role: "Diretora de Hogwarts",
+    course: "Relações Internacionais (UFSC)",
+    birthday: "07/10",
     get isBirthday() {
       return day === this.birthday;
     },
     get imageUrl() {
+      // TODO: Add Harumi's image
       return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/carine.png"
-        : "https://einsteinfloripa.com.br/images/org/carine.png";
+        ? "https://einsteinfloripa.com.br/images/org/matheus.png"
+        : "https://einsteinfloripa.com.br/images/org/matheus.png";
     },
   },
   {
-    name: "Gabriel Viana Boaes",
-    role: "Gestor do Vale do Silício",
-    course: "Física (UFSC)",
-    birthday: "10/06",
+    name: "Larissa Mariah Maia",
+    role: "Diretora da Embaixada",
+    course: "Relações Internacionais (UFSC)",
+    birthday: "19/01",
     get isBirthday() {
       return day === this.birthday;
     },
     get imageUrl() {
+      // TODO: Add Larissa's image
       return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/viana.png"
-        : "https://einsteinfloripa.com.br/images/org/viana.png";
+        ? "https://einsteinfloripa.com.br/images/org/matheus.png"
+        : "https://einsteinfloripa.com.br/images/org/matheus.png";
     },
-  },
+  }
 ];
 
 function Capital() {

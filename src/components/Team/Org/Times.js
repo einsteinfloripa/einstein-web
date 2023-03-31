@@ -3,33 +3,35 @@ import dayjs from "dayjs";
 const day = dayjs().locale("pt-br").format("DD/MM");
 const member = [
   {
-    name: "Sofia Sauer",
+    name: "Sthefany Gabrielle Melo Martins",
     role: "Assessora",
-    course: "Relações Internacionais (UFSC)",
-    birthday: "1/04",
+    course: "Jornalismo (UFSC)",
+    birthday: "03/11",
     get isBirthday() {
       return day === this.birthday;
     },
     get imageUrl() {
+      // TODO: Add Sthefany's image
       return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
-        : "https://einsteinfloripa.com.br/images/org/sofia.png";
+        ? "https://einsteinfloripa.com.br/images/org/matheus.png"
+        : "https://einsteinfloripa.com.br/images/org/matheus.png";
     },
   },
   {
-    name: "Giovana Karsten Tamanini",
+    name: "Fabricia Soledade Silva",
     role: "Assessora",
-    course: "Relações Internacionais (UFSC)",
-    birthday: "10/04",
+    course: "Jornalismo (UFSC)",
+    birthday: "28/10",
     get isBirthday() {
       return day === this.birthday;
     },
     get imageUrl() {
+      // TODO: Add Fabricia's image
       return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
-        : "https://einsteinfloripa.com.br/images/org/giovana.png";
+        ? "https://einsteinfloripa.com.br/images/org/matheus.png"
+        : "https://einsteinfloripa.com.br/images/org/matheus.png";
     },
-  },
+  }
 ];
 
 function Times() {

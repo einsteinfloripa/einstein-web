@@ -4,7 +4,7 @@ const day = dayjs().locale("pt-br").format("DD/MM");
 const member = [
   {
     name: "Gabriel Viana Boaes",
-    role: "Gestor",
+    role: "Assessor",
     course: "Física (UFSC)",
     birthday: "16/05",
     get isBirthday() {
@@ -17,19 +17,33 @@ const member = [
     },
   },
   {
-    name: "Djonys Dalmy de Oliveira",
+    name: "Otávio Teixeira de Paula",
     role: "Assessor",
-    course: "Sistemas da Informação (UFSC)",
-    birthday: "10/06",
+    course: "Administração (UDESC)",
+    birthday: "03/01",
     get isBirthday() {
       return day === this.birthday;
     },
     get imageUrl() {
       return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/djonys.png"
-        : "https://einsteinfloripa.com.br/images/org/djonys.png";
+        ? "https://einsteinfloripa.com.br/images/org/matheus.png"
+        : "https://einsteinfloripa.com.br/images/org/matheus.png";
     },
   },
+  {
+    name: "Otávio Teixeira de Paula",
+    role: "Assessor",
+    course: "Engenharia de Produção Mecânica (UFSC)",
+    birthday: "13/09",
+    get isBirthday() {
+      return day === this.birthday;
+    },
+    get imageUrl() {
+      return this.isBirthday
+        ? "https://einsteinfloripa.com.br/images/org/matheus.png"
+        : "https://einsteinfloripa.com.br/images/org/matheus.png";
+    },
+  }
 ];
 function Vale() {
   return (

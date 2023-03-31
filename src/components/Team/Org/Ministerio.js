@@ -1,64 +1,7 @@
 import dayjs from "dayjs";
 
 const day = dayjs().locale("pt-br").format("DD/MM");
-const member = [
-  {
-    name: "Vicente Cassol Silva ",
-    role: "Gestor",
-    course: "Engenharia de Produção Mecânica (UFSC)",
-    birthday: "28/04",
-    get isBirthday() {
-      return day === this.birthday;
-    },
-    get imageUrl() {
-      return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/vicente.png"
-        : "https://einsteinfloripa.com.br/images/org/vicente.png";
-    },
-  },
-  {
-    name: "Pietro Braga Figueiredo",
-    role: "Assessor",
-    course: "Economia (UFSC)",
-    birthday: "10/04",
-    get isBirthday() {
-      return day === this.birthday;
-    },
-    get imageUrl() {
-      return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
-        : "https://einsteinfloripa.com.br/images/org/pietro.png";
-    },
-  },
-  /*{
-		name: "Mauricio Wendhausen Becker",
-		role: "Assessor",
-		course: "Direito (UFSC)",
-		birthday: "",
-		get isBirthday() {
-			return day === this.birthday;
-		},
-		get imageUrl() {
-			return this.isBirthday
-				? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
-				: "https://einsteinfloripa.com.br/images/org/gabriela.png";
-		},
-	},*/
-  {
-    name: "Camila Zambom",
-    role: "Assessora",
-    course: "Relações Internacionais (UFSC)",
-    birthday: "10/04",
-    get isBirthday() {
-      return day === this.birthday;
-    },
-    get imageUrl() {
-      return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
-        : "https://einsteinfloripa.com.br/images/org/camila.png";
-    },
-  },
-];
+const member = [];
 
 function Ministerio() {
   return (
