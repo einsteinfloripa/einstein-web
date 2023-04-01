@@ -11,25 +11,23 @@ const member = [
       return day === this.birthday;
     },
     get imageUrl() {
-      // TODO: Add Sthefany's image
       return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/org/matheus.png"
-        : "https://einsteinfloripa.com.br/images/org/matheus.png";
+        ? "https://einsteinfloripa.com.br/images/org/sthe.png"
+        : "https://einsteinfloripa.com.br/images/org/sthe.png";
     },
   },
   {
     name: "Fabricia Soledade Silva",
     role: "Assessora",
-    course: "Jornalismo (UFSC)",
+    course: "Engenharia Eletrônica (UFSC)",
     birthday: "28/10",
     get isBirthday() {
       return day === this.birthday;
     },
     get imageUrl() {
-      // TODO: Add Fabricia's image
       return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/org/matheus.png"
-        : "https://einsteinfloripa.com.br/images/org/matheus.png";
+        ? "https://einsteinfloripa.com.br/images/org/fabricia-soledade.png"
+        : "https://einsteinfloripa.com.br/images/org/fabricia-soledade.png";
     },
   }
 ];
@@ -71,9 +69,8 @@ function Times() {
             <div className="pt-5 space-y-4 bg-white rounded-md drop-shadow-xl h-96 flex flex-col items-center">
               <div>
                 <img
-                  className={`object-cover shadow-lg rounded-lg h-64 w-64 ${
-                    eisteiniano.isBirthday ? "" : "grayscale"
-                  }`}
+                  className={`object-cover shadow-lg rounded-lg h-64 w-64 ${eisteiniano.isBirthday ? "" : "grayscale"
+                    }`}
                   src={eisteiniano.imageUrl}
                   alt=""
                 />

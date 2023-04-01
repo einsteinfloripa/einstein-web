@@ -11,10 +11,9 @@ const member = [
       return day === this.birthday;
     },
     get imageUrl() {
-      // TODO: Add Harumi's image
       return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/org/matheus.png"
-        : "https://einsteinfloripa.com.br/images/org/matheus.png";
+        ? "https://einsteinfloripa.com.br/images/org/harumi.png"
+        : "https://einsteinfloripa.com.br/images/org/harumi.png";
     },
   },
   {
@@ -26,10 +25,9 @@ const member = [
       return day === this.birthday;
     },
     get imageUrl() {
-      // TODO: Add Laura's image
       return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/org/matheus.png"
-        : "https://einsteinfloripa.com.br/images/org/matheus.png";
+        ? "https://einsteinfloripa.com.br/images/org/laura-ribeiro.png"
+        : "https://einsteinfloripa.com.br/images/org/laura-ribeiro.png";
     },
   },
   {
@@ -41,10 +39,9 @@ const member = [
       return day === this.birthday;
     },
     get imageUrl() {
-      // TODO: Add Bruna's image
       return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/org/matheus.png"
-        : "https://einsteinfloripa.com.br/images/org/matheus.png";
+        ? "https://einsteinfloripa.com.br/images/org/bruna-franchini.png"
+        : "https://einsteinfloripa.com.br/images/org/bruna-franchini.png";
     },
   },
 ];
@@ -84,9 +81,8 @@ function Hogwarts() {
             <div className="pt-5 space-y-4 bg-white rounded-md drop-shadow-xl h-96 flex flex-col items-center">
               <div>
                 <img
-                  className={`object-cover shadow-lg rounded-lg h-64 w-64 ${
-                    eisteiniano.isBirthday ? "" : "grayscale"
-                  }`}
+                  className={`object-cover shadow-lg rounded-lg h-64 w-64 ${eisteiniano.isBirthday ? "" : "grayscale"
+                    }`}
                   src={eisteiniano.imageUrl}
                   alt=""
                 />

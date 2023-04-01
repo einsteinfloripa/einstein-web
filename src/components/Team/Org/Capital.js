@@ -28,10 +28,9 @@ const member = [
       return day === this.birthday;
     },
     get imageUrl() {
-      // TODO: Add Harumi's image
       return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/org/matheus.png"
-        : "https://einsteinfloripa.com.br/images/org/matheus.png";
+        ? "https://einsteinfloripa.com.br/images/org/harumi.png"
+        : "https://einsteinfloripa.com.br/images/org/harumi.png";
     },
   },
   {
@@ -45,8 +44,8 @@ const member = [
     get imageUrl() {
       // TODO: Add Larissa's image
       return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/org/matheus.png"
-        : "https://einsteinfloripa.com.br/images/org/matheus.png";
+        ? "https://einsteinfloripa.com.br/images/org/larissa-maia.png"
+        : "https://einsteinfloripa.com.br/images/org/larissa-maia.png";
     },
   }
 ];

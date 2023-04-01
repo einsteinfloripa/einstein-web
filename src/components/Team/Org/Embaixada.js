@@ -11,10 +11,9 @@ const member = [
       return day === this.birthday;
     },
     get imageUrl() {
-      // TODO: Add Larissa's image
       return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/org/matheus.png"
-        : "https://einsteinfloripa.com.br/images/org/matheus.png";
+        ? "https://einsteinfloripa.com.br/images/org/larissa-maia.png"
+        : "https://einsteinfloripa.com.br/images/org/larissa-maia.png";
     },
   },
   {
@@ -26,10 +25,9 @@ const member = [
       return day === this.birthday;
     },
     get imageUrl() {
-      // TODO: Add Maria's image
       return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/org/matheus.png"
-        : "https://einsteinfloripa.com.br/images/org/matheus.png";
+        ? "https://einsteinfloripa.com.br/images/org/maju-ferreira.png"
+        : "https://einsteinfloripa.com.br/images/org/maju-ferreira.png";
     },
   },
   {
@@ -41,10 +39,9 @@ const member = [
       return day === this.birthday;
     },
     get imageUrl() {
-      // TODO: Add Arthur's image
       return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/org/matheus.png"
-        : "https://einsteinfloripa.com.br/images/org/matheus.png";
+        ? "https://einsteinfloripa.com.br/images/org/arthur-destri.png"
+        : "https://einsteinfloripa.com.br/images/org/arthur-destri.png";
     },
   },
 ];
@@ -83,9 +80,8 @@ function Embaixada() {
             <div className='pt-5 space-y-4 bg-white rounded-md drop-shadow-xl h-96 flex flex-col items-center'>
               <div>
                 <img
-                  className={`object-cover shadow-lg rounded-lg h-64 w-64 ${
-                    eisteiniano.isBirthday ? "" : "grayscale"
-                  }`}
+                  className={`object-cover shadow-lg rounded-lg h-64 w-64 ${eisteiniano.isBirthday ? "" : "grayscale"
+                    }`}
                   src={eisteiniano.imageUrl}
                   alt=''
                 />
