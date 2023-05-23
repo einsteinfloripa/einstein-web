@@ -3,18 +3,26 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "sanity-start": "sanity start",
+    "sanity-deploy": "sanity deploy",
+    "sanity-dev": "sanity dev"
   },
   "dependencies": {
     "@headlessui/react": "^1.4.1",
     "@heroicons/react": "^1.0.4",
+    "@portabletext/react": "^3.0.0",
+    "@sanity/image-url": "^1.0.2",
     "@tailwindcss/aspect-ratio": "^0.2.1",
     "@tailwindcss/forms": "^0.3.3",
     "dayjs": "^1.11.0",
     "next": "^12.1.5",
+    "next-sanity": "^4.3.2",
     "node": "^16.13.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "sanity": "^3.11.1",
+    "styled-components": "^5.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",
