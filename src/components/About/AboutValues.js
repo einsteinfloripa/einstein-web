@@ -10,7 +10,7 @@ function AboutValues() {
                 <h1 className="text-center text-5xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
                   <span className="block text-blue-50 text-10xl">Valores</span>
                 </h1>
-              </div>      
+              </div>
               <div>
                 <dl className="lg:mt-10 lg:flex lg:flex-row flex flex-col">
 
@@ -73,20 +73,24 @@ function AboutValues() {
               </div>
               <div className="pb-10">
                 <dl className="lg:mt-10 lg:flex lg:flex-row flex flex-col lg:px-32">
-                  
+
                   <div className="relative lg:w-1/2 pb-4">
                     <dt className="pt-2">
                       <div className="flex flex-col">
                         <div className="flex items-center justify-center w-24 h-24 mx-auto rounded-md bg-blue text-white sm:w-24 sm:h-24">
                           <svg className="h-16 w-16" aria-hidden="true"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                            <path fillRule="evenodd" d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z" clipRule="evenodd" /> 
+                            <path fillRule="evenodd" d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z" clipRule="evenodd" />
                           </svg>
                         </div>
                         <h1 className="flex self-center font-extrabold tracking-tight sm:text-5xl lg:text-3xl pt-2 px-10">
                             <span className="block text-blue-50 text-3xl text-center self-center">Força de vontade</span>
                         </h1>
                         <p className="font-medium tracking-tight sm:text-5xl lg:text-3xl pt-2 px-10">
-                          <span className="block text-white text-xl text-center pt-2">Um Einsteiniano acredita que tentar faz parte do processo e por isso estar se renovando e acreditar no seu esforço é fundamental! “É divertido fazer o que parece impossível", então desistir de cara não é uma opção!</span>
+                          <span className="block text-white text-xl text-center pt-2">
+                            Um Einsteiniano acredita que tentar faz parte do processo e por isso
+                            estar se renovando e acreditar no seu esforço é fundamental!
+                            {`"É divertido fazer o que parece impossível"`}, então desistir de cara não é uma opção!
+                          </span>
                         </p>
                       </div>
                     </dt>
@@ -117,5 +121,5 @@ function AboutValues() {
         </main>
     )
   }
-  
+
   export default AboutValues
