@@ -7,12 +7,24 @@ export class GeografiaFields extends BaseFields {
     initialValue: "Geografia",
   };
 
+  front = {
+    name: "front",
+    title: "Frente",
+    type: "string",
+    options: {
+      list: ['A', 'B'],
+    },
+    validation: (Rule) => Rule.required(),
+  };
+
   role = {
     ...this.role,
     options: {
-      list: ["Frente A", "Frente B"],
+      list: ["Professor", "Monitor"],
     },
   };
+
+
 
   constructor() {
     super();

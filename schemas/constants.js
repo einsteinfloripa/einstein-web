@@ -1,4 +1,4 @@
-export const faculdades = [
+const university = [
   {
     title: "UFSC",
     value: "UFSC",
@@ -40,7 +40,7 @@ export class BaseFields {
 
   role = {
     name: "role",
-    title: "Frente",
+    title: "Cargo",
     type: "string",
     validation: (Rule) => Rule.required(),
   };
@@ -52,12 +52,12 @@ export class BaseFields {
     validation: (Rule) => Rule.required(),
   };
 
-  faculdade = {
-    name: "faculdade",
-    title: "Faculdade",
+  university = {
+    name: "university",
+    title: "Universidade",
     type: "string",
     options: {
-      list: [...faculdades],
+      list: [...university],
     },
     validation: (Rule) => Rule.required(),
   };
@@ -65,15 +65,7 @@ export class BaseFields {
   constructor() {}
 
   get fields() {
-    return [
-      this.name,
-      this.image,
-      this.birthDate,
-      this.subject,
-      this.role,
-      this.course,
-      this.faculdade,
-    ];
+    return Object.values(this)
   }
 
   set subject(subject) {
