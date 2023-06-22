@@ -102,7 +102,7 @@ function PSStudents() {
             </div>
             <h2 className='text-justify font-semibold tracking-tight'>
               <span className='block text-white lg:text-4xl text-2xl mt-10'>
-                Passou na entrevista e está tudo "ok" com os seus documentos?!
+                Passou na entrevista e está tudo {`"ok"`} com os seus documentos?!
                 Bem-vindo ao Einstein Floripa!! Conquiste com a gente!!
               </span>
               <span className='block text-white lg:text-4xl text-2xl mt-10'>
