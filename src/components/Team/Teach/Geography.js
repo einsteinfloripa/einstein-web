@@ -1,4 +1,5 @@
 import { urlFor } from "@sanity";
+import Image from "next/image";
 
 function Geography({ geographyMembers }) {
   return (
@@ -25,11 +26,12 @@ function Geography({ geographyMembers }) {
             )}
             <div className='pt-5 space-y-4 bg-white rounded-md drop-shadow-xl h-96 flex flex-col items-center'>
               <div>
-                <img
+                <Image
                   className={`object-cover shadow-lg rounded-lg h-64 w-64 ${
                     eisteiniano.isBirthday ? "" : "grayscale"
                   }`}
                   src={urlFor(eisteiniano?.image).url()}
+                  alt='member image'
                 />
               </div>
 
