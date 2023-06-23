@@ -3,9 +3,8 @@ import { DocentesBaseFields } from "../../constants";
 export class MatematicaFields extends DocentesBaseFields {
   subject = {
     ...this.subject,
-    options: {
-      list: ["Matemática"],
-    },
+    readOnly: true,
+    initialValue: "Matemática"
   };
 
   front = {
