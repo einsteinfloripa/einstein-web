@@ -1,6 +1,6 @@
-import { BaseFields } from "../../constants";
+import { DocentesBaseFields } from "../../constants";
 
-export class LinguagensFields extends BaseFields {
+export class LinguagensFields extends DocentesBaseFields {
   subject = {
     ...this.subject,
     options: {
@@ -18,13 +18,6 @@ export class LinguagensFields extends BaseFields {
     validation: (Rule) => Rule.required(),
   };
 
-  role = {
-    ...this.role,
-    options: {
-      list: ["Professor(a)", "Monitor(a)"],
-    },
-  };
-
   constructor() {
     super();
   }
@@ -33,8 +26,8 @@ export class LinguagensFields extends BaseFields {
 const fields = new LinguagensFields();
 
 export const linguagens = {
-    name: "linguagens",
-    title: "Docente (Linguagens)",
-    type: "document",
-    fields: [...fields.fields],
+  name: "linguagens",
+  title: "Docente (Linguagens)",
+  type: "document",
+  fields: [...fields.fields],
 };

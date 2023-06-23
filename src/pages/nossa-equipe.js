@@ -5,7 +5,7 @@ import { client } from "@sanity";
 import TeamTeachTab from "src/components/Team/TeamTeachTab";
 import TeamOrgTab from "src/components/Team/TeamOrgTab";
 
-export default function Home({ geographyMembers, languageMembers }) {
+export default function Home({ geographyMembers, languageMembers, mathMembers }) {
   return (
     <div className='overflow-x-hidden'>
       <Head>
@@ -99,6 +99,7 @@ export default function Home({ geographyMembers, languageMembers }) {
                     <TeamTeachTab
                       geographyMembers={geographyMembers}
                       languageMembers={languageMembers}
+                      mathMembers={mathMembers}
                     />
                   </Tab.Panel>
                   <Tab.Panel>
@@ -140,11 +141,13 @@ export default function Home({ geographyMembers, languageMembers }) {
 export async function getServerSideProps() {
   const geographyMembers = await client.fetch(`*[_type == 'geografia']`);
   const languageMembers = await client.fetch(`*[_type == 'linguagens']`);
+  const mathMembers = await client.fetch(`*[_type == 'matematica']`);
 
   return {
     props: {
       geographyMembers,
       languageMembers,
+      mathMembers
     },
   };
 }

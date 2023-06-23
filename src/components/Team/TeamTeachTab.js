@@ -9,7 +9,7 @@ import Math from "./Teach/Math";
 import Physics from "./Teach/Physics";
 import Portuguese from "./Teach/Portuguese";
 
-function TeamTeachTab({ geographyMembers, languageMembers }) {
+function TeamTeachTab({ geographyMembers, languageMembers, mathMembers }) {
   return (
     <Tab.Group>
       <div className='relative flex flex-col md:flex-row sm:items-center sm:justify-center'>
@@ -187,7 +187,7 @@ function TeamTeachTab({ geographyMembers, languageMembers }) {
                 Conheça os docentes de Matemática
               </span>
             </h1>
-            <Math />
+            <Math member={mathMembers} />
           </Tab.Panel>
           <Tab.Panel>
             <h1 className='text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl py-20'>

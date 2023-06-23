@@ -1,100 +1,6 @@
-import dayjs from "dayjs";
+import { urlFor } from "@sanity";
 
-const day = dayjs().locale("pt-br").format("DD/MM");
-const member = [
-  {
-    name: "Diana Hartmann",
-    subject: "Matemática A",
-    role: "Professora",
-    course: "Engenharia de Alimentos (UFSC)",
-    birthday: "10/04",
-    get isBirthday() {
-      return day === this.birthday;
-    },
-    get imageUrl() {
-      return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
-        : "https://einsteinfloripa.com.br/images/org/diana.png";
-    },
-  },
-  {
-    name: "Marcelo Oliveira de Souza",
-    subject: "Matemática A",
-    role: "Monitor",
-    course: "Engenharia de Alimentos (UFSC)",
-    birthday: "10/04",
-    get isBirthday() {
-      return day === this.birthday;
-    },
-    get imageUrl() {
-      return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
-        : "https://einsteinfloripa.com.br/images/docentes/math/marcelo.png";
-    },
-  },
-  {
-    name: "Pedro Pordeus Santos",
-    subject: "Matemática B",
-    role: "Professor",
-    course: "Engenharia Eletrônica (UFSC)",
-    birthday: "10/04",
-    get isBirthday() {
-      return day === this.birthday;
-    },
-    get imageUrl() {
-      return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
-        : "https://einsteinfloripa.com.br/images/docentes/math/pordeus.png";
-    },
-  },
-  {
-    name: "André Pietrovski",
-    subject: "Matemática B",
-    role: "Monitor",
-    course: "Engenharia Elétrica (UFSC)",
-    birthday: "10/04",
-    get isBirthday() {
-      return day === this.birthday;
-    },
-    get imageUrl() {
-      return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
-        : "https://einsteinfloripa.com.br/images/docentes/math/andre.png";
-    },
-  },
-  {
-    name: "Guilherme Beck Lemos",
-    subject: "Matemática C",
-    role: "Professor",
-    course: "Engenharia Elétrica (UFSC)",
-    birthday: "10/04",
-    get isBirthday() {
-      return day === this.birthday;
-    },
-    get imageUrl() {
-      return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/karim.png"
-        : "https://einsteinfloripa.com.br/images/docentes/math/guilherme.png";
-    },
-  },
-  {
-    name: "Luís Otávio de Oliveira",
-    subject: "Matemática D",
-    role: "Professor",
-    course: "Matemática (UFSC)",
-    birthday: "10/06",
-    get isBirthday() {
-      return day === this.birthday;
-    },
-    get imageUrl() {
-      return this.isBirthday
-        ? "https://einsteinfloripa.com.br/images/aniversarios/luis.png"
-        : "https://einsteinfloripa.com.br/images/docentes/math/luis.png";
-    },
-  },
-];
-
-function Math() {
+function Math({ member }) {
   return (
     <div className='flex justify-center'>
       <ul className='space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8'>
@@ -123,8 +29,8 @@ function Math() {
                   className={`object-cover shadow-lg rounded-lg h-64 w-64 ${
                     eisteiniano.isBirthday ? "" : "grayscale"
                   }`}
-                  src={eisteiniano.imageUrl}
-                  alt=''
+                  src={urlFor(eisteiniano?.image).url()}
+                  alt='member image'
                 />
               </div>
 
@@ -132,9 +38,9 @@ function Math() {
                 <div className='font-medium text-sm text-center'>
                   <h3 className='text-xl'>{eisteiniano.name}</h3>
                   <p className='text-blue text-center'>
-                    {eisteiniano.role} de {eisteiniano.subject}
+                    {eisteiniano.role} de {eisteiniano.subject} {eisteiniano.front}
                   </p>
-                  <p className='text-center'>{eisteiniano.course}</p>
+                  <p className='text-center'>{`${eisteiniano.course} (${eisteiniano.university})`}</p>
                 </div>
               </div>
             </div>
