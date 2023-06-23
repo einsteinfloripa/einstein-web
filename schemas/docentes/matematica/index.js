@@ -1,10 +1,11 @@
 import { DocentesBaseFields } from "../../constants";
 
-export class GeografiaFields extends DocentesBaseFields {
+export class MatematicaFields extends DocentesBaseFields {
   subject = {
     ...this.subject,
-    readOnly: true,
-    initialValue: "Geografia",
+    options: {
+      list: ["Matemática"],
+    },
   };
 
   front = {
@@ -12,7 +13,7 @@ export class GeografiaFields extends DocentesBaseFields {
     title: "Frente",
     type: "string",
     options: {
-      list: ["A", "B"],
+      list: ["A", "B", "C", "D"],
     },
     validation: (Rule) => Rule.required(),
   };
@@ -22,11 +23,11 @@ export class GeografiaFields extends DocentesBaseFields {
   }
 }
 
-const fields = new GeografiaFields();
+const fields = new MatematicaFields();
 
-export const geografia = {
-  name: "geografia",
-  title: "Docente (Geografia)",
+export const matematica = {
+  name: "matematica",
+  title: "Docente (Matemática)",
   type: "document",
   fields: [...fields.fields],
 };

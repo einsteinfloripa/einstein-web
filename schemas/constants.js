@@ -65,7 +65,7 @@ export class BaseFields {
   constructor() {}
 
   get fields() {
-    return Object.values(this)
+    return Object.values(this);
   }
 
   set subject(subject) {
@@ -73,5 +73,19 @@ export class BaseFields {
   }
   set role(role) {
     this.role = role;
+  }
+}
+
+export class DocentesBaseFields extends BaseFields {
+  role = {
+    ...this.role,
+    options: {
+      list: ["Professor(a)", "Monitor(a)"],
+    },
+    validation: (Rule) => Rule.required(),
+  };
+
+  constructor() {
+    super();
   }
 }
