@@ -1,5 +1,4 @@
 import { urlFor } from "@sanity";
-import Image from "next/image";
 
 function Geography({ geographyMembers }) {
   return (

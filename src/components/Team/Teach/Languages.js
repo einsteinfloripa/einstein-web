@@ -19,7 +19,7 @@ const member = [
     },
   ]
 
-function Languages(){
+function Languages({}){
  return (
     <div className="flex justify-center">
         <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-2 lg:gap-x-8">
