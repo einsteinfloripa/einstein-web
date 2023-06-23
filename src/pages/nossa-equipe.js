@@ -5,7 +5,7 @@ import { client } from "@sanity";
 import TeamTeachTab from "src/components/Team/TeamTeachTab";
 import TeamOrgTab from "src/components/Team/TeamOrgTab";
 
-export default function Home({ geographyMembers }) {
+export default function Home({ geographyMembers, languageMembers }) {
   return (
     <div className='overflow-x-hidden'>
       <Head>
@@ -96,7 +96,10 @@ export default function Home({ geographyMembers }) {
                       </div>
                     </div>
 
-                    <TeamTeachTab geographyMembers={geographyMembers} />
+                    <TeamTeachTab
+                      geographyMembers={geographyMembers}
+                      languageMembers={languageMembers}
+                    />
                   </Tab.Panel>
                   <Tab.Panel>
                     <div className='flex flex-col justify-center'>
@@ -136,10 +139,12 @@ export default function Home({ geographyMembers }) {
 
 export async function getServerSideProps() {
   const geographyMembers = await client.fetch(`*[_type == 'geografia']`);
+  const languageMembers = await client.fetch(`*[_type == 'linguagens']`);
 
   return {
     props: {
       geographyMembers,
+      languageMembers,
     },
   };
 }
