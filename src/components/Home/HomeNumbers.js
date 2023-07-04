@@ -1,10 +1,10 @@
 const results = {
-    year: "2020",
-    aprovados:"50",
-    horasAula:"1260",
-    vidasTransformadas:"200",
-    horasTreinamento:"50",
-    horasTrabalhadas:"45k",
+    year: "2022",
+    aprovados:"24",
+    horasAula:"825",
+    vidasTransformadas:"196",
+    horasTreinamento:"31",
+    horasTrabalhadas:"40k",
   }
   
   function HomeNumbers() {
