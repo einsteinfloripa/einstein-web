@@ -23,6 +23,21 @@ const partners = [
     name: "The Fejas Factory",
     imgUrl: "/images/parceiros/fejas.png",
     url: "https://www.instagram.com/thefejasfactory/",
+  },
+  {
+    name: 'moochacho',
+    imgUrl: '/images/parceiros/moochacho.png',
+    url: 'https://www.moochacho.com.br/',
+  },
+  {
+    name: 'coxitos',
+    imgUrl: '/images/parceiros/coxitos.png',
+    url: 'https://www.instagram.com/coxitosoficial/',
+  },
+  {
+    name: 'bolo das amigas',
+    imgUrl: '/images/parceiros/bolo-das-amigas.png',
+    url: 'https://www.instagram.com/bolodasamigasfloripa/',
   }
 ]
 
