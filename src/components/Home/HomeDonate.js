@@ -15,12 +15,12 @@ function HomeDonate() {
               </div>
               <div className="flex justify-center w-full">
                 <div className="mt-6 flex justify-center">
-                  <Link
+                  <a
                     href="/apoie"
                     className="text-center text-5xl font-extrabold inline-flex bg-blue-900 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-white hover:bg-blue-50 hover:text-blue-900 w-11/12"
                   >
                     Seja um apoiador
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
