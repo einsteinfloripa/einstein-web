@@ -27,6 +27,7 @@ module.exports = {
         "aboutbg-pattern": "url('/images/bgabout.jpg')",
         "about-pattern": "url('/images/sobre-nos.jpg')",
         "home-pattern": "url('/images/home.jpg')",
+        "jogo": "url('/images/o-jogo.png')",
       }),
       borderRadius: {
         lg: "10px",
