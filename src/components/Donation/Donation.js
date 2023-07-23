@@ -344,6 +344,7 @@ function Donation() {
                       <br /> <strong>Agência:</strong> 4550-0
                       <br /> <strong>Conta:</strong> 8894-3
                       <br /> Para PIX utilize o CNPJ
+                      <br /> <i>* Favor adicionar na mensagem da transação qual voluntário indicou sua doação.</i>
                     </div>
                   </div>
                 </div>
