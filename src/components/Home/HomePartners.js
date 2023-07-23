@@ -1,23 +1,8 @@
 const partners = [
   {
-    name: 'BIX Tecnologia',
-    imgUrl: '/images/parceiros/bix.png',
-    url: 'https://www.bixtecnologia.com/',
-  },
-  {
     name: 'Pipefy',
     imgUrl: '/images/parceiros/pipefy.png',
     url: 'https://www.pipefy.com/pt-br/',
-  },
-  {
-    name: 'Gogood',
-    imgUrl: '/images/parceiros/gogood.png',
-    url: 'https://gogood.com.br/',
-  },
-  {
-    name: 'Mugelato',
-    imgUrl: '/images/parceiros/mugelato.png',
-    url: 'http://www.mugelato.com.br/',
   },
   {
     name: "The Fejas Factory",
