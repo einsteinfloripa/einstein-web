@@ -5,7 +5,6 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 import BirthdayContext from "../components/Contexts/BithdayContext";
-import "normalize.css";
 import "tailwindcss/tailwind.css";
 import "../styles/cake.css";
 import "../styles/fireworks.css";
