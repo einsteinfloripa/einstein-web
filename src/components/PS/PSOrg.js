@@ -5,7 +5,7 @@ import { handlePipefyForm } from "../../utils/handlePipefyForm";
 function PSTeach() {
   const { pathname } = useRouter();
   const linkEditalPS =
-    "https://drive.google.com/file/d/1f9d8HsVr5TCfWc4QHKuV7kwFD3FVb_TF/view";
+    "https://docs.google.com/document/d/1KG1OVAd6QuCASL2YnkmRBjcjiphx0gSjz2fB3etejHI/edit";
   const linkAccessPS = handlePipefyForm(pathname);
 
   return (
