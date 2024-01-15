@@ -5,7 +5,7 @@ import { handlePipefyForm } from "../../utils/handlePipefyForm";
 function PSStudents() {
   const { pathname } = useRouter();
   const linkEditalPS =
-    "https://drive.google.com/file/d/1PRVKS_IDLH3hk1NSw0k3QStJynvb0fdH/view?usp=sharing";
+    "https://drive.google.com/file/d/1n_QpgwcMli8n8YWQCWljaPqJr5GPhlw-/view?usp=sharing";
   const linkAccessPS = handlePipefyForm(pathname);
 
   return (
@@ -62,17 +62,7 @@ function PSStudents() {
             <div className='mb-10'>
               <h2 className='text-justify font-semibold tracking-tight bg-white p-5 rounded-lg'>
                 <span className='block text-blue-900 lg:text-4xl text-2xl'>
-                  <span className='text-blue'>1.</span> Como primeiro passo, os
-                  candidatos devem realizar a pré-inscrição, mas esta etapa
-                  ainda não lhe torna um candidato, portanto, fique atento ao
-                  seu e-mail, te lembraremos sobre a data de inscrição.
-                </span>
-              </h2>
-            </div>
-            <div className='mb-10'>
-              <h2 className='text-justify font-semibold tracking-tight bg-white p-5 rounded-lg'>
-                <span className='block text-blue-900 lg:text-4xl text-2xl'>
-                  <span className='text-blue'>2.</span> Assim que a inscrição
+                  <span className='text-blue'>1.</span> Assim que a inscrição
                   for liberada, os candidatos devem preencher o formulário com
                   seus dados pessoais e demais informações solicitadas.
                 </span>
@@ -81,9 +71,9 @@ function PSStudents() {
             <div className='mb-10'>
               <h2 className='text-justify font-semibold tracking-tight bg-white p-5 rounded-lg'>
                 <span className='block text-blue-900 lg:text-4xl text-2xl'>
-                  <span className='text-blue'>3.</span> Os aprovados na etapa de
+                  <span className='text-blue'>2.</span> Os aprovados na etapa de
                   inscrição receberão informações sobre a realização de uma
-                  prova teórica virtual. Este teste engloba conhecimentos gerais
+                  prova teórica presencial. Este teste engloba conhecimentos gerais
                   do ensino médio.
                 </span>
               </h2>
@@ -91,11 +81,21 @@ function PSStudents() {
             <div className='mb-10'>
               <h2 className='text-justify font-semibold tracking-tight bg-white p-5 rounded-lg'>
                 <span className='block text-blue-900 lg:text-4xl text-2xl'>
-                  <span className='text-blue'>4.</span> Os aprovados na prova
-                  teórica seguirão para a etapa final: a entrevista. Neste
+                  <span className='text-blue'>3.</span> Os aprovados na prova
+                  teórica seguirão para a proxima etapa: a validação dos documento.
+                  Neste momento, iremos analisar os documentos de cada candidato.
+                  Tudo isso sera feito a distância, de forma online.
+                </span>
+              </h2>
+            </div>
+            <div className='mb-10'>
+              <h2 className='text-justify font-semibold tracking-tight bg-white p-5 rounded-lg'>
+                <span className='block text-blue-900 lg:text-4xl text-2xl'>
+                  <span className='text-blue'>4.</span> Os aprovados
+                  seguirão para a etapa final: a entrevista. Neste
                   momento, iremos conhecer um pouquinho mais sobre cada
-                  candidato, analisaremos o perfil e também os documentos para
-                  validação de renda. Não se preocupe, os entrevistadores
+                  candidato, analisaremos o perfil de cada um atravez de uma conversa presencial. 
+                  Não se preocupe, os entrevistadores
                   estarão recebendo todos de braços abertos!
                 </span>
               </h2>
@@ -114,12 +114,12 @@ function PSStudents() {
                 >
                   @einsteinfloripa
                 </a>{" "}
-                ou{" "}
+                ou{" "}<br/>
                 <a
                   href='mailto:ps.einsteinfloripa@gmail.com'
                   className='text-blue'
                 >
-                  ps.einsteinfloripa@gmail.com
+                  processo.seletivo-alunos@einsteinfloripa.com.br
                 </a>
               </span>
               <span className='block text-white lg:text-4xl text-2xl mt-10'>
@@ -134,7 +134,7 @@ function PSStudents() {
             <div className='mt-6 flex justify-start flex-col'>
               <div className='mt-8'>
                 <a
-                  href='https://drive.google.com/file/d/18mHlvRSgH2Pei39UJo8u83TF8-KJDJqF/view?usp=sharing'
+                  href='https://drive.google.com/file/d/1HaBD3iq_644ph6QEGT5f3ipnJMqH5jiX/view?usp=sharing'
                   target='Starfall'
                   className='text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white'
                 >
@@ -147,7 +147,7 @@ function PSStudents() {
                   target='Starfall'
                   className='text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white'
                 >
-                  Edital do processo seletivo de alunos de 2023
+                  Edital do processo seletivo de alunos de 2024
                 </a>
               </div>
             </div>
