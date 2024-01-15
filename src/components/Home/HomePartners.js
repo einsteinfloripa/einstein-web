@@ -23,6 +23,16 @@ const partners = [
     name: 'bolo das amigas',
     imgUrl: '/images/parceiros/bolo-das-amigas.png',
     url: 'https://www.instagram.com/bolodasamigasfloripa/',
+  },
+  {
+    name: 'mugelato',
+    imgUrl: '/images/parceiros/mugelato.png',
+    url: 'https://www.instagram.com/mugelatofloripa?igsh=MXBmeTh1cDVmcmx3Nw==',
+  },
+  {
+    nome: 'invento chocolates',
+    imgUrl: '/images/parceiros/invento.png',
+    url: 'https://www.instagram.com/inventochocolates?igsh=bWM3NWRkM2praHhm'
   }
 ]
 
