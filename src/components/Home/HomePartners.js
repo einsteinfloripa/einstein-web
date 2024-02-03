@@ -33,6 +33,11 @@ const partners = [
     nome: 'invento chocolates',
     imgUrl: '/images/parceiros/invento.png',
     url: 'https://www.instagram.com/inventochocolates?igsh=bWM3NWRkM2praHhm'
+  },
+  {
+    nome: 'enablio',
+    imgUrl: '/images/parceiros/enablio.png',
+    url: 'https://enablio.com.br/'
   }
 ]
 
