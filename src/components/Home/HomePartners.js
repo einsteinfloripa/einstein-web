@@ -38,6 +38,11 @@ const partners = [
     nome: 'enablio',
     imgUrl: '/images/parceiros/enablio.png',
     url: 'https://enablio.com.br/'
+  },
+  {
+  nome: 'projeto mais teoria de história na wiki',
+  imgUrl: '/images/parceiros/projeto-mais.png',
+  url: 'https://maisteoriadahistorianawiki.com.br/'
   }
 ]
 
