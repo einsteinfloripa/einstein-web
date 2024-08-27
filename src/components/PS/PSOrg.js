@@ -5,7 +5,7 @@ import { handlePipefyForm } from "../../utils/handlePipefyForm";
 function PSTeach() {
   const { pathname } = useRouter();
   const linkEditalPS =
-    "https://docs.google.com/document/d/1KG1OVAd6QuCASL2YnkmRBjcjiphx0gSjz2fB3etejHI/edit";
+    "https://drive.google.com/file/d/1lcsQZQ2kFm9gj-M97mr_ve5rGKXQe2Ty/view";
   const linkAccessPS = handlePipefyForm(pathname);
 
   return (
@@ -128,7 +128,7 @@ function PSTeach() {
                     target='Starfall'
                     className='text-center text-2xl font-semibold inline-flex bg-blue-50 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-blue-900 hover:bg-blue hover:text-white'
                   >
-                    Edital do processo seletivo de alunos de 2023
+                    Edital do processo seletivo de organizadores 2024.2
                   </a>
                 </div>
               </div>
