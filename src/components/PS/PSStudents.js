@@ -116,9 +116,9 @@ function PSStudents() {
               </span>
 
 
-              <div className="flex gap-1 lg:text-2xl md:text-xl sm:text-lg">
+              <div className="flex flex-col gap-2 lg:text-2xl md:text-xl sm:text-lg">
                 <p className="text-white">
-                  Instagram: 
+                  Instagram Oficial ( Inativo por tempo indeterminado ): 
                 </p>
                <a
                   href='https://www.instagram.com/einsteinfloripa/'
@@ -126,10 +126,19 @@ function PSStudents() {
                 >
                    @einsteinfloripa
                 </a>{" "}
+                <p className="text-white">
+                  Instagram reserva: 
+                </p>
+               <a
+                  href='https://www.instagram.com/einsteinfloripa/'
+                  className='text-blue'
+                >
+                   @einstein.floripa
+                </a>{" "}
               </div>
               
               
-              <div className="flex gap-1 lg:text-2xl md:text-xl sm:text-lg">
+              <div className="flex gap-1 mt-4 lg:text-2xl md:text-xl sm:text-lg">
                 
               <p className="text-white">
                 E-mail:
