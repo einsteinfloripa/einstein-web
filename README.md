@@ -1,5 +1,8 @@
 # Website Einstein Floripa
 
+## Objetivo
+Ser o nosso portal oficial para o primeiro contato com a instituição, tendo informações sobre o Einstein, sobre os organizadores, professores e monitores. Além disso, responsável por agrupar documentos necessários para os processos seletivos de alunos e organizadores.
+
 ## Desenvolvimento
 Este site foi desenvolvido durante o ano de 2022 pelo time do Vale do Silício.
 
