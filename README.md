@@ -1,4 +1,9 @@
-# einstein-web
+# Website Einstein Floripa
+
+## Desenvolvimento
+Este site foi desenvolvido durante o ano de 2022 pelo time do Vale do Silício.
+
+
 
 Para rodar o site localmente pela primeira vez use:
 
