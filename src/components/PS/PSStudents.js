@@ -21,11 +21,11 @@ function PSStudents() {
                 Bem-vindo(a) à página de Processo Seletivo de Alunos!
               </span>
             </h1>
-            <h1 className='mt-10 font-extrabold tracking-tight text-center'>
+            {/* <h1 className='mt-10 font-extrabold tracking-tight text-center'>
               <span className='block text-2xl text-blue-900 lg:text-5xl'>
                 Nossas Inscrições estão abertas!
               </span>
-            </h1>
+            </h1> */}
             <div className='flex self-center justify-center mt-6'>
               <a
                 href={!!linkAccessPS && linkAccessPS}
