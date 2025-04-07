@@ -6,6 +6,8 @@ function PSStudents() {
   const { pathname } = useRouter();
   const linkEditalPS =
     "https://drive.google.com/file/d/1iPt2S3PodeQpHCqqTER4EARZ-Kf461mW/view?usp=sharing";
+  const linkListaAlunosAprovados =
+    "https://drive.google.com/file/d/1rjrS18Dq7MOUpd0IxHNhVkbKxSnbSD2L/view?usp=sharing";
   const linkAccessPS = handlePipefyForm(pathname);
 
   return (
@@ -181,6 +183,15 @@ function PSStudents() {
                   className='inline-flex px-4 py-2 text-2xl font-semibold text-center text-blue-900 border border-transparent rounded-md shadow-sm bg-blue-50 bg-origin-border hover:bg-blue hover:text-white'
                 >
                   Edital do processo seletivo de alunos de 2025
+                </a>
+              </div>
+              <div className='mt-8'>
+                <a
+                  href={linkListaAlunosAprovados}
+                  target='Starfall'
+                  className='inline-flex px-4 py-2 text-2xl font-semibold text-center text-blue-900 border border-transparent rounded-md shadow-sm bg-blue-50 bg-origin-border hover:bg-blue hover:text-white'
+                >
+                  Lista de Aprovados em 1ª Chamada
                 </a>
               </div>
             </div>
